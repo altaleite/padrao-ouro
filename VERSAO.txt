@@ -1,0 +1,4 @@
+Padrão Ouro 2026
+Protótipo funcional 01
+Conteúdo implementado: Capítulo 01 — Pré-parto e maternidade
+Hospedagem planejada: https://altaleite.github.io/padrao-ouro/
