@@ -1,13 +1,11 @@
-# Padrão Ouro 2026 — ajuste visual 02
+# Padrão Ouro 2026 — edição digital completa
 
-Versão preparada para publicação direta na raiz do repositório `altaleite/padrao-ouro`.
+Todos os nove capítulos estão disponíveis para leitura.
 
-## Atualizações desta versão
-- Alta azul adicionada ao cabeçalho público.
-- Padrão Ouro sem repetição da assinatura Alta na página inicial e no rodapé.
-- Logomarca completa preservada no cabeçalho do modo de leitura.
-- Busca removida da faixa do capítulo e mantida de forma compacta no menu lateral.
-- Texto introdutório interno removido.
-- Textos dos quadros justificados.
-- Conteúdos consecutivos com o mesmo título agrupados em um único quadro.
-- “Maternidades em piquetes” apresentada como subtópico de “Maternidade”.
+## Publicação no GitHub Pages
+1. Extraia o ZIP.
+2. Envie todos os arquivos para a raiz do repositório `altaleite/padrao-ouro`.
+3. Substitua os arquivos existentes.
+4. Aguarde a publicação e atualize com Ctrl + F5.
+
+Endereço: https://altaleite.github.io/padrao-ouro/

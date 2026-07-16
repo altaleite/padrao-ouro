@@ -13,7 +13,7 @@
   if (chapterGrid && window.PO_CONTENT) {
     chapterGrid.innerHTML = window.PO_CONTENT.chapters.map(ch => {
       const available = ch.status === 'available';
-      const href = available ? `leitura.html#${ch.slug}` : '#capitulos';
+      const href = available ? (ch.page || 'leitura.html') : '#capitulos';
       const status = available ? 'Ler agora' : 'Em preparação';
       return `
         <a class="chapter-card ${available ? 'available' : ''}" 

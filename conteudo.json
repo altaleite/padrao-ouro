@@ -13,7 +13,9 @@
       "subtitle": "Do preparo da matriz à remoção segura da recém-nascida",
       "cover": "pre-parto-maternidade.jpg",
       "status": "available",
-      "slides": "2–10"
+      "slides": "2–10",
+      "page": "leitura.html",
+      "dataKey": "chapter_01"
     },
     {
       "number": "02",
@@ -21,8 +23,10 @@
       "title": "Cuidados iniciais",
       "subtitle": "Manejo imediato da recém-nascida",
       "cover": "cuidados-iniciais.jpg",
-      "status": "upcoming",
-      "slides": "11–20"
+      "status": "available",
+      "slides": "11–20",
+      "page": "cuidados-iniciais.html",
+      "dataKey": "chapter_02"
     },
     {
       "number": "03",
@@ -30,8 +34,10 @@
       "title": "Colostragem",
       "subtitle": "Obtenção, qualidade, fornecimento e avaliação",
       "cover": "colostragem.jpg",
-      "status": "upcoming",
-      "slides": "21–41"
+      "slides": "21–41",
+      "page": "colostragem.html",
+      "status": "available",
+      "dataKey": "chapter_03"
     },
     {
       "number": "04",
@@ -39,8 +45,10 @@
       "title": "Nutrição",
       "subtitle": "Dieta líquida, sólida e desaleitamento",
       "cover": "nutricao.jpg",
-      "status": "upcoming",
-      "slides": "42–66"
+      "slides": "42–66",
+      "page": "nutricao.html",
+      "status": "available",
+      "dataKey": "chapter_04"
     },
     {
       "number": "05",
@@ -48,8 +56,10 @@
       "title": "Desempenho",
       "subtitle": "Metas de crescimento e desenvolvimento",
       "cover": "desempenho.jpg",
-      "status": "upcoming",
-      "slides": "67–70"
+      "slides": "67–70",
+      "page": "desempenho.html",
+      "status": "available",
+      "dataKey": "chapter_05"
     },
     {
       "number": "06",
@@ -57,8 +67,10 @@
       "title": "Gestão da saúde",
       "subtitle": "Prevenção, diagnóstico e acompanhamento",
       "cover": "gestao-saude.jpg",
-      "status": "upcoming",
-      "slides": "71–90"
+      "slides": "71–90",
+      "page": "gestao-saude.html",
+      "status": "available",
+      "dataKey": "chapter_06"
     },
     {
       "number": "07",
@@ -66,8 +78,10 @@
       "title": "Biosseguridade",
       "subtitle": "Prevenção, limpeza e controle de risco",
       "cover": "biosseguridade.jpg",
-      "status": "upcoming",
-      "slides": "91–100"
+      "slides": "91–100",
+      "page": "biosseguridade.html",
+      "status": "available",
+      "dataKey": "chapter_07"
     },
     {
       "number": "08",
@@ -75,8 +89,10 @@
       "title": "Instalações",
       "subtitle": "Ambientes para aleitamento e pós-aleitamento",
       "cover": "instalacoes.jpg",
-      "status": "upcoming",
-      "slides": "101–110"
+      "slides": "101–110",
+      "page": "instalacoes.html",
+      "status": "available",
+      "dataKey": "chapter_08"
     },
     {
       "number": "09",
@@ -84,8 +100,10 @@
       "title": "Reprodução de novilhas",
       "subtitle": "Manejo de novilhas gestantes",
       "cover": "reproducao-novilhas.jpg",
-      "status": "upcoming",
-      "slides": "111–115"
+      "slides": "111–115",
+      "page": "reproducao-novilhas.html",
+      "status": "available",
+      "dataKey": "chapter_09"
     }
   ],
   "chapter_01": {
@@ -96,94 +114,511 @@
       {
         "id": "pre-parto",
         "title": "PRÉ-PARTO",
-        "source_slide": 3,
-        "paragraphs": [
-          "Recomenda-se que as vacas tenham período seco entre 45 e 60 dias, em instalações que permitam bom grau de bem-estar animal, obtido principalmente por meio de conforto térmico.",
-          "Dê preferência para lotes separados de novilhas e vacas, evitando prejudicar o consumo de alimentos pelas novilhas devido à competição por área de cocho com as vacas.",
-          "Monitore o escore de condição corporal dos animais, mantendo-o entre 3,0 e 3,5 na escala de 1 a 5, pois animais muito gordos ou muito magros ao parto tendem a produzir colostro de menor qualidade e geram bezerras com menor vitalidade.",
-          "Nas últimas três semanas antes do parto, adote dieta de transição adequada, formulada com o suporte do nutricionista responsável, visando reduzir o risco de doenças metabólicas pós-parto e melhorar a qualidade e o volume do colostro produzido.",
-          "Trabalhe com o médico-veterinário responsável para a elaboração do programa de vacinação do rebanho, com o objetivo de melhorar a qualidade imunológica do colostro produzido por primíparas e multíparas."
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Recomenda-se que as vacas tenham período seco entre 45 e 60 dias, em instalações que permitam bom grau de bem-estar animal, obtido principalmente por meio de conforto térmico.",
+            "source_slide": 3
+          },
+          {
+            "type": "paragraph",
+            "text": "Dê preferência para lotes separados de novilhas e vacas, evitando prejudicar o consumo de alimentos pelas novilhas devido à competição por área de cocho com as vacas.",
+            "source_slide": 3
+          },
+          {
+            "type": "paragraph",
+            "text": "Monitore o escore de condição corporal dos animais, mantendo-o entre 3,0 e 3,5 na escala de 1 a 5, pois animais muito gordos ou muito magros ao parto tendem a produzir colostro de menor qualidade e geram bezerras com menor vitalidade.",
+            "source_slide": 3
+          },
+          {
+            "type": "paragraph",
+            "text": "Nas últimas três semanas antes do parto, adote dieta de transição adequada, formulada com o suporte do nutricionista responsável, visando reduzir o risco de doenças metabólicas pós-parto e melhorar a qualidade e o volume do colostro produzido.",
+            "source_slide": 3
+          },
+          {
+            "type": "paragraph",
+            "text": "Trabalhe com o médico-veterinário responsável para a elaboração do programa de vacinação do rebanho, com o objetivo de melhorar a qualidade imunológica do colostro produzido por primíparas e multíparas.",
+            "source_slide": 3
+          }
+        ],
+        "source_slides": [
+          3
         ]
       },
       {
         "id": "maternidade-baias",
         "title": "MATERNIDADE",
-        "source_slide": 4,
-        "paragraphs": [
-          "Recomenda-se utilizar baias individuais de parição, dimensionadas com área mínima de 4,0 m × 4,0 m (16,0 m²), de forma a permitir conforto à vaca e à novilha, espaço para o parto e acesso seguro da equipe para os cuidados imediatos com o neonato.",
-          "O piso deve ser antiderrapante e permitir boa drenagem.",
-          "Forneça cama limpa e seca com no mínimo 30 cm de profundidade, preferencialmente de palha ou maravalha, em ambiente bem drenado e bem ventilado.",
-          "Evite o estresse térmico nas matrizes, garantindo ventilação adequada no verão e proteção contra ventos frios no inverno.",
-          "A instalação de parição deve favorecer o monitoramento constante do parto e os cuidados oportunos com a bezerra e com as matrizes no pós-parto imediato."
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Recomenda-se utilizar baias individuais de parição, dimensionadas com área mínima de 4,0 m × 4,0 m (16,0 m²), de forma a permitir conforto à vaca e à novilha, espaço para o parto e acesso seguro da equipe para os cuidados imediatos com o neonato.",
+            "source_slide": 4
+          },
+          {
+            "type": "paragraph",
+            "text": "O piso deve ser antiderrapante e permitir boa drenagem.",
+            "source_slide": 4
+          },
+          {
+            "type": "paragraph",
+            "text": "Forneça cama limpa e seca com no mínimo 30 cm de profundidade, preferencialmente de palha ou maravalha, em ambiente bem drenado e bem ventilado.",
+            "source_slide": 4
+          },
+          {
+            "type": "paragraph",
+            "text": "Evite o estresse térmico nas matrizes, garantindo ventilação adequada no verão e proteção contra ventos frios no inverno.",
+            "source_slide": 4
+          },
+          {
+            "type": "paragraph",
+            "text": "A instalação de parição deve favorecer o monitoramento constante do parto e os cuidados oportunos com a bezerra e com as matrizes no pós-parto imediato.",
+            "source_slide": 4
+          }
+        ],
+        "source_slides": [
+          4
         ]
       },
       {
         "id": "maternidade-estrutura",
         "title": "MATERNIDADE",
-        "source_slide": 5,
-        "paragraphs": [
-          "As paredes laterais devem ser sólidas na parte inferior, com altura mínima de 1,5 m, impedindo o contato direto entre animais de baias adjacentes. A parte superior pode ser aberta ou gradeada, garantindo ventilação sem exposição direta a correntes de vento sobre o animal em decúbito. A parede frontal, voltada para o corredor de manejo, deve ser gradeada e permitir visibilidade completa da baia pela equipe sem necessidade de entrada. A parede traseira deve ser sólida, servindo como barreira contra vento.",
-          "Em regiões de clima frio ou com grande amplitude térmica, utilize cortinas reguláveis na parte superior das paredes laterais, permitindo o fechamento nos períodos mais frios, sem comprometer a ventilação."
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "As paredes laterais devem ser sólidas na parte inferior, com altura mínima de 1,5 m, impedindo o contato direto entre animais de baias adjacentes. A parte superior pode ser aberta ou gradeada, garantindo ventilação sem exposição direta a correntes de vento sobre o animal em decúbito. A parede frontal, voltada para o corredor de manejo, deve ser gradeada e permitir visibilidade completa da baia pela equipe sem necessidade de entrada. A parede traseira deve ser sólida, servindo como barreira contra vento.",
+            "source_slide": 5
+          },
+          {
+            "type": "paragraph",
+            "text": "Em regiões de clima frio ou com grande amplitude térmica, utilize cortinas reguláveis na parte superior das paredes laterais, permitindo o fechamento nos períodos mais frios, sem comprometer a ventilação.",
+            "source_slide": 5
+          }
+        ],
+        "source_slides": [
+          5
         ]
       },
       {
         "id": "maternidade-piquetes",
         "title": "MATERNIDADE",
-        "source_slide": 6,
-        "paragraphs": [
-          "Maternidades em piquetes",
-          "Instale a maternidade em local de fácil acesso, tranquilo e isolado de áreas com grande circulação de animais, máquinas e pessoas, permitindo o monitoramento frequente das matrizes próximas ao parto.",
-          "Dimensione o piquete com área mínima de 19 m² por animal, evitando a superlotação e garantindo espaço adequado para circulação, repouso e realização do parto.",
-          "Mantenha o terreno seco, limpo, firme e bem drenado, evitando áreas com formação de lama, acúmulo de água, fezes ou matéria orgânica.",
-          "Disponibilize área sombreada superior a 4 m² por animal, com sombra natural ou artificial, garantindo proteção contra o calor sem comprometer a ventilação.",
-          "Proteja os animais contra chuva intensa, ventos frios e outras condições climáticas adversas, especialmente nas áreas destinadas ao repouso.",
-          "Garanta acesso permanente a água limpa e fresca e espaço adequado de cocho para fornecimento de alimento, posicionados em locais secos e de fácil abastecimento.",
-          "Organize a lotação, a limpeza e a rotação dos piquetes para reduzir a contaminação ambiental e preservar boas condições de higiene para a vaca e para a bezerra recém-nascida.",
-          "A localização e a estrutura do piquete devem favorecer a observação contínua do parto e permitir a rápida intervenção da equipe quando necessária."
+        "items": [
+          {
+            "type": "subheading",
+            "text": "Maternidades em piquetes",
+            "source_slide": 6
+          },
+          {
+            "type": "paragraph",
+            "text": "Instale a maternidade em local de fácil acesso, tranquilo e isolado de áreas com grande circulação de animais, máquinas e pessoas, permitindo o monitoramento frequente das matrizes próximas ao parto.",
+            "source_slide": 6
+          },
+          {
+            "type": "paragraph",
+            "text": "Dimensione o piquete com área mínima de 19 m² por animal, evitando a superlotação e garantindo espaço adequado para circulação, repouso e realização do parto.",
+            "source_slide": 6
+          },
+          {
+            "type": "paragraph",
+            "text": "Mantenha o terreno seco, limpo, firme e bem drenado, evitando áreas com formação de lama, acúmulo de água, fezes ou matéria orgânica.",
+            "source_slide": 6
+          },
+          {
+            "type": "paragraph",
+            "text": "Disponibilize área sombreada superior a 4 m² por animal, com sombra natural ou artificial, garantindo proteção contra o calor sem comprometer a ventilação.",
+            "source_slide": 6
+          },
+          {
+            "type": "paragraph",
+            "text": "Proteja os animais contra chuva intensa, ventos frios e outras condições climáticas adversas, especialmente nas áreas destinadas ao repouso.",
+            "source_slide": 6
+          },
+          {
+            "type": "paragraph",
+            "text": "Garanta acesso permanente a água limpa e fresca e espaço adequado de cocho para fornecimento de alimento, posicionados em locais secos e de fácil abastecimento.",
+            "source_slide": 6
+          },
+          {
+            "type": "paragraph",
+            "text": "Organize a lotação, a limpeza e a rotação dos piquetes para reduzir a contaminação ambiental e preservar boas condições de higiene para a vaca e para a bezerra recém-nascida.",
+            "source_slide": 6
+          },
+          {
+            "type": "paragraph",
+            "text": "A localização e a estrutura do piquete devem favorecer a observação contínua do parto e permitir a rápida intervenção da equipe quando necessária.",
+            "source_slide": 6
+          }
+        ],
+        "source_slides": [
+          6
         ]
       },
       {
         "id": "manejo-na-maternidade",
         "title": "MANEJO NA MATERNIDADE",
-        "source_slide": 7,
-        "paragraphs": [
-          "A matriz deve ser movimentada para a baia individual de parição no início do estágio 2 do trabalho de parto, caracterizado pelo início das contrações abdominais visíveis, exteriorização da bolsa amniótica ou visualização dos membros fetais na vulva. Evite movimenta-la durante o estágio 1, quando as contrações uterinas ainda são discretas e o animal tende a procurar isolamento naturalmente, pois a movimentação precoce pode prolongar o trabalho de parto e aumentar o risco de distocia.",
-          "Da mesma forma, nunca movimente o animal após o início das contrações abdominais intensas ou com o feto já parcialmente exteriorizado.",
-          "Realize a movimentação de forma calma, sem uso de instrumentos que causem dor ou estresse, e pelo caminho mais curto possível até a baia de parição."
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "A matriz deve ser movimentada para a baia individual de parição no início do estágio 2 do trabalho de parto, caracterizado pelo início das contrações abdominais visíveis, exteriorização da bolsa amniótica ou visualização dos membros fetais na vulva. Evite movimenta-la durante o estágio 1, quando as contrações uterinas ainda são discretas e o animal tende a procurar isolamento naturalmente, pois a movimentação precoce pode prolongar o trabalho de parto e aumentar o risco de distocia.",
+            "source_slide": 7
+          },
+          {
+            "type": "paragraph",
+            "text": "Da mesma forma, nunca movimente o animal após o início das contrações abdominais intensas ou com o feto já parcialmente exteriorizado.",
+            "source_slide": 7
+          },
+          {
+            "type": "paragraph",
+            "text": "Realize a movimentação de forma calma, sem uso de instrumentos que causem dor ou estresse, e pelo caminho mais curto possível até a baia de parição.",
+            "source_slide": 7
+          }
+        ],
+        "source_slides": [
+          7
         ]
       },
       {
         "id": "monitoramento-na-maternidade",
         "title": "MONITORAMENTO NA MATERNIDADE",
-        "source_slide": 8,
-        "paragraphs": [
-          "Monitore os animais na maternidade a cada hora durante o período diurno e a cada três horas, no máximo, durante o período noturno, para garantir intervenção oportuna em casos de distocia.",
-          "O uso de câmeras de monitoramento é fortemente recomendado como ferramenta complementar, permitindo a visualização remota das baias em tempo real e reduzindo a necessidade de entrada frequente no ambiente de parição, o que minimiza o estresse dos animais. Nos sistemas que adotam câmeras, o intervalo de vistoria presencial noturna pode ser ampliado, desde que o monitoramento remoto seja contínuo e o colaborador responsável esteja disponível para intervir prontamente.",
-          "O colaborador responsável deve estar treinado para identificar os sinais de início do trabalho de parto, reconhecer situações que exigem auxílio veterinário e realizar os cuidados imediatos com a bezerra recém-nascida.",
-          "Documente todos os partos, registrando data, horário, identificação da vaca, tipo de parto, sexo e intercorrências observadas."
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Monitore os animais na maternidade a cada hora durante o período diurno e a cada três horas, no máximo, durante o período noturno, para garantir intervenção oportuna em casos de distocia.",
+            "source_slide": 8
+          },
+          {
+            "type": "paragraph",
+            "text": "O uso de câmeras de monitoramento é fortemente recomendado como ferramenta complementar, permitindo a visualização remota das baias em tempo real e reduzindo a necessidade de entrada frequente no ambiente de parição, o que minimiza o estresse dos animais. Nos sistemas que adotam câmeras, o intervalo de vistoria presencial noturna pode ser ampliado, desde que o monitoramento remoto seja contínuo e o colaborador responsável esteja disponível para intervir prontamente.",
+            "source_slide": 8
+          },
+          {
+            "type": "paragraph",
+            "text": "O colaborador responsável deve estar treinado para identificar os sinais de início do trabalho de parto, reconhecer situações que exigem auxílio veterinário e realizar os cuidados imediatos com a bezerra recém-nascida.",
+            "source_slide": 8
+          },
+          {
+            "type": "paragraph",
+            "text": "Documente todos os partos, registrando data, horário, identificação da vaca, tipo de parto, sexo e intercorrências observadas.",
+            "source_slide": 8
+          }
+        ],
+        "source_slides": [
+          8
         ]
       },
       {
         "id": "intervencao-no-parto",
         "title": "INTERVENÇÃO NO PARTO",
-        "source_slide": 9,
-        "paragraphs": [
-          "O aparecimento do saco amniótico ou dos membros do bezerro deve ser utilizado como referência para o início do acompanhamento.",
-          "Em partos normais, deve haver progressão visível a cada 15–20 minutos.",
-          "Na ausência de progressão por aproximadamente 30 minutos em vacas ou 60 minutos em novilhas, deve ser realizada uma avaliação obstétrica por pessoa devidamente treinada.",
-          "Apresentações anormais ou sinais de sofrimento materno ou fetal exigem avaliação imediata.",
-          "Antes de qualquer manipulação, a região perineal deve ser higienizada, utilizando-se luvas obstétricas descartáveis, lubrificante abundante e equipamentos previamente limpos e desinfetados.",
-          "A tração deve ser gradual, controlada e sincronizada com as contrações, sem aplicação de força excessiva.",
-          "Quando não houver progressão segura, as tentativas devem ser interrompidas e o médico-veterinário deve ser acionado."
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "O aparecimento do saco amniótico ou dos membros do bezerro deve ser utilizado como referência para o início do acompanhamento.",
+            "source_slide": 9
+          },
+          {
+            "type": "paragraph",
+            "text": "Em partos normais, deve haver progressão visível a cada 15–20 minutos.",
+            "source_slide": 9
+          },
+          {
+            "type": "paragraph",
+            "text": "Na ausência de progressão por aproximadamente 30 minutos em vacas ou 60 minutos em novilhas, deve ser realizada uma avaliação obstétrica por pessoa devidamente treinada.",
+            "source_slide": 9
+          },
+          {
+            "type": "paragraph",
+            "text": "Apresentações anormais ou sinais de sofrimento materno ou fetal exigem avaliação imediata.",
+            "source_slide": 9
+          },
+          {
+            "type": "paragraph",
+            "text": "Antes de qualquer manipulação, a região perineal deve ser higienizada, utilizando-se luvas obstétricas descartáveis, lubrificante abundante e equipamentos previamente limpos e desinfetados.",
+            "source_slide": 9
+          },
+          {
+            "type": "paragraph",
+            "text": "A tração deve ser gradual, controlada e sincronizada com as contrações, sem aplicação de força excessiva.",
+            "source_slide": 9
+          },
+          {
+            "type": "paragraph",
+            "text": "Quando não houver progressão segura, as tentativas devem ser interrompidas e o médico-veterinário deve ser acionado.",
+            "source_slide": 9
+          }
+        ],
+        "source_slides": [
+          9
         ]
       },
       {
         "id": "remocao-da-maternidade",
         "title": "REMOÇÃO DA MATERNIDADE",
-        "source_slide": 10,
-        "paragraphs": [
-          "Remova a bezerra da maternidade o mais rápido possível, idealmente antes que ela se levante, para reduzir o risco de lesões, a exposição a patógenos ambientais e a transmissão vertical de microrganismos da vaca para a bezerra. Essa medida deve ser intensificada em maternidades do tipo compost barn.",
-          "Caso haja estrutura disponível, acomode a bezerra à frente da mãe em uma \"caixa de carinho\" durante a ordenha do colostro, prática que favorece a descida do colostro por estímulo do contato visual e tátil materno. A “caixa de carinho” deve ser confortável, de material resistente e que permita higienização e desinfecção completas entre cada uso."
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Remova a bezerra da maternidade o mais rápido possível, idealmente antes que ela se levante, para reduzir o risco de lesões, a exposição a patógenos ambientais e a transmissão vertical de microrganismos da vaca para a bezerra. Essa medida deve ser intensificada em maternidades do tipo compost barn.",
+            "source_slide": 10
+          },
+          {
+            "type": "paragraph",
+            "text": "Caso haja estrutura disponível, acomode a bezerra à frente da mãe em uma \"caixa de carinho\" durante a ordenha do colostro, prática que favorece a descida do colostro por estímulo do contato visual e tátil materno. A “caixa de carinho” deve ser confortável, de material resistente e que permita higienização e desinfecção completas entre cada uso.",
+            "source_slide": 10
+          }
+        ],
+        "source_slides": [
+          10
+        ]
+      }
+    ]
+  },
+  "chapter_02": {
+    "slug": "cuidados-iniciais",
+    "title": "Cuidados iniciais",
+    "cover": "cuidados-iniciais.jpg",
+    "sections": [
+      {
+        "id": "secagem-da-recem-nascida",
+        "title": "SECAGEM DA RECÉM-NASCIDA",
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Caso a vaca não tenha lambido a recém-nascida, seque a bezerra utilizando toalhas limpas ou secador industrial de pelos, como os utilizados em clínicas de pequenos animais.",
+            "source_slide": 12
+          }
+        ],
+        "source_slides": [
+          12
+        ]
+      },
+      {
+        "id": "aine-partos-auxiliados",
+        "title": "UTILIZAÇÃO DE ANTI-INFLAMATÓRIOS NÃO ESTEROIDAIS EM PARTOS AUXILIADOS",
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Bezerras nascidas de partos auxiliados estão sujeitas a maior grau de estresse físico, dor e inflamação sistêmica, o que pode comprometer a vitalidade neonatal, a capacidade de se levantar e mamar, e a absorção de imunoglobulinas do colostro.",
+            "source_slide": 13
+          },
+          {
+            "type": "paragraph",
+            "text": "Recomenda-se a administração de anti-inflamatório não esteroidal (AINE) imediatamente após o nascimento em todos os casos de parto auxiliado, como parte do protocolo de cuidados com o neonato.",
+            "source_slide": 13
+          },
+          {
+            "type": "paragraph",
+            "text": "O meloxicam é o princípio ativo com maior respaldo na literatura para essa indicação em bezerras recém-nascidas, sendo administrado por via subcutânea. O volume a ser administrado deve ser calculado com base na bula, uma vez que este varia conforme a concentração do produto comercial adotado.",
+            "source_slide": 13
+          }
+        ],
+        "source_slides": [
+          13
+        ]
+      },
+      {
+        "id": "aquecimento",
+        "title": "AQUECIMENTO",
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "As bezerras possuem sistema de termorregulação pouco desenvolvido ao nascimento e precisam de auxílio durante essa fase, principalmente se nasceram de partos auxiliados.",
+            "source_slide": 14
+          },
+          {
+            "type": "paragraph",
+            "text": "Em dias com temperatura ambiente abaixo de 15°C e/ou com grande variação entre a temperatura da manhã e da noite, coloque a recém-nascida em local com aquecimento artificial.",
+            "source_slide": 14
+          },
+          {
+            "type": "paragraph",
+            "text": "As lâmpadas de aquecimento devem possuir no mínimo 125 watts e no máximo 250 watts de potência, posicionadas a aproximadamente 1,2 m do piso, proporcionando 1 m de distância da bezerra quando essa estiver deitada, permitindo aquecimento e evitando queimaduras.",
+            "source_slide": 14
+          },
+          {
+            "type": "paragraph",
+            "text": "As bezerras devem permanecer no ambiente de aquecimento por até 48 horas, podendo esse período ser estendido em animais de baixo vigor ou nascidos de partos auxiliados.",
+            "source_slide": 14
+          },
+          {
+            "type": "paragraph",
+            "text": "A temperatura no ambiente aquecido deve se manter entre 15 e 25°C. O uso de camas de palha, feno ou maravalha com no mínimo 30 cm de profundidade auxilia na manutenção da temperatura corporal das bezerras.",
+            "source_slide": 14
+          }
+        ],
+        "source_slides": [
+          14
+        ]
+      },
+      {
+        "id": "desinfeccao-do-umbigo",
+        "title": "DESINFECÇÃO DO UMBIGO",
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Desinfete completamente o umbigo com tintura de iodo a 7–10%, imediatamente após o nascimento, por meio da imersão total do coto umbilical utilizando copo próprio para imersão de umbigo, sem retorno do líquido ao frasco original.",
+            "source_slide": 15
+          },
+          {
+            "type": "paragraph",
+            "text": "A imersão deve ter duração mínima de 30 segundos.",
+            "source_slide": 15
+          },
+          {
+            "type": "paragraph",
+            "text": "O procedimento deve ser realizado com a bezerra em pé.",
+            "source_slide": 15
+          },
+          {
+            "type": "paragraph",
+            "text": "Adote essa prática como rotina duas vezes nas primeiras 24 horas e de uma a duas vezes ao dia até a secagem completa do coto umbilical.",
+            "source_slide": 15
+          },
+          {
+            "type": "paragraph",
+            "text": "Caso o coto umbilical não tenha caído dentro de sete dias, reavalie o produto utilizado e o protocolo de desinfecção junto ao médico-veterinário responsável pelo rebanho.",
+            "source_slide": 15
+          },
+          {
+            "type": "paragraph",
+            "text": "Não é indicado abrir, amarrar ou cortar o coto umbilical, com exceção de coto umbilical com comprimento superior a 10 cm.",
+            "source_slide": 15
+          }
+        ],
+        "source_slides": [
+          15
+        ]
+      },
+      {
+        "id": "identificacao",
+        "title": "IDENTIFICAÇÃO",
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Identifique cada bezerra com brinco numérico nas duas orelhas o mais breve possível após o nascimento, para não confundir a procedência das recém-nascidas.",
+            "source_slide": 16
+          },
+          {
+            "type": "paragraph",
+            "text": "O uso de brinco eletrônico (RFID) é uma opção que facilita o registro e o rastreamento individual dos animais.",
+            "source_slide": 16
+          },
+          {
+            "type": "paragraph",
+            "text": "Associe, quando necessário, a identificação permanente por tatuagem.",
+            "source_slide": 16
+          }
+        ],
+        "source_slides": [
+          16
+        ]
+      },
+      {
+        "id": "pesagem",
+        "title": "PESAGEM",
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Faça a aferição e o registro do peso da bezerra ao nascer antes do fornecimento do colostro, preferencialmente com uso de balança devidamente calibrada.",
+            "source_slide": 17
+          },
+          {
+            "type": "paragraph",
+            "text": "A fita de pesagem deve ser utilizada somente quando a balança não estiver disponível.",
+            "source_slide": 17
+          },
+          {
+            "type": "paragraph",
+            "text": "Em ambos os casos, certifique-se de que a bezerra esteja em pé e em superfície plana, com a cabeça na linha do dorso, nem baixa e nem alta.",
+            "source_slide": 17
+          }
+        ],
+        "source_slides": [
+          17
+        ]
+      },
+      {
+        "id": "investigacao-bvd",
+        "title": "INVESTIGAÇÃO DA DIARREIA VIRAL BOVINA",
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Para identificar se o rebanho é positivo e se o Vírus da Diarreia Viral Bovina (BVDV) está circulando, recomenda-se a coleta de amostras de sangue em tubos sem anticoagulante das bezerras recém-nascidas antes da ingestão do colostro.",
+            "source_slide": 18
+          },
+          {
+            "type": "paragraph",
+            "text": "A detecção de animais soropositivos indica infecção fetal.",
+            "source_slide": 18
+          },
+          {
+            "type": "paragraph",
+            "text": "Para a identificação dos animais persistentemente infectados (PI) para o BVDV, colete fragmento de orelha e realize o teste imunoenzimático direto. Os fragmentos de orelha devem ser congelados até o envio ao laboratório. O primeiro teste deve ser realizado em até uma semana após o nascimento, sendo indicada a repetição dos testes positivos após 21 dias, com o objetivo de diferenciar infecção transitória de infecção persistente.",
+            "source_slide": 18
+          },
+          {
+            "type": "paragraph",
+            "text": "A identificação de animais PI também pode ser realizada pela coleta de sangue em tubo com anticoagulante EDTA (tampa roxa), o qual deve ser mantido refrigerado e enviado ao laboratório em até 24 horas após a coleta. Essa amostra é utilizada para a realização da PCR, sendo obrigatório repetir o teste após 21 dias.",
+            "source_slide": 18
+          },
+          {
+            "type": "paragraph",
+            "text": "É indicada a eutanásia dos animais confirmados PI.",
+            "source_slide": 18
+          }
+        ],
+        "source_slides": [
+          18
+        ]
+      },
+      {
+        "id": "remocao-de-tetas-supranumerarias",
+        "title": "REMOÇÃO DE TETAS SUPRANUMERÁRIAS",
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Identifique e remova as tetas supranumerárias entre três e quatro semanas de idade.",
+            "source_slide": 19
+          },
+          {
+            "type": "paragraph",
+            "text": "Trabalhe o protocolo de remoção com o médico-veterinário responsável pelo rebanho, utilizando anestesia local e analgesia sistêmica com anti-inflamatórios não esteroidais (AINE).",
+            "source_slide": 19
+          }
+        ],
+        "source_slides": [
+          19
+        ]
+      },
+      {
+        "id": "mochacao",
+        "title": "MOCHAÇÃO",
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Trabalhe com o médico-veterinário responsável para garantir a supressão da dor durante e após a mochação dos animais, usando anestesia local por bloqueio do nervo cornual e analgesia sistêmica com anti-inflamatórios não esteroidais (AINE), independentemente do método adotado.",
+            "source_slide": 20
+          },
+          {
+            "type": "paragraph",
+            "text": "Realize a remoção dos botões cornuais usando ferro quente para cauterização, entre três e quatro semanas de idade.",
+            "source_slide": 20
+          },
+          {
+            "type": "paragraph",
+            "text": "Caso a fazenda participe de algum programa de certificação de boas práticas, fique atento à idade sugerida por ele. Não realize a mochação em animais doentes, debilitados ou juntamente com outras práticas de manejo estressantes.",
+            "source_slide": 20
+          },
+          {
+            "type": "paragraph",
+            "text": "Dê preferência para realizar esse manejo nos horários mais frescos do dia e antes do fornecimento da dieta líquida.",
+            "source_slide": 20
+          },
+          {
+            "type": "paragraph",
+            "text": "Todos os manejos com as bezerras recém-nascidas devem ser feitos de forma calma, sem movimentação brusca do animal e com tom de voz baixo.",
+            "source_slide": 20
+          }
+        ],
+        "source_slides": [
+          20
         ]
       }
     ]
@@ -274,5 +709,1694 @@
       "bio": "Médica-veterinária formada pela Universidade Paulista (UNIP). Possui aprimoramento em Clínica e Cirurgia de Grandes Animais, com ênfase em Ruminantes, pela Faculdade de Medicina Veterinária e Zootecnia da Universidade de São Paulo (FMVZ-USP). Mestre e Doutora em Clínica Veterinária pela FMVZ-USP, com pós-doutorado em Imunologia Bovina na University of Georgia (UGA), nos Estados Unidos. Atualmente, é professora na FMVZ-USP, coordenadora de pesquisa do Grupo de Estudos em Medicina Aplicada ao Período de Transição, Cria e Recria (GeCria), integra o Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheira do Programa Alta CRIA.",
       "email": "viviani.gomes@usp.br"
     }
-  ]
+  ],
+  "chapter_03": {
+    "slug": "colostragem",
+    "title": "Colostragem",
+    "cover": "colostragem.jpg",
+    "sections": [
+      {
+        "id": "obtencao",
+        "title": "OBTENÇÃO",
+        "source_slides": [
+          22
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Ordenhe as primíparas e as multíparas recém-paridas o mais rápido possível, preferencialmente dentro de duas horas após o parto, para obtenção do colostro. A ordenha deve ser realizada separadamente dos animais em tratamento para mastite ou qualquer outra enfermidade que resulte no descarte do leite.",
+            "source_slide": 22
+          },
+          {
+            "type": "paragraph",
+            "text": "Siga rigorosos protocolos de higiene dos tetos, equipamentos de ordenha e armazenamento até o fornecimento para minimizar a contaminação do colostro.",
+            "source_slide": 22
+          }
+        ]
+      },
+      {
+        "id": "pasteurizacao-do-colostro",
+        "title": "PASTEURIZAÇÃO DO COLOSTRO",
+        "source_slides": [
+          23
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "A pasteurização do colostro a 60°C por 60 minutos é uma opção para a prevenção da transmissão de agentes infecciosos das vacas para as bezerras pelo colostro.",
+            "source_slide": 23
+          },
+          {
+            "type": "paragraph",
+            "text": "Utilize pasteurizador próprio para colostro, devidamente calibrado.",
+            "source_slide": 23
+          },
+          {
+            "type": "paragraph",
+            "text": "Avalie rotineiramente a eficácia do processo de pasteurização por meio do teste qualitativo de Fosfatase Alcalina, que deve apresentar resultado negativo imediatamente após a pasteurização, confirmando que a temperatura mínima foi atingida, e do teste de Peroxidase, que deve apresentar resultado positivo, confirmando que o colostro não foi superaquecido.",
+            "source_slide": 23
+          }
+        ]
+      },
+      {
+        "id": "qualidade-sanitaria",
+        "title": "QUALIDADE SANITÁRIA",
+        "source_slides": [
+          24,
+          25
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Avalie pelo menos uma vez por mês a contagem padrão em placa (CPP) e a contagem de coliformes fecais no colostro fornecido às bezerras.",
+            "source_slide": 24
+          },
+          {
+            "type": "figure",
+            "src": "slide-25.jpg",
+            "alt": "Qualidade microbiológica do colostro.",
+            "caption": "Qualidade microbiológica do colostro.",
+            "source_slide": 25
+          }
+        ]
+      },
+      {
+        "id": "qualidade-imunologica",
+        "title": "QUALIDADE IMUNOLÓGICA",
+        "source_slides": [
+          26,
+          27
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Teste a qualidade imunológica do colostro utilizando refratômetro do tipo Brix, óptico ou digital, devidamente calibrado com água destilada.",
+            "source_slide": 26
+          },
+          {
+            "type": "figure",
+            "src": "slide-27.jpg",
+            "alt": "Valores-alvo de testes a campo para avaliar a qualidade imunológica do colostro.",
+            "caption": "Valores-alvo de testes a campo para avaliar a qualidade imunológica do colostro.",
+            "source_slide": 27
+          }
+        ]
+      },
+      {
+        "id": "fornecimento-quantidade-e-tempo",
+        "title": "FORNECIMENTO, QUANTIDADE E TEMPO",
+        "source_slides": [
+          28,
+          29,
+          30
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Caso o colostro não seja pasteurizado, forneça-o ou congele-o o mais rápido possível após a ordenha, preferencialmente em até 30 minutos.",
+            "source_slide": 28
+          },
+          {
+            "type": "paragraph",
+            "text": "Forneça o colostro com temperatura entre 38 e 40°C, em mamadeiras próprias para a colostragem.",
+            "source_slide": 28
+          },
+          {
+            "type": "paragraph",
+            "text": "Utilize sonda esofágica quando o animal não apresentar bom reflexo de sucção, lembrando que o colaborador deve estar devidamente treinado para essa tarefa.",
+            "source_slide": 28
+          },
+          {
+            "type": "paragraph",
+            "text": "Forneça, obrigatoriamente, volume de colostro equivalente a 10% do peso corporal da bezerra ao nascimento (PCN), com qualidade imunológica de Brix igual ou superior a 24%, na primeira refeição, por mamadeira ou sonda esofágica, o mais rápido possível e dentro das primeiras duas horas de vida.",
+            "source_slide": 29
+          },
+          {
+            "type": "paragraph",
+            "text": "Forneça adicionalmente volume equivalente a 5% do PCN da bezerra no segundo fornecimento, realizado entre 8 e 12 horas após o primeiro fornecimento.",
+            "source_slide": 30
+          }
+        ]
+      },
+      {
+        "id": "armazenamento",
+        "title": "ARMAZENAMENTO",
+        "source_slides": [
+          31,
+          32
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Caso o colostro não seja fornecido imediatamente após a ordenha ou pasteurização, refrigere-o em geladeira ou congele imediatamente em freezer não frost free.",
+            "source_slide": 31
+          },
+          {
+            "type": "paragraph",
+            "text": "Evite manter o colostro em temperatura ambiente, pois a carga bacteriana aumenta rapidamente.",
+            "source_slide": 31
+          },
+          {
+            "type": "paragraph",
+            "text": "Armazene o colostro fresco sob refrigeração a 4°C por no máximo 24 horas. Caso não seja utilizado dentro desse prazo, o colostro refrigerado deve ser descartado, não sendo indicado o seu congelamento após esse período.",
+            "source_slide": 31
+          },
+          {
+            "type": "paragraph",
+            "text": "Colostro extra pode ser armazenado congelado em freezer não frost free por até oito meses.",
+            "source_slide": 31
+          },
+          {
+            "type": "paragraph",
+            "text": "Utilize sacos descartáveis que permitam a formação de finas placas de colostro, resistentes e com fechamento hermético por tampa, seladora ou zip-lock.",
+            "source_slide": 32
+          },
+          {
+            "type": "paragraph",
+            "text": "Identifique cada saco com data de coleta, identificação do animal, volume e qualidade imunológica (valor de Brix).",
+            "source_slide": 32
+          },
+          {
+            "type": "paragraph",
+            "text": "O colostro deve estar livre de grumos, sangue e sujidade, sendo indicado o descarte do colostro de vacas com mastite ou outras doenças.",
+            "source_slide": 32
+          },
+          {
+            "type": "paragraph",
+            "text": "Não misture colostro de diferentes vacas, pois isso aumenta o risco de transmissão de doenças, a menos que seja pasteurizado.",
+            "source_slide": 32
+          },
+          {
+            "type": "paragraph",
+            "text": "Colostro refrigerado ou congelado deve ser aquecido em banho-maria com termocirculador de 1.500 watts de potência, na temperatura máxima de 48°C.",
+            "source_slide": 32
+          }
+        ]
+      },
+      {
+        "id": "descongelamento-e-aquecimento",
+        "title": "DESCONGELAMENTO E AQUECIMENTO",
+        "source_slides": [
+          33
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Colostro congelado deve ser descongelado em banho-maria com termocirculador (1.500 W), mantendo a água entre 45–48°C, evitando temperaturas superiores para não desnaturar as imunoglobulinas.",
+            "source_slide": 33
+          },
+          {
+            "type": "paragraph",
+            "text": "Colostro refrigerado deve ser aquecido em banho-maria com termocirculador (1.500 W) até atingir 38–39°C, temperatura ideal para fornecimento à bezerra.",
+            "source_slide": 33
+          }
+        ]
+      },
+      {
+        "id": "substitutos-comerciais-de-colostro",
+        "title": "SUBSTITUTOS COMERCIAIS DE COLOSTRO",
+        "source_slides": [
+          34,
+          35
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "A utilização de substitutos comerciais de colostro é uma alternativa para o enriquecimento do colostro fresco, pasteurizado ou descongelado, seguindo a recomendação do fornecedor.",
+            "source_slide": 34
+          },
+          {
+            "type": "paragraph",
+            "text": "Para o colostro em pó da SCCL® comercializado no Brasil, com 21% de IgG, utilize 27 g de produto por litro para aumentar a massa de IgG em 1 ponto percentual do valor de Brix do colostro.",
+            "source_slide": 34
+          },
+          {
+            "type": "paragraph",
+            "text": "Adicione o substituto diretamente no colostro fresco, pasteurizado ou descongelado e misture bem até completa homogeneização.",
+            "source_slide": 34
+          },
+          {
+            "type": "paragraph",
+            "text": "Após o enriquecimento, não é recomendado reavaliar o Brix final do colostro.",
+            "source_slide": 34
+          },
+          {
+            "type": "paragraph",
+            "text": "Para colostro enriquecido, adote como meta de qualidade imunológica o valor de Brix de 24% no primeiro fornecimento e 22% no segundo fornecimento.",
+            "source_slide": 34
+          },
+          {
+            "type": "paragraph",
+            "text": "A suplementação, com mínimo de 100 g de IgG referente a 470 g de colostro em pó da SCCL® com 21% de IgG, ou a substituição, com mínimo de 200 g de IgG referente a 940 g de colostro em pó da SCCL® com 21% de IgG, do colostro materno pode ser adotada nas seguintes situações:",
+            "source_slide": 35
+          },
+          {
+            "type": "paragraph",
+            "text": "falta de colostro em volume e/ou qualidade imunológica adequados;",
+            "source_slide": 35
+          },
+          {
+            "type": "paragraph",
+            "text": "substituição de colostro com alta carga bacteriana;",
+            "source_slide": 35
+          },
+          {
+            "type": "paragraph",
+            "text": "necessidade de facilitar o manejo da colostragem, especialmente em partos noturnos ou em períodos com grande número de nascimentos;",
+            "source_slide": 35
+          },
+          {
+            "type": "paragraph",
+            "text": "rebanhos positivos para agentes infecciosos que possam ser transmitidos pelo colostro.",
+            "source_slide": 35
+          }
+        ]
+      },
+      {
+        "id": "avaliacao-da-eficiencia-de-colostragem",
+        "title": "AVALIAÇÃO DA EFICIÊNCIA DE COLOSTRAGEM",
+        "source_slides": [
+          36,
+          37,
+          38,
+          39
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Avalie a transferência de imunidade passiva das bezerras realizando a coleta de sangue em tubos sem anticoagulante (tampa vermelha) entre 36 e 72 horas após o fornecimento do colostro.",
+            "source_slide": 36
+          },
+          {
+            "type": "paragraph",
+            "text": "Após a coleta, deixe o sangue coagular em temperatura ambiente e realize a separação do soro por centrifugação ou decantação. A leitura deve ser realizada apenas em soro límpido, sem hemólise visível, pois amostras hemolisadas interferem na interpretação dos resultados.",
+            "source_slide": 36
+          },
+          {
+            "type": "paragraph",
+            "text": "Quando a análise não for realizada imediatamente, o soro pode ser refrigerado entre 2 e 8°C por até 48 horas ou congelado a -20°C para análise posterior, sem prejuízo relevante da interpretação.",
+            "source_slide": 36
+          },
+          {
+            "type": "paragraph",
+            "text": "Utilize refratômetro de Brix devidamente calibrado e realize a leitura à temperatura ambiente. Os refratômetros digitais oferecem maior precisão na leitura das amostras.",
+            "source_slide": 36
+          },
+          {
+            "type": "figure",
+            "src": "slide-37.jpg",
+            "alt": "Valores-alvo para avaliar a transferência de imunidade passiva das bezerras.",
+            "caption": "Valores-alvo para avaliar a transferência de imunidade passiva das bezerras.",
+            "source_slide": 37
+          },
+          {
+            "type": "subheading",
+            "text": "ATENÇÃO",
+            "source_slide": 38
+          },
+          {
+            "type": "paragraph",
+            "text": "Para bezerras que recebem substitutos de colostro diluídos em água, é importante estar ciente de que a relação entre a proteína total ou Brix séricos e os valores de IgG sérico, podem variar de forma significante entre os diferentes produtos disponíveis no mercado, em função das técnicas de fabricação, fonte, concentração e absorção de imunoglobulinas. Dessa forma, os pontos de corte de Brix sérico sugeridos para monitorar a transferência de imunidade passiva em bezerras que receberam colostro materno podem ser imprecisos para bezerras que receberam substitutos de colostro.",
+            "source_slide": 38
+          },
+          {
+            "type": "paragraph",
+            "text": "Os valores de Brix sérico para monitorar a eficácia de um programa de colostragem com substitutos devem ser utilizados apenas se houver estudos descrevendo essa relação para o produto específico em uso na fazenda. Se essa informação não estiver disponível, recomenda-se enviar periodicamente amostras de soro congelado para análise laboratorial de IgG por teste imunoenzimático indireto (ELISA) ou imunodifusão radial.",
+            "source_slide": 38
+          },
+          {
+            "type": "paragraph",
+            "text": "Bezerras com eficiência de colostragem na categoria ruim apresentam falha na transferência de imunidade passiva e maior risco de morbidade e mortalidade.",
+            "source_slide": 39
+          },
+          {
+            "type": "paragraph",
+            "text": "Esses animais devem ser identificados para assegurar maior monitoramento. Por meio da escrituração zootécnica, identifique pontos no protocolo de colostragem que estejam resultando em baixa eficiência para corrigi-los ou aperfeiçoá-los, lembrando sempre da importância do treinamento da equipe envolvida.",
+            "source_slide": 39
+          }
+        ]
+      },
+      {
+        "id": "leite-de-transicao",
+        "title": "LEITE DE TRANSIÇÃO",
+        "source_slides": [
+          40,
+          41
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Após a colostragem, continue alimentando as bezerras com leite de transição entre 2 e 7 dias de vida.",
+            "source_slide": 40
+          },
+          {
+            "type": "paragraph",
+            "text": "Em casos de falta do leite de transição, adicione 60 g de IgG por aleitamento no leite integral ou no sucedâneo. Para a adição de colostro em pó da SCCL® comercializado no Brasil, com 21% de IgG, utilize 282 g de produto por dia. Caso a fazenda opte por adicionar colostro fresco, siga a tabela abaixo:",
+            "source_slide": 40
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "Brix do colostro",
+                "Massa de IgG presente*",
+                "Volume de colostro a ser adicionado na dieta líquida por dia"
+              ],
+              [
+                "22% de Brix",
+                "62,8 g",
+                "955 ml"
+              ],
+              [
+                "23% de Brix",
+                "68,4 g",
+                "877 ml"
+              ],
+              [
+                "24% de Brix",
+                "74,1 g",
+                "810 ml"
+              ],
+              [
+                "25% de Brix",
+                "79,8 g",
+                "752 ml"
+              ],
+              [
+                "26% de Brix",
+                "85,4 g",
+                "703 ml"
+              ],
+              [
+                "27% de Brix",
+                "91,1 g",
+                "659 ml"
+              ],
+              [
+                "28% de Brix",
+                "96,8 g",
+                "620 ml"
+              ],
+              [
+                "29% de Brix",
+                "102,4 g",
+                "586 ml"
+              ],
+              [
+                "30% de Brix",
+                "108,1 g",
+                "555 ml"
+              ]
+            ],
+            "source_slide": 41
+          },
+          {
+            "type": "paragraph",
+            "text": "* Seguindo equação de Quigley et al. (2013).",
+            "source_slide": 41
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_04": {
+    "slug": "nutricao",
+    "title": "Nutrição",
+    "cover": "nutricao.jpg",
+    "sections": [
+      {
+        "id": "dieta-liquida",
+        "title": "DIETA LÍQUIDA",
+        "source_slides": [
+          43
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Para bezerras Holandês ou de cruzamento Gir x Holandês, até os 45 dias de vida, recomenda-se o fornecimento de no mínimo 875 g de sólidos totais por dia via dieta líquida, correspondendo a aproximadamente 7 litros com teor de 12,5 a 13,5% de sólidos. Para sistemas que buscam maior desempenho de crescimento, recomenda-se o fornecimento de 1,0 a 1,5 kg de sólidos totais por dia via dieta líquida, equivalente a aproximadamente 8 a 12 litros com o mesmo teor de sólidos. A escolha entre os níveis de oferta deve considerar as metas de crescimento, sanidade e sistema de produção.",
+            "source_slide": 43
+          },
+          {
+            "type": "paragraph",
+            "text": "Para bezerras Jersey, até os 30 dias de vida, recomenda-se o fornecimento mínimo de 750 a 900 g de sólidos totais por dia via dieta líquida, correspondendo a aproximadamente 5 a 6 litros com teor de 12,5 a 13,5% de sólidos. Para programas de maior desempenho, pode-se trabalhar com 1,0 a 1,2 kg de sólidos por dia via dieta líquida, equivalente a aproximadamente 7 a 9 litros com o mesmo teor de sólidos.",
+            "source_slide": 43
+          },
+          {
+            "type": "paragraph",
+            "text": "Após esse período, inicie uma estratégia gradual de redução da dieta líquida, conforme as recomendações descritas no item de desaleitamento e de acordo com o plano de desenvolvimento das bezerras para as metas traçadas.",
+            "source_slide": 43
+          }
+        ]
+      },
+      {
+        "id": "pasteurizacao-do-leite",
+        "title": "PASTEURIZAÇÃO DO LEITE",
+        "source_slides": [
+          44,
+          45
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Caso esteja disponível para fornecimento, leite com alta contagem padrão em placa, acima de 20.000 UFC/mL e coliformes acima de 10.000 UFC/mL, sem resíduo de drogas antimicrobianas, o mesmo deve ser pasteurizado.",
+            "source_slide": 44
+          },
+          {
+            "type": "paragraph",
+            "text": "Todo o leite destinado ao aleitamento de bezerras, comercializável ou não, deve ser refrigerado a 4°C caso não seja pasteurizado imediatamente após a ordenha ou quando não for fornecido imediatamente após a pasteurização.",
+            "source_slide": 44
+          },
+          {
+            "type": "paragraph",
+            "text": "Realize rotineiramente análises microbiológicas, como a contagem padrão em placa (CPP), e testes enzimáticos para monitorar o processo térmico. Após a pasteurização, o leite deve apresentar teste qualitativo negativo para fosfatase alcalina, indicando que o tratamento térmico foi eficaz.",
+            "source_slide": 45
+          },
+          {
+            "type": "paragraph",
+            "text": "A fosfatase alcalina é uma enzima naturalmente presente no leite cru que é inativada pelo processo de pasteurização, sendo utilizada como indicador de sua eficácia.",
+            "source_slide": 45
+          },
+          {
+            "type": "paragraph",
+            "text": "A peroxidase também é uma enzima naturalmente presente no leite, porém é inativada apenas quando o leite é aquecido a temperaturas superiores às empregadas na pasteurização, aproximadamente entre 80 e 85°C. Dessa forma, após a pasteurização adequada, o teste de peroxidase deve permanecer positivo, sendo que um resultado negativo indica possível superaquecimento do leite.",
+            "source_slide": 45
+          }
+        ]
+      },
+      {
+        "id": "sucedaneo",
+        "title": "SUCEDÂNEO",
+        "source_slides": [
+          46
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Caso a fazenda utilize sucedâneo, procure produtos com concentração de proteína entre 22 e 27% de proteína bruta (PB), com preferência para produtos que utilizem pelo menos 50% de proteína oriunda de fontes lácteas, fibra bruta abaixo de 0,15%, concentração de gordura entre 15 e 20%, e concentrações de minerais e vitaminas recomendadas pelo NASEM (2021).",
+            "source_slide": 46
+          },
+          {
+            "type": "paragraph",
+            "text": "A diluição do produto deve estar entre 12,5 e 15,0% de sólidos totais. Fique atento às recomendações dos fabricantes quanto à temperatura e ao pH da água para melhor diluição do produto.",
+            "source_slide": 46
+          }
+        ]
+      },
+      {
+        "id": "adensamento-da-dieta-liquida",
+        "title": "ADENSAMENTO DA DIETA LÍQUIDA",
+        "source_slides": [
+          47
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "O aumento de sólidos totais na dieta líquida das bezerras é uma estratégia para o fornecimento de maior quantidade de nutrientes sem a necessidade de aumentar o volume final ofertado. Ela pode ser adotada pela diluição de sucedâneos para maior teor de sólidos ou pelo adensamento do leite, que consiste na inclusão de sucedâneo ou de corretores ao leite fornecido às bezerras. Essa estratégia também pode auxiliar na correção de eventuais deficiências de nutrientes presentes no leite.",
+            "source_slide": 47
+          },
+          {
+            "type": "paragraph",
+            "text": "A quantidade de sucedâneo ou corretor adicionada ao leite deve ser acompanhada constantemente, uma vez que a elevação excessiva da osmolaridade final da solução pode acarretar problemas digestivos, como abomasites, úlceras e timpanismo de abomaso, nas bezerras. Embora os valores de referência não estejam bem estabelecidos, osmolaridades superiores a 500 mOsm/L são preocupantes. O percentual de sólidos totais deve ser de até 15% quando a osmolaridade final é desconhecida, podendo chegar entre 18 e 20% quando a osmolaridade da dieta líquida final é conhecida. Nunca deixe de disponibilizar água de qualidade à vontade para os animais.",
+            "source_slide": 47
+          }
+        ]
+      },
+      {
+        "id": "fornecimento-da-dieta-liquida",
+        "title": "FORNECIMENTO DA DIETA LÍQUIDA",
+        "source_slides": [
+          48,
+          49
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Forneça a dieta líquida, leite ou sucedâneo, com conteúdo consistente de sólidos totais e temperatura média de 38°C.",
+            "source_slide": 48
+          },
+          {
+            "type": "paragraph",
+            "text": "Alimente primeiro as bezerras mais novas, para que recebam a dieta líquida na temperatura ideal e por biosseguridade.",
+            "source_slide": 48
+          },
+          {
+            "type": "paragraph",
+            "text": "Mantenha o intervalo mínimo de oito horas entre os fornecimentos quando a dieta líquida for oferecida duas ou três vezes ao dia, evitando intervalos superiores a 12 horas.",
+            "source_slide": 48
+          },
+          {
+            "type": "paragraph",
+            "text": "Avalie a possibilidade de utilizar mamadeiras ou baldes com bicos para o fornecimento de dieta líquida às bezerras, pois esses equipamentos facilitam o consumo e oferecem a oportunidade de expressão do comportamento natural de sucção. Quando utilizados, reforce as medidas de higiene dos utensílios, siga a ordem de oferta das bezerras mais novas para as mais velhas e deixe por último as bezerras em tratamento. Não altere o tamanho do orifício dos bicos. A altura ideal para o posicionamento do balde com bico ou mamadeira é de aproximadamente 45 cm, medida baseada na altura do úbere da vaca ao chão.",
+            "source_slide": 49
+          },
+          {
+            "type": "paragraph",
+            "text": "Estruture o programa de nutrição para alcançar os padrões de saúde e crescimento definidos e monitore o desempenho regularmente por meio de pesagens corporais e medidas de altura. Trabalhe rotineiramente o consultor responsável pelo rebanho para adequações em função dos resultados obtidos.",
+            "source_slide": 49
+          }
+        ]
+      },
+      {
+        "id": "agua",
+        "title": "ÁGUA",
+        "source_slides": [
+          50,
+          51
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Ofereça água de boa qualidade para as bezerras a partir do primeiro dia de vida, preferencialmente por bebedouros com enchimento automático.",
+            "source_slide": 50
+          },
+          {
+            "type": "paragraph",
+            "text": "Avalie a qualidade físico-química e microbiológica da água a cada seis meses, principalmente se a dieta líquida adotada for sucedâneo, utilizando como referência os parâmetros descritos na tabela de qualidade da água.",
+            "source_slide": 50
+          },
+          {
+            "type": "figure",
+            "src": "slide-51.jpg",
+            "alt": "Parâmetros de referência para avaliação da qualidade da água.",
+            "caption": "Parâmetros de referência para avaliação da qualidade da água.",
+            "source_slide": 51
+          }
+        ]
+      },
+      {
+        "id": "dieta-solida",
+        "title": "DIETA SÓLIDA",
+        "source_slides": [
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "items": [
+          {
+            "type": "subheading",
+            "text": "CONCENTRADO",
+            "source_slide": 52
+          },
+          {
+            "type": "paragraph",
+            "text": "Forneça concentrado desde o primeiro dia de idade, em pequenas quantidades, e reabasteça ou faça a troca completa se estiver úmido ou com sujidades, aumentando de acordo com o consumo do animal. A ingestão de concentrado irá depender da estratégia de aleitamento, uma vez que quanto maior o consumo de dieta líquida, menor o consumo de dieta sólida.",
+            "source_slide": 52
+          },
+          {
+            "type": "paragraph",
+            "text": "O ideal é que as bezerras sejam desaleitadas consumindo no mínimo 1,5% do peso corporal em concentrado, assumindo 90% de matéria seca. Isso quer dizer que se a bezerra nascer com 40 kg, quando alcançar aproximadamente 80 kg deverá estar consumindo em torno de 1,2 kg de concentrado para que possa ser desaleitada.",
+            "source_slide": 52
+          },
+          {
+            "type": "paragraph",
+            "text": "O desaleitamento deve ser feito de forma gradual para que o consumo de concentrado seja aumentado progressivamente até esse patamar, garantindo bom desempenho no pós-desaleitamento imediato.",
+            "source_slide": 52
+          },
+          {
+            "type": "paragraph",
+            "text": "Escolha concentrados palatáveis com teor mínimo de proteína bruta (PB) de 20%, sendo que quanto maior o fornecimento de sólidos via dieta líquida, maior deve ser o teor de PB do concentrado, até o limite de 24%. A proteína deve ser oriunda de fontes de proteína verdadeira e com bom balanço de aminoácidos essenciais. Adicionalmente, o concentrado deve apresentar fibra em detergente neutro (FDN) entre 15 e 25%, amido em torno de 25%, extrato etéreo entre 3 e 4% e ingredientes de boa qualidade.",
+            "source_slide": 52
+          },
+          {
+            "type": "subheading",
+            "text": "CONCENTRADO",
+            "source_slide": 53
+          },
+          {
+            "type": "paragraph",
+            "text": "Dê preferência a concentrados de alta qualidade e elevada palatabilidade, independentemente da forma física (farelado, peletizado ou texturizado), desde que promovam bom consumo e desenvolvimento ruminal.",
+            "source_slide": 53
+          },
+          {
+            "type": "paragraph",
+            "text": "Evite dietas com excesso de partículas finas, que podem reduzir a ingestão e comprometer a saúde ruminal, e fique atento à possibilidade de seleção de partículas pelos animais.",
+            "source_slide": 53
+          },
+          {
+            "type": "subheading",
+            "text": "CONCENTRADO",
+            "source_slide": 54
+          },
+          {
+            "type": "paragraph",
+            "text": "É importante utilizar concentrados que possuam coccidiostáticos em sua formulação, para aumentar a eficiência alimentar e auxiliar na prevenção de coccidiose. Os produtos mais utilizados são a monensina, na dose de 0,6 a 1 mg por kg de peso corporal, e a lasalocida, na dose de 1 mg por kg de peso corporal.",
+            "source_slide": 54
+          },
+          {
+            "type": "paragraph",
+            "text": "O uso de prebióticos, probióticos e pós-bióticos tem ganhado destaque como alternativas ou complementos às estratégias tradicionais de saúde intestinal nessa fase. Avalie junto ao consultor responsável pelo rebanho a possibilidade de utilização desses produtos.",
+            "source_slide": 54
+          },
+          {
+            "type": "subheading",
+            "text": "VOLUMOSO",
+            "source_slide": 55
+          },
+          {
+            "type": "paragraph",
+            "text": "O fornecimento de volumoso não é essencial nas primeiras semanas de vida e deve ser avaliado com cautela, pois pode reduzir o consumo de concentrado.",
+            "source_slide": 55
+          },
+          {
+            "type": "paragraph",
+            "text": "Quando adotado, o feno deve ser de boa qualidade, com partículas de 2 a 3 cm, e fornecido de forma controlada, preferencialmente após o estabelecimento do consumo consistente de concentrado, em torno de 45 dias de idade.",
+            "source_slide": 55
+          },
+          {
+            "type": "paragraph",
+            "text": "O feno deve ser ofertado em associação ao concentrado, e seu consumo não deve exceder 10% do consumo total de alimento sólido, para que o desempenho não seja comprometido.",
+            "source_slide": 55
+          },
+          {
+            "type": "paragraph",
+            "text": "Caso a fazenda não disponha de feno de boa qualidade, feno de média a baixa qualidade também pode ser fornecido, agora sem a necessidade de ser de forma controlada, pois o animal controla o consumo.",
+            "source_slide": 55
+          },
+          {
+            "type": "paragraph",
+            "text": "A silagem de milho de alta qualidade também pode ser fornecida de forma controla ou através da formulação de dieta total específica para bezerras em aleitamento. No entanto, esta pratica depende de manejo correto de cocho com retirada d sobras diariamente.",
+            "source_slide": 55
+          },
+          {
+            "type": "figure",
+            "src": "slide-56.jpg",
+            "alt": "Estimativas práticas de proteína bruta e relação entre proteína metabolizável e energia metabolizável por fase.",
+            "caption": "Estimativas práticas de proteína bruta e relação entre proteína metabolizável e energia metabolizável por fase.",
+            "source_slide": 56
+          }
+        ]
+      },
+      {
+        "id": "desaleitamento",
+        "title": "DESALEITAMENTO",
+        "source_slides": [
+          57
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "O desaleitamento abrupto da dieta líquida é desencorajado, pois é estressante para a bezerra.",
+            "source_slide": 57
+          },
+          {
+            "type": "paragraph",
+            "text": "Após os 60 dias de idade, inicie uma estratégia gradual de redução da dieta líquida de acordo com o plano de desenvolvimento das bezerras e as metas traçadas, por um período mínimo de 15 dias, para reduzir o estresse e garantir o aumento progressivo no consumo de concentrado.",
+            "source_slide": 57
+          }
+        ]
+      },
+      {
+        "id": "dieta-de-transicao",
+        "title": "DIETA DE TRANSIÇÃO",
+        "source_slides": [
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "O período de pós-desaleitamento, compreendido do desaleitamento até os 150 dias de idade, é crucial para o desenvolvimento das bezerras leiteiras devido à recente transição da dieta líquida para a sólida e às demandas nutricionais específicas para sustentar o crescimento acelerado e a formação de tecidos.",
+            "source_slide": 58
+          },
+          {
+            "type": "paragraph",
+            "text": "Durante essa etapa, o manejo nutricional desempenha papel determinante na saúde, na eficiência alimentar e no desempenho futuro dos animais.",
+            "source_slide": 58
+          },
+          {
+            "type": "paragraph",
+            "text": "As dietas dessa fase devem atender às exigências de energia, proteína, minerais e vitaminas, garantindo ganho médio diário entre 800 g e 1 kg.",
+            "source_slide": 58
+          },
+          {
+            "type": "paragraph",
+            "text": "Priorize ingredientes de alta digestibilidade e qualidade que maximizem o consumo e a eficiência na utilização dos nutrientes, sem provocar enchimento excessivo do rúmen.",
+            "source_slide": 58
+          },
+          {
+            "type": "subheading",
+            "text": "RELAÇÃO ENTRE VOLUMOSO E CONCENTRADO",
+            "source_slide": 59
+          },
+          {
+            "type": "paragraph",
+            "text": "Ao desaleitar os animais, recomenda-se formular uma dieta total (TMR) com inclusão de volumoso de alta qualidade em níveis que não limitem o consumo de matéria seca por enchimento ruminal. Indicam-se dietas com maior proporção de concentrado, geralmente entre 70 e 85%, podendo chegar a 90% em situações específicas e bem controladas, com inclusão mínima de volumoso para garantir adequada saúde ruminal.",
+            "source_slide": 59
+          },
+          {
+            "type": "paragraph",
+            "text": "Atente para o tamanho de partícula do volumoso, mantendo-o entre 2 e 4 cm, evitando tanto a seleção negativa quanto o excesso de partículas longas que possam limitar o consumo. Inclusões moderadas de volumoso tendem a otimizar o consumo de matéria seca e o desempenho dos animais, assegurando o aporte de fibra efetiva necessário para a saúde ruminal.",
+            "source_slide": 59
+          },
+          {
+            "type": "paragraph",
+            "text": "Recomenda-se o uso de ingredientes concentrados como milho e farelo de soja, pela alta degradabilidade e aceitabilidade. A casca de soja e a polpa cítrica são alternativas interessantes para o controle do teor de amido da dieta. O volumoso, como feno, pré-secado ou silagem de milho, deve ser de alta qualidade e bem conservado.",
+            "source_slide": 59
+          },
+          {
+            "type": "subheading",
+            "text": "RELAÇÃO ENTRE PROTEÍNA E ENERGIA METABOLIZÁVEL",
+            "source_slide": 60
+          },
+          {
+            "type": "paragraph",
+            "text": "A relação entre proteína metabolizável (PM) e energia metabolizável (EM) é fundamental no manejo nutricional de bezerras em fase de pós-desaleitamento, pois influencia diretamente o crescimento, a deposição de tecido magro e a eficiência alimentar.",
+            "source_slide": 60
+          },
+          {
+            "type": "paragraph",
+            "text": "Para essa categoria, recomenda-se trabalhar com relações entre aproximadamente 45 e 55 g de PM por Mcal de EM, devendo esse valor ser ajustado de acordo com o peso corporal, o consumo de matéria seca e as metas de ganho estabelecidas para os animais.",
+            "source_slide": 60
+          },
+          {
+            "type": "subheading",
+            "text": "PROTEÍNA E ENERGIA",
+            "source_slide": 61
+          },
+          {
+            "type": "paragraph",
+            "text": "As dietas nessa fase devem conter entre 2,5 e 3,0 Mcal de energia metabolizável por kg de matéria seca (MS), sendo que os valores mais elevados, entre 2,8 e 3,0 Mcal/kg MS, são indicados para dietas mais concentradas, desde que haja adequado manejo da fibra. O teor de proteína bruta deve variar entre 20 e 21% na matéria seca, de acordo com a fase de desenvolvimento e as metas de crescimento dos animais.",
+            "source_slide": 61
+          },
+          {
+            "type": "paragraph",
+            "text": "Dietas mais adensadas em energia devem apresentar teores de amido entre 20 e 35% da matéria seca, dependendo da qualidade e degradabilidade dos ingredientes utilizados. O monitoramento desses valores é fundamental para evitar distúrbios metabólicos como acidose ruminal, garantindo o fornecimento adequado de fibra fisicamente efetiva.",
+            "source_slide": 61
+          },
+          {
+            "type": "subheading",
+            "text": "MINERAIS E VITAMINAS",
+            "source_slide": 62
+          },
+          {
+            "type": "paragraph",
+            "text": "Os níveis de minerais e vitaminas são essenciais nessa fase, pois participam diretamente dos processos de digestão e absorção, assim como no metabolismo dos nutrientes, do desenvolvimento ósseo e muscular e do fortalecimento do sistema imunológico, contribuindo para o crescimento saudável e o desempenho futuro dos animais.",
+            "source_slide": 62
+          },
+          {
+            "type": "figure",
+            "src": "slide-63.jpg",
+            "alt": "Referências de minerais e vitaminas para a fase de transição.",
+            "caption": "Referências de minerais e vitaminas para a fase de transição.",
+            "source_slide": 63
+          },
+          {
+            "type": "subheading",
+            "text": "ADITIVOS FUNCIONAIS",
+            "source_slide": 64
+          },
+          {
+            "type": "paragraph",
+            "text": "O uso de ionóforos, como monensina ou lasalocida, pode ser adotado durante essa fase como estratégia para melhorar a eficiência alimentar, modular a fermentação ruminal e auxiliar na prevenção de distúrbios metabólicos e sanitários. Sua utilização deve ser avaliada de acordo com os objetivos do sistema de produção e as recomendações técnicas vigentes. As doses devem seguir as recomendações do fabricante, sendo geralmente expressas em função do consumo de matéria seca da dieta.",
+            "source_slide": 64
+          },
+          {
+            "type": "paragraph",
+            "text": "O uso de prebióticos, probióticos, pós-bióticos e leveduras, tem ganhado destaque como alternativas ou complementos às estratégias tradicionais nessa fase. Avalie junto ao médico-veterinário ou zootecnista responsável pelo rebanho a possibilidade de utilização desses produtos.",
+            "source_slide": 64
+          }
+        ]
+      },
+      {
+        "id": "dieta-de-novilha",
+        "title": "DIETA DE NOVILHA",
+        "source_slides": [
+          65,
+          66
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "O manejo nutricional de novilhas deve ser planejado com base no peso corporal adulto do rebanho, nas metas de ganho de peso e na idade alvo ao primeiro parto. As exigências de energia e proteína variam significativamente conforme o estágio de desenvolvimento, sendo fundamental ajustar as dietas para evitar tanto a subnutrição, que compromete o crescimento e atrasa a puberdade, quanto o excesso de condição corporal, que pode prejudicar o desenvolvimento mamário e o desempenho na primeira lactação.",
+            "source_slide": 65
+          },
+          {
+            "type": "paragraph",
+            "text": "Monitore regularmente o peso e a altura dos animais, utilizando curvas de crescimento específicas para o rebanho, e ajuste o programa nutricional sempre que necessário junto ao médico-veterinário ou zootecnista responsável.",
+            "source_slide": 65
+          },
+          {
+            "type": "figure",
+            "src": "slide-66.jpg",
+            "alt": "Referências nutricionais para novilhas.",
+            "caption": "Referências nutricionais para novilhas.",
+            "source_slide": 66
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_05": {
+    "slug": "desempenho",
+    "title": "Desempenho",
+    "cover": "desempenho.jpg",
+    "sections": [
+      {
+        "id": "desempenho",
+        "title": "DESEMPENHO",
+        "source_slides": [
+          68,
+          69,
+          70
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "O objetivo é garantir ganhos saudáveis e consistentes ao longo de todo o período pré-desaleitamento. Historicamente, recomendava-se que as bezerras dobrassem o peso ao nascimento até os 56 dias de vida. Com os avanços no manejo neonatal e na nutrição líquida, e com a maior compreensão da importância do crescimento precoce para a saúde, o bem-estar e a produtividade ao longo da vida, essas metas foram atualizadas.",
+            "source_slide": 68
+          },
+          {
+            "type": "paragraph",
+            "text": "Recomenda-se que 90% das bezerras apresentem ganho médio diário de no mínimo 800 g, podendo atingir valores superiores em sistemas de maior intensificação. Para bezerras Holandês ou cruzamento Gir x Holandês, a meta de ganho médio diário é de aproximadamente 900 g, com a maioria dos animais ganhando entre 800 g e 1,0 kg por dia.",
+            "source_slide": 68
+          },
+          {
+            "type": "paragraph",
+            "text": "Para raças de menor porte, como Jersey, a meta de ganho diário deve ser de aproximadamente 2,2 a 2,3% do peso ao nascimento durante a fase de dieta líquida.",
+            "source_slide": 68
+          },
+          {
+            "type": "figure",
+            "src": "slide-69.jpg",
+            "alt": "Metas de ganho de peso durante a fase de aleitamento.",
+            "caption": "Metas de ganho de peso durante a fase de aleitamento.",
+            "source_slide": 69
+          },
+          {
+            "type": "paragraph",
+            "text": "A meta de taxa de crescimento após o desaleitamento depende do peso da vaca adulta do rebanho, o qual é influenciado pela raça e pela genética. O peso à idade adulta é definido como o peso médio dos animais no terço médio da terceira lactação.",
+            "source_slide": 70
+          },
+          {
+            "type": "paragraph",
+            "text": "Fique atento à relação entre proteína e energia da dieta de novilhas pré-púberes, especialmente quando as taxas de crescimento são elevadas, acima de 1 kg/dia, de forma a evitar aumento excessivo do escore de condição corporal.",
+            "source_slide": 70
+          },
+          {
+            "type": "paragraph",
+            "text": "Para animais criados em sistemas baseados em pastagens, é importante realizar suplementação com concentrado para garantir taxas de crescimento e idade ao primeiro parto adequadas.",
+            "source_slide": 70
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_06": {
+    "slug": "gestao-saude",
+    "title": "Gestão da saúde",
+    "cover": "gestao-saude.jpg",
+    "sections": [
+      {
+        "id": "gestao-da-saude",
+        "title": "GESTÃO DA SAÚDE",
+        "source_slides": [
+          72
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Trabalhe em conjunto com o médico-veterinário responsável pelo rebanho na gestão de saúde dos animais, com a elaboração de protocolos escritos e treinamento periódico dos colaboradores.",
+            "source_slide": 72
+          }
+        ]
+      },
+      {
+        "id": "vacinas",
+        "title": "VACINAS",
+        "source_slides": [
+          73
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Desenvolva programas de vacinação junto ao médico-veterinário responsável pelo rebanho, seguindo as recomendações obrigatórias de acordo com o Ministério da Agricultura, Pecuária e Abastecimento.",
+            "source_slide": 73
+          }
+        ]
+      },
+      {
+        "id": "parasitos",
+        "title": "PARASITOS",
+        "source_slides": [
+          74
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Desenvolva protocolos para prevenção de doenças parasitárias e gerencie o ambiente da fazenda para reduzir a população de parasitos e pragas, incluindo bom manejo de dejetos e troca de camas, limpeza de dieta líquida derramada, destinação adequada do leite não comercializável e prevenção de acúmulo de água parada.",
+            "source_slide": 74
+          },
+          {
+            "type": "paragraph",
+            "text": "Realize o monitoramento de verminoses por meio de exames parasitológicos, como a contagem de ovos por grama de fezes (OPG) e o número de oocistos por grama de fezes (OOPG). A frequência de realização deve ser definida de acordo com o desafio ambiental de cada propriedade, em conjunto com o médico-veterinário responsável pelo rebanho. Os resultados são fundamentais para embasar as estratégias de controle e prevenção dos parasitos gastrointestinais.",
+            "source_slide": 74
+          }
+        ]
+      },
+      {
+        "id": "prevencao-das-doencas-clinicas-e-gestao",
+        "title": "PREVENÇÃO DAS DOENÇAS CLÍNICAS E GESTÃO",
+        "source_slides": [
+          75,
+          76,
+          77,
+          78
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "A prevenção de doenças é fundamental, e o controle de doenças infecciosas depende da interação entre o hospedeiro (imunidade), o agente e o ambiente de criação. A imunidade adequada pode ser favorecida por práticas corretas de bem-estar animal, como colostragem eficiente, plano nutricional adequado e programas de vacinação.",
+            "source_slide": 75
+          },
+          {
+            "type": "paragraph",
+            "text": "O monitoramento dos animais deve ser realizado de forma contínua. Uma estratégia é a utilização de sistemas de escore de saúde para identificação precoce de alterações, como inflamação umbilical, diarreias e doenças respiratórias. Os sistemas de escore para avaliação de saúde dos animais são importantes ferramentas que auxiliam no diagnóstico rápido das principais enfermidades que acometem bezerros jovens.",
+            "source_slide": 75
+          },
+          {
+            "type": "figure",
+            "src": "slide-76.jpg",
+            "alt": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
+            "caption": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
+            "source_slide": 76
+          },
+          {
+            "type": "figure",
+            "src": "slide-77.jpg",
+            "alt": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
+            "caption": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
+            "source_slide": 77
+          },
+          {
+            "type": "figure",
+            "src": "slide-78.jpg",
+            "alt": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
+            "caption": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
+            "source_slide": 78
+          }
+        ]
+      },
+      {
+        "id": "doencas-respiratorias",
+        "title": "DOENÇAS RESPIRATÓRIAS",
+        "source_slides": [
+          79
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Para a detecção objetiva de doenças respiratórias, recomenda-se o uso de sistemas de escore clínico validados. A ultrassonografia pulmonar pode ser utilizada como ferramenta complementar para diferenciar o envolvimento do trato respiratório superior do inferior, permitindo diagnóstico mais preciso e direcionamento adequado do tratamento.",
+            "source_slide": 79
+          },
+          {
+            "type": "paragraph",
+            "text": "A broncopneumonia, caracterizada pelo envolvimento do trato respiratório inferior, pode requerer terapia antimicrobiana de acordo com a avaliação clínica e a gravidade do caso. As afecções do trato respiratório superior, em geral, apresentam manejo distinto e nem sempre demandam o uso de antibióticos.",
+            "source_slide": 79
+          }
+        ]
+      },
+      {
+        "id": "ultrassom",
+        "title": "ULTRASSOM",
+        "source_slides": [
+          80,
+          81,
+          82
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "A ultrassonografia pulmonar é uma ferramenta de detecção precoce das broncopneumonias que permite a identificação de lesões nos pulmões mesmo quando outros sintomas não são percebidos ou manifestados pelas bezerras, caracterizando a doença subclínica. O diagnóstico precoce favorece a resposta ao tratamento e reduz os prejuízos ao desenvolvimento dos animais. Além disso, os dados gerados pela ultrassonografia permitem avaliar a evolução da ocorrência de broncopneumonias ao longo do tempo, subsidiando ajustes nos protocolos de manejo e vacinação, bem como a identificação dos períodos de maior morbidade no rebanho.",
+            "source_slide": 80
+          },
+          {
+            "type": "paragraph",
+            "text": "Estimule o médico-veterinário responsável a utilizar o aparelho de ultrassom do manejo reprodutivo para a avaliação dos pulmões das bezerras, conforme as recomendações a seguir:",
+            "source_slide": 80
+          },
+          {
+            "type": "paragraph",
+            "text": "Para identificar a idade de maior ocorrência das broncopneumonias, escaneie os pulmões de um grupo representativo de bezerras, com mínimo de 10 a 15 animais, a partir dos 7 dias de vida, com avaliações seriadas a cada 7 a 14 dias até o desaleitamento.",
+            "source_slide": 81
+          },
+          {
+            "type": "paragraph",
+            "text": "Para monitorar a resposta ao tratamento, realize a ultrassonografia antes do início da terapia e repita o exame após 7 a 10 dias. A presença de lesões extensas no início do tratamento pode indicar diagnóstico tardio. Por outro lado, a ausência de lesões pulmonares pode sugerir a necessidade de revisão dos critérios diagnósticos e do uso de antimicrobianos.",
+            "source_slide": 81
+          },
+          {
+            "type": "paragraph",
+            "text": "Para avaliar a condição pulmonar ao desaleitamento, realize o exame das bezerras nessa fase, tendo como meta que menos de 15% dos animais apresentem lesões pulmonares.",
+            "source_slide": 81
+          },
+          {
+            "type": "figure",
+            "src": "slide-82.jpg",
+            "alt": "Referência visual para ultrassonografia pulmonar.",
+            "caption": "Referência visual para ultrassonografia pulmonar.",
+            "source_slide": 82
+          }
+        ]
+      },
+      {
+        "id": "gestao-das-doencas",
+        "title": "GESTÃO DAS DOENÇAS",
+        "source_slides": [
+          83,
+          84,
+          85,
+          86,
+          87,
+          88
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Documente todos os casos de doença clínica, registrando no mínimo: data do tratamento, identificação do animal tratado, doença ou condição sendo tratada, nome do produto utilizado, dose administrada, via de administração, duração do tratamento e nome do colaborador que realizou o tratamento.",
+            "source_slide": 83
+          },
+          {
+            "type": "paragraph",
+            "text": "O registro individual de cada animal tratado é fundamental para o cálculo preciso da taxa de morbidade do rebanho.",
+            "source_slide": 83
+          },
+          {
+            "type": "paragraph",
+            "text": "Trabalhe com o médico-veterinário responsável para desenvolver protocolos de tratamento que definam claramente a progressão de uma linha de tratamento para a seguinte, incluindo o intervalo entre tratamentos e os critérios para retratamento.",
+            "source_slide": 84
+          },
+          {
+            "type": "paragraph",
+            "text": "Siga o protocolo estabelecido em sua totalidade, administrando os antimicrobianos conforme a dose, a frequência e a via de administração prescritas.",
+            "source_slide": 84
+          },
+          {
+            "type": "paragraph",
+            "text": "Garanta adequada hidratação das bezerras, especialmente em casos de diarreia. Utilize eletrólitos orais adequadamente reconstituídos de forma liberal e mantenha o fornecimento de leite ou sucedâneo.",
+            "source_slide": 85
+          },
+          {
+            "type": "paragraph",
+            "text": "A suspensão da dieta líquida em substituição aos eletrólitos é contraindicada, pois priva a bezerra das calorias e proteínas necessárias para combater os patógenos.",
+            "source_slide": 85
+          },
+          {
+            "type": "paragraph",
+            "text": "Não misture eletrólitos ao leite ou sucedâneo, a não ser que haja recomendação do fabricante. Forneça os eletrólitos no intervalo entre os fornecimentos de dieta líquida.",
+            "source_slide": 85
+          },
+          {
+            "type": "paragraph",
+            "text": "Infecção de umbigo: processo infeccioso e inflamatório que acomete o cordão umbilical e suas estruturas (artérias, veia umbilical e/ou úraco), caracterizado por aumento de volume, dor à palpação e/ou presença de secreção.",
+            "source_slide": 86
+          },
+          {
+            "type": "paragraph",
+            "text": "Diarreia: fezes com consistência líquida e frequência aumentada que requer tratamento antimicrobiano. Fazendas que registram todos os casos de diarreia, independentemente da gravidade, devem monitorar separadamente o percentual de animais que efetivamente necessitaram de tratamento antimicrobiano, pois esse indicador é fundamental para avaliar a pressão de uso de antibióticos no rebanho e orientar estratégias de uso racional.",
+            "source_slide": 86
+          },
+          {
+            "type": "paragraph",
+            "text": "Doença Respiratória Bovina (DRB): conjunto de sinais clínicos compatíveis com comprometimento do sistema respiratório, como tosse, secreção nasal, secreção ocular, febre e alterações no posicionamento das orelhas, podendo ser identificada por meio de sistemas de escore clínico validados.",
+            "source_slide": 87
+          },
+          {
+            "type": "paragraph",
+            "text": "Tristeza Parasitária Bovina (TPB): complexo de doenças causadas por agentes como Anaplasma spp. e Babesia spp., caracterizado por sinais clínicos como febre, anemia, apatia e icterícia, com confirmação baseada na avaliação clínica e/ou laboratorial.",
+            "source_slide": 87
+          },
+          {
+            "type": "figure",
+            "src": "slide-88.jpg",
+            "alt": "Indicadores e metas para gestão das doenças.",
+            "caption": "Indicadores e metas para gestão das doenças.",
+            "source_slide": 88
+          }
+        ]
+      },
+      {
+        "id": "taxas-de-sobrevivencia",
+        "title": "TAXAS DE SOBREVIVÊNCIA",
+        "source_slides": [
+          89,
+          90
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Considere para o cálculo da taxa de sobrevivência apenas as bezerras que nasceram com batimento cardíaco e respiração espontânea e que não morreram antes de 24 horas após o nascimento.",
+            "source_slide": 89
+          },
+          {
+            "type": "figure",
+            "src": "slide-90.jpg",
+            "alt": "Taxas de sobrevivência apresentadas no PowerPoint-base.",
+            "caption": "Taxas de sobrevivência apresentadas no PowerPoint-base.",
+            "source_slide": 90
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_07": {
+    "slug": "biosseguridade",
+    "title": "Biosseguridade",
+    "cover": "biosseguridade.jpg",
+    "sections": [
+      {
+        "id": "biosseguridade",
+        "title": "BIOSSEGURIDADE",
+        "source_slides": [
+          92,
+          93
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Medidas de biosseguridade são fundamentais, principalmente no que diz respeito ao controle de acesso e ao manejo adequado da maternidade, do berçário e/ou do bezerreiro.",
+            "source_slide": 92
+          },
+          {
+            "type": "paragraph",
+            "text": "Estabeleça medidas robustas de biosseguridade na propriedade para reduzir a exposição a doenças provenientes de fontes internas e externas, e defina ações de biocontenção para situações de surtos. Conte com o apoio do médico-veterinário responsável e de outros especialistas em sanidade animal para estruturar os objetivos do protocolo de biosseguridade, visando a proteção dos animais, a segurança dos alimentos produzidos e a continuidade do negócio.",
+            "source_slide": 92
+          },
+          {
+            "type": "paragraph",
+            "text": "Realize uma avaliação de risco abrangente da propriedade para identificar os pontos de entrada e disseminação de doenças, classificando-os em baixo, médio e alto risco.",
+            "source_slide": 93
+          },
+          {
+            "type": "paragraph",
+            "text": "Os principais focos de atenção incluem o controle do perímetro da fazenda, a introdução de animais externos, a qualidade dos alimentos e da água, os protocolos de limpeza e desinfecção, o fluxo de movimentação de animais e colaboradores (sempre do mais jovem para o mais velho e/ou do mais saudável para os mais enfermos), o controle de pragas, parasitos e moscas, os programas de saúde preventiva e o fluxo de veículos e visitantes.",
+            "source_slide": 93
+          },
+          {
+            "type": "paragraph",
+            "text": "Elabore um protocolo documentado de gestão de riscos que contemple todos os pontos identificados, incluindo registros de movimentação de animais, acesso e circulação de colaboradores e visitantes externos. Estabeleça ações de biocontenção para surtos de doenças na propriedade, incluindo a capacidade de isolar e quarentenar rapidamente os animais doentes. Afixe sinalizações nas entradas da fazenda com instruções de biosseguridade. Revise os protocolos periodicamente e ajuste-os conforme necessário para aprimorar as medidas adotadas.",
+            "source_slide": 93
+          }
+        ]
+      },
+      {
+        "id": "treinamento-de-colaboradores",
+        "title": "TREINAMENTO DE COLABORADORES",
+        "source_slides": [
+          94
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Estabeleça um programa de educação e treinamento de colaboradores com o apoio do médico-veterinário responsável pelo rebanho. Todos os colaboradores devem receber treinamento na contratação e participar de educação continuada uma a duas vezes por ano. O programa deve contemplar protocolos atualizados que detalhem claramente como realizar todas as tarefas, capacitação básica sobre a importância de seguir os protocolos estabelecidos, monitoramento rotineiro da conformidade e fornecimento de feedback sobre o desempenho de cada colaborador.",
+            "source_slide": 94
+          },
+          {
+            "type": "paragraph",
+            "text": "Inclua no programa de treinamento orientações sobre manejo humanitário, movimentação, contenção e bem-estar animal, identificação de animais que necessitam de atenção médica e adoção de política de tolerância zero para maus-tratos, negligência ou privação prolongada de alimento e água. Todos os manejos com as bezerras devem ser realizados de forma calma, sem movimentação brusca e com tom de voz baixo.",
+            "source_slide": 94
+          }
+        ]
+      },
+      {
+        "id": "visitantes-externos",
+        "title": "VISITANTES EXTERNOS",
+        "source_slides": [
+          95
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Visitantes frequentes, como fornecedores, médicos-veterinários e consultores, devem higienizar os calçados e as superfícies dos veículos antes de acessar a propriedade. Visitantes eventuais devem receber protetores plásticos de calçado para uso durante a visita.",
+            "source_slide": 95
+          },
+          {
+            "type": "paragraph",
+            "text": "Oriente todos os visitantes a iniciar o percurso pela área de bezerras, evitando a disseminação de patógenos provenientes dos animais adultos. A circulação por áreas de manejo ativo, como baias com dejetos e corredores de alimentação, deve ser desencorajada.",
+            "source_slide": 95
+          }
+        ]
+      },
+      {
+        "id": "surtos-regionais-ou-nacionais",
+        "title": "SURTOS REGIONAIS OU NACIONAIS",
+        "source_slides": [
+          96
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Em situações de surtos regionais ou nacionais de agentes patogênicos, protocolos de biosseguridade mais rigorosos podem ser necessários.",
+            "source_slide": 96
+          },
+          {
+            "type": "paragraph",
+            "text": "Trabalhe com o médico-veterinário responsável para monitorar e identificar precocemente sinais de doença no rebanho, e siga as orientações dos órgãos federais e estaduais competentes quanto ao diagnóstico e à movimentação de animais.",
+            "source_slide": 96
+          },
+          {
+            "type": "paragraph",
+            "text": "Medidas adicionais de biosseguridade podem incluir a restrição da movimentação de bovinos, o isolamento imediato de animais suspeitos ou confirmados, a suspensão ou limitação do acesso de visitantes não essenciais, a restrição do trânsito de veículos e equipamentos, a limpeza e desinfecção rigorosa de equipamentos, a proibição da mistura de espécies, a suspensão do fornecimento de leite cru para bezerras, e a prevenção do contato com animais silvestres, incluindo aves, insetos, cervídeos e roedores.",
+            "source_slide": 96
+          }
+        ]
+      },
+      {
+        "id": "processo-de-limpeza-e-desinfeccao-de-utensilios",
+        "title": "PROCESSO DE LIMPEZA E DESINFECÇÃO DE UTENSÍLIOS",
+        "source_slides": [
+          97,
+          98
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "A severidade das doenças é proporcional à carga microbiana dentro do sistema de criação. Estabeleça protocolos de limpeza e desinfecção rotineiros para todos os equipamentos e utensílios utilizados na alimentação das bezerras. É indispensável que um colaborador seja responsável e treinado para executar esse protocolo após cada uso.",
+            "source_slide": 97
+          },
+          {
+            "type": "paragraph",
+            "text": "Mantenha sondas esofágicas separadas: uma exclusiva para o fornecimento de colostro e leite em animais saudáveis e outra para uso em animais doentes, reduzindo o risco de transmissão de patógenos entre animais mesmo com limpeza adequada.",
+            "source_slide": 97
+          },
+          {
+            "type": "paragraph",
+            "text": "Avalie periodicamente a eficiência da limpeza por meio de inspeção visual e, quando possível, por testes microbiológicos com swab ou medição de Trifosfato de adenosina (ATP) para detecção de contaminação residual. Inspecione regularmente os utensílios quanto à presença de rachaduras, arranhões ou desgaste, substituindo-os sempre que necessário, pois superfícies danificadas favorecem a proliferação bacteriana.",
+            "source_slide": 97
+          },
+          {
+            "type": "paragraph",
+            "text": "Desmonte completamente os utensílios, separando bicos, mamadeiras, baldes e sondas;",
+            "source_slide": 98
+          },
+          {
+            "type": "paragraph",
+            "text": "Realize o pré-enxágue com água morna entre 38 e 43°C, removendo resíduos de leite e colostro por dentro e por fora. Evite água fria, que não remove a gordura adequadamente, e água quente acima de 49°C, que causa a aderência de proteínas às superfícies;",
+            "source_slide": 98
+          },
+          {
+            "type": "paragraph",
+            "text": "Lave todos os utensílios com detergente alcalino clorado (pH 11 a 12) em água quente acima de 60°C, utilizando escovas adequadas para remover completamente os resíduos de todas as superfícies, incluindo o interior dos bicos e sondas;",
+            "source_slide": 98
+          },
+          {
+            "type": "paragraph",
+            "text": "Enxágue com água limpa para remoção completa do detergente;",
+            "source_slide": 98
+          },
+          {
+            "type": "paragraph",
+            "text": "Realize a desinfecção com produto de amplo espectro, como dióxido de cloro a 50 ppm ou solução de hipoclorito de sódio, respeitando a concentração e o tempo de contato recomendados pelo fabricante;",
+            "source_slide": 98
+          },
+          {
+            "type": "paragraph",
+            "text": "Permita que todos os utensílios sequem completamente ao ar, dispostos em superfície limpa ou suspensos em suporte. Evite empilhar utensílios úmidos, pois as bactérias se proliferam rapidamente em ambientes úmidos com baixa troca de ar;",
+            "source_slide": 98
+          },
+          {
+            "type": "paragraph",
+            "text": "Duas vezes por semana, realize limpeza com detergente ácido (pH 3 a 4) para remoção de resíduos minerais e prevenção de formação de biofilme.",
+            "source_slide": 98
+          }
+        ]
+      },
+      {
+        "id": "processo-de-limpeza-e-desinfeccao-de-instalacoes",
+        "title": "PROCESSO DE LIMPEZA E DESINFECÇÃO DE INSTALAÇÕES",
+        "source_slides": [
+          99,
+          100
+        ],
+        "items": [
+          {
+            "type": "subheading",
+            "text": "Baias e gaiolas",
+            "source_slide": 99
+          },
+          {
+            "type": "paragraph",
+            "text": "Após a saída do animal, remova toda a cama, fezes e restos de leite/alimento; raspe e varra o material grosseiro de pisos, grades e divisórias antes de molhar;",
+            "source_slide": 99
+          },
+          {
+            "type": "paragraph",
+            "text": "Realize o pré-enxágue com água, umedecendo todas as superfícies do ponto mais alto ao mais baixo para soltar a sujidade aderida;",
+            "source_slide": 99
+          },
+          {
+            "type": "paragraph",
+            "text": "Lave com detergente alcalino, aplicando preferencialmente em forma de espuma (maior tempo de contato em superfícies verticais), e esfregue com escova todos os cantos, grades, comedouros e bebedouros, onde a matéria orgânica se acumula;",
+            "source_slide": 99
+          },
+          {
+            "type": "paragraph",
+            "text": "Enxágue abundantemente com água limpa até a remoção completa do detergente;",
+            "source_slide": 99
+          },
+          {
+            "type": "paragraph",
+            "text": "Deixe secar completamente antes de desinfetar. A desinfecção deve ser feita em instalação seca para não diluir o produto;",
+            "source_slide": 99
+          },
+          {
+            "type": "paragraph",
+            "text": "Desinfecte de 12 a 24 horas antes da entrada do próximo animal, aplicando do ponto mais alto ao mais baixo, com produto de espectro conhecido e na concentração e tempo de contato recomendados pelo fabricante (ex.: dióxido de cloro a 250 ppm);",
+            "source_slide": 99
+          },
+          {
+            "type": "paragraph",
+            "text": "Atenção ao Cryptosporidium spp.: por ser a principal causa de diarreia neonatal, lembre-se de que seus oocistos são resistentes aos desinfetantes comuns, inclusive ao hipoclorito. Quando houver histórico de criptosporidiose, priorize produtos comprovadamente eficazes — peróxido de hidrogênio associado a ácido peracético, compostos à base de amônia, ou desinfecção térmica (água quente/vapor).",
+            "source_slide": 99
+          },
+          {
+            "type": "subheading",
+            "text": "Galpão",
+            "source_slide": 100
+          },
+          {
+            "type": "paragraph",
+            "text": "Limpe pisos, corredores e sistema de drenagem, garantindo escoamento adequado; locais com poças e baixa troca de ar favorecem a multiplicação de patógenos;",
+            "source_slide": 100
+          },
+          {
+            "type": "paragraph",
+            "text": "Higienize linhas e reservatórios de água e bebedouros coletivos, removendo o biofilme com detergente e desinfetante apropriados. O biofilme protege bactérias da ação dos desinfetantes;",
+            "source_slide": 100
+          },
+          {
+            "type": "paragraph",
+            "text": "Mantenha barreira sanitária na entrada (pedilúvio/rodolúvio) e o controle de moscas, roedores e demais vetores, que atuam como dispersores de agentes entre as instalações.",
+            "source_slide": 100
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_08": {
+    "slug": "instalacoes",
+    "title": "Instalações",
+    "cover": "instalacoes.jpg",
+    "sections": [
+      {
+        "id": "recomendacoes-gerais-para-instalacoes-de-bezerras",
+        "title": "RECOMENDAÇÕES GERAIS PARA INSTALAÇÕES DE BEZERRAS",
+        "source_slides": [
+          102,
+          103
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Limpo;",
+            "source_slide": 102
+          },
+          {
+            "type": "paragraph",
+            "text": "Seco e com boa drenagem;",
+            "source_slide": 102
+          },
+          {
+            "type": "paragraph",
+            "text": "Bem ventilado, permitindo adequada renovação do ar e controle de temperatura, umidade e gases;",
+            "source_slide": 102
+          },
+          {
+            "type": "paragraph",
+            "text": "Confortável, com camas de feno, palha e/ou maravalha com profundidade mínima de 30 cm;",
+            "source_slide": 102
+          },
+          {
+            "type": "paragraph",
+            "text": "Protegido contra chuva, radiação solar direta e correntes de vento;",
+            "source_slide": 102
+          },
+          {
+            "type": "paragraph",
+            "text": "Permitir contato visual entre as bezerras, favorecendo o bem-estar social;",
+            "source_slide": 102
+          },
+          {
+            "type": "paragraph",
+            "text": "Equipado com sombra e quebra-ventos nas instalações externas.",
+            "source_slide": 102
+          },
+          {
+            "type": "paragraph",
+            "text": "Restrinja o acesso de pessoas não envolvidas no manejo;",
+            "source_slide": 103
+          },
+          {
+            "type": "paragraph",
+            "text": "Mantenha o ambiente limpo e protegido contra outros animais, garantindo a biosseguridade e a segurança física;",
+            "source_slide": 103
+          },
+          {
+            "type": "paragraph",
+            "text": "Garanta que as bezerras permaneçam sempre secas;",
+            "source_slide": 103
+          },
+          {
+            "type": "paragraph",
+            "text": "Aloje as bezerras individualmente ou em pares nos primeiros 14 dias de vida.",
+            "source_slide": 103
+          }
+        ]
+      },
+      {
+        "id": "bezerras-em-aleitamento-alojadas-em-galpoes",
+        "title": "BEZERRAS EM ALEITAMENTO ALOJADAS EM GALPÕES",
+        "source_slides": [
+          104
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Dimensione os galpões com 1 ou 2 linhas de baias e com boa ventilação natural, com largura preferencialmente de até 12 metros e pé-direito mínimo de 3,0 metros;",
+            "source_slide": 104
+          },
+          {
+            "type": "paragraph",
+            "text": "Projete o número de baias para 125% do número médio de partos da fazenda, para absorver os meses de superlotação;",
+            "source_slide": 104
+          },
+          {
+            "type": "paragraph",
+            "text": "Para baias em que os animais permanecerão até 30 dias de idade, adote medidas mínimas de 1,2 m de largura por 1,5 m de comprimento e 1,2 m de altura por animal;",
+            "source_slide": 104
+          },
+          {
+            "type": "paragraph",
+            "text": "Para baias em que os animais permanecerão mais de 30 dias de idade, adote medidas mínimas de 1,2 m de largura por 1,8 m de comprimento e 1,3 m de altura por animal;",
+            "source_slide": 104
+          },
+          {
+            "type": "paragraph",
+            "text": "Use baias com painéis sólidos de separação entre as bezerras para reduzir a disseminação de patógenos, o contato direto e os aerossóis laterais;",
+            "source_slide": 104
+          },
+          {
+            "type": "paragraph",
+            "text": "Coloque prolongadores de painel sólidos nas frentes das baias para evitar contato físico entre os animais.",
+            "source_slide": 104
+          }
+        ]
+      },
+      {
+        "id": "bezerras-alojadas-individualmente-em-areas-externas",
+        "title": "BEZERRAS ALOJADAS INDIVIDUALMENTE EM ÁREAS EXTERNAS",
+        "source_slides": [
+          105,
+          106
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Verifique diariamente a necessidade de reposicionar o abrigo ou remanejar o animal, para que este tenha sempre local limpo e seco para se deitar;",
+            "source_slide": 105
+          },
+          {
+            "type": "paragraph",
+            "text": "Mantenha os abrigos individuais ou os animais a uma distância que impeça o contato direto entre eles, evitando a ocorrência de mamada cruzada;",
+            "source_slide": 105
+          },
+          {
+            "type": "paragraph",
+            "text": "Limpe e desinfete os abrigos quando um animal for desaleitado;",
+            "source_slide": 105
+          },
+          {
+            "type": "paragraph",
+            "text": "Forneça sombra com tela de tecido de sombreamento de 70 a 80%, com faixa suspensa a pelo menos 2,1 m de altura, em sistemas de criação ao ar livre;",
+            "source_slide": 106
+          },
+          {
+            "type": "paragraph",
+            "text": "Oriente os abrigos no sentido norte-sul para maximizar a exposição ao sol nas áreas de descanso, favorecendo a disponibilidade de sombra, a secagem e a ação da radiação solar;",
+            "source_slide": 106
+          },
+          {
+            "type": "paragraph",
+            "text": "Para regiões mais frias e de alta incidência de ventos, avalie a implantação de quebra-ventos para reduzir a sensação térmica de frio dos animais.",
+            "source_slide": 106
+          }
+        ]
+      },
+      {
+        "id": "bezerras-alojadas-em-grupo",
+        "title": "BEZERRAS ALOJADAS EM GRUPO",
+        "source_slides": [
+          107,
+          108
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Fique atento quanto à homogeneidade do lote no que se refere ao peso e altura dos animais, com variação máxima de até 14 dias de idade dentro do lote;",
+            "source_slide": 107
+          },
+          {
+            "type": "paragraph",
+            "text": "Realize o monitoramento diário dos animais quanto à saúde;",
+            "source_slide": 107
+          },
+          {
+            "type": "paragraph",
+            "text": "Evite lotes grandes, preferencialmente com no máximo 8 bezerras;",
+            "source_slide": 107
+          },
+          {
+            "type": "paragraph",
+            "text": "Garanta espaço de cocho adequado de 30 cm por animal, bebedouro e sombra para todos os animais;",
+            "source_slide": 107
+          },
+          {
+            "type": "paragraph",
+            "text": "Forneça pelo menos 4 m² de espaço de descanso por bezerra;",
+            "source_slide": 107
+          },
+          {
+            "type": "paragraph",
+            "text": "Ao utilizar sistema de aleitamento automático, forme lotes com número de animais adequado ao sistema;",
+            "source_slide": 107
+          },
+          {
+            "type": "paragraph",
+            "text": "Garanta que todos os animais estejam consumindo adequadamente a dieta líquida diariamente e utilize os relatórios do sistema automatizado para identificar problemas e diagnosticar doenças precocemente;",
+            "source_slide": 107
+          },
+          {
+            "type": "paragraph",
+            "text": "Não misture animais saudáveis com aqueles com histórico de doenças respiratórias ou que estejam com diarreia;",
+            "source_slide": 108
+          },
+          {
+            "type": "paragraph",
+            "text": "Disponha de uma baia hospital para as bezerras que apresentarem sinais clínicos de doenças ou que estiverem em tratamento;",
+            "source_slide": 108
+          },
+          {
+            "type": "paragraph",
+            "text": "Fique atento a comportamentos como mamadas cruzadas e/ou não nutritivas, pois podem ser sinal de baixo consumo de dieta líquida ou manejo alimentar inadequado;",
+            "source_slide": 108
+          },
+          {
+            "type": "paragraph",
+            "text": "Os colaboradores devem ser treinados a observar o comportamento dos animais criados em lotes, de forma a diagnosticar problemas precocemente.",
+            "source_slide": 108
+          }
+        ]
+      },
+      {
+        "id": "manejo-e-instalacoes-para-pos-aleitamento",
+        "title": "MANEJO E INSTALAÇÕES PARA PÓS-ALEITAMENTO",
+        "source_slides": [
+          109,
+          110
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Após o desaleitamento, mantenha os animais por pelo menos sete dias na mesma instalação, recebendo a mesma dieta sólida.",
+            "source_slide": 109
+          },
+          {
+            "type": "paragraph",
+            "text": "Realize a transferência de animais em grupos ou pares para o lote de animais desaleitados, garantindo a maior homogeneidade de peso e altura possível. Lotes com até 8 animais são recomendados no período imediatamente após o desaleitamento.",
+            "source_slide": 109
+          },
+          {
+            "type": "paragraph",
+            "text": "Instalações adequadas para novilhas na fase de pós-desaleitamento contribuem para o desenvolvimento dos animais. Para esses projetos, as medidas abaixo podem ser utilizadas:",
+            "source_slide": 109
+          },
+          {
+            "type": "figure",
+            "src": "slide-110.jpg",
+            "alt": "Referências de dimensionamento para instalações no pós-aleitamento.",
+            "caption": "Referências de dimensionamento para instalações no pós-aleitamento.",
+            "source_slide": 110
+          }
+        ]
+      }
+    ]
+  },
+  "chapter_09": {
+    "slug": "reproducao-novilhas",
+    "title": "Reprodução de novilhas",
+    "cover": "reproducao-novilhas.jpg",
+    "sections": [
+      {
+        "id": "manejo-de-novilhas-gestantes",
+        "title": "MANEJO DE NOVILHAS GESTANTES",
+        "source_slides": [
+          112,
+          113,
+          114
+        ],
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Inicie a reprodução quando as novilhas alcançarem 55% do peso corporal à idade adulta do rebanho. Nesse estágio, os animais estarão fisiologicamente maduros para a gestação. Fique atento à relação entre proteína e energia da dieta para não reduzir o potencial de produção de animais com altas taxas de crescimento nessa idade. Além disso, a precocidade pode reduzir o tempo de permanência do animal no rebanho, aumentando o descarte dos animais.",
+            "source_slide": 112
+          },
+          {
+            "type": "paragraph",
+            "text": "Defina a idade alvo de início da reprodução e calcule o ganho de peso esperado até essa fase para a definição do plano alimentar das novilhas. Estabeleça o número máximo de inseminações por novilha ou a idade máxima para inseminação, para evitar heterogeneidade de peso e tamanho ao parto.",
+            "source_slide": 112
+          },
+          {
+            "type": "paragraph",
+            "text": "Verifique a gestação das novilhas entre 35 e 45 dias após a inseminação para identificar os animais não gestantes e adote rapidamente um programa de reprodução para esses animais. Reconfirme as gestações antes de 200 dias de prenhez. Elabore junto ao médico-veterinário responsável um protocolo de vacinação pré-parto para as novilhas.",
+            "source_slide": 112
+          },
+          {
+            "type": "paragraph",
+            "text": "Implemente protocolos reprodutivos que garantam no mínimo 40% de taxa de prenhez em novilhas. Para isso, considere a utilização de protocolos de inseminação artificial em tempo fixo, sincronizações baseadas em prostaglandina F2α e ferramentas auxiliares na detecção de estro, como giz de cera, spray, tinta, bastão, adesivos, pedômetros ou colares de monitoramento.",
+            "source_slide": 112
+          },
+          {
+            "type": "figure",
+            "src": "slide-113.jpg",
+            "alt": "Metas de desenvolvimento e reprodução de novilhas.",
+            "caption": "Metas de desenvolvimento e reprodução de novilhas.",
+            "source_slide": 113
+          },
+          {
+            "type": "figure",
+            "src": "slide-114.jpg",
+            "alt": "Referências complementares para idade e peso-alvo de novilhas.",
+            "caption": "Referências complementares para idade e peso-alvo de novilhas.",
+            "source_slide": 114
+          }
+        ]
+      }
+    ]
+  }
 }
