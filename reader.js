@@ -1,4 +1,3 @@
-
 (function () {
   const data = window.PO_CONTENT;
   if (!data) return;
@@ -12,9 +11,50 @@
   const progress = document.querySelector('.read-progress');
   const toolbar = document.querySelector('.reader-toolbar');
 
+  const subheadingTerms = new Set(['maternidades em piquetes']);
+  const slugify = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+
+  function normalizeSections(sections) {
+    const grouped = [];
+    sections.forEach(sec => {
+      const rawItems = Array.isArray(sec.items)
+        ? sec.items
+        : (sec.paragraphs || []).map(text => ({
+            type: subheadingTerms.has(text.trim().toLowerCase()) ? 'subheading' : 'paragraph',
+            text
+          }));
+      const normalized = {
+        id: sec.id,
+        title: sec.title,
+        sourceSlides: [sec.source_slide],
+        items: rawItems
+      };
+      const previous = grouped[grouped.length - 1];
+      if (previous && previous.title.trim().toLowerCase() === normalized.title.trim().toLowerCase()) {
+        previous.id = slugify(previous.title);
+        previous.sourceSlides.push(...normalized.sourceSlides);
+        previous.items.push(...normalized.items);
+      } else {
+        grouped.push(normalized);
+      }
+    });
+    return grouped;
+  }
+
+  function sourceLabel(slides) {
+    const clean = slides.filter(v => v !== undefined && v !== null).map(Number);
+    if (!clean.length || clean.some(Number.isNaN)) return slides.filter(Boolean).join(', ');
+    const min = Math.min(...clean), max = Math.max(...clean);
+    const consecutive = clean.length === (max - min + 1) && clean.every((n, i) => n === min + i);
+    return consecutive && clean.length > 1 ? `${min}–${max}` : clean.join(', ');
+  }
+
+  const sectionsData = normalizeSections(data.chapter_01.sections);
+
   if (sidebarChapters) {
     sidebarChapters.innerHTML = data.chapters.map(ch => `
-      <a href="${ch.status === 'available' ? '#pre-parto-maternidade' : '#'}" 
+      <a href="${ch.status === 'available' ? '#pre-parto-maternidade' : '#'}"
          class="${ch.status === 'available' ? 'active' : ''}"
          ${ch.status !== 'available' ? 'aria-disabled="true"' : ''}>
         <span class="nav-num">${ch.number}</span>
@@ -23,26 +63,22 @@
   }
 
   if (sidebarSections) {
-    sidebarSections.innerHTML = data.chapter_01.sections.map(sec =>
+    sidebarSections.innerHTML = sectionsData.map(sec =>
       `<a href="#${sec.id}">${sec.title}</a>`
     ).join('');
   }
 
   if (article) {
-    const intro = `
-      <div class="article-intro">
-        Este capítulo apresenta o conteúdo aprovado no PowerPoint-base da 4ª edição, mantendo a ordem e a redação original. A estrutura foi adaptada exclusivamente para leitura digital.
-      </div>`;
-    const sections = data.chapter_01.sections.map(sec => {
-      const items = sec.paragraphs.map((p, idx) => {
-        const isSub = sec.source_slide === 6 && idx === 0;
-        return `<li class="${isSub ? 'subheading' : ''}">${p}</li>`;
-      }).join('');
+    const sections = sectionsData.map(sec => {
+      const items = sec.items.map(item =>
+        `<li class="${item.type === 'subheading' ? 'subheading' : ''}">${item.text}</li>`
+      ).join('');
+      const searchable = (sec.title + ' ' + sec.items.map(item => item.text).join(' ')).toLowerCase();
       return `
-        <section class="content-section" id="${sec.id}" data-searchable="${(sec.title + ' ' + sec.paragraphs.join(' ')).toLowerCase()}">
+        <section class="content-section" id="${sec.id}" data-searchable="${searchable.replace(/"/g, '&quot;')}">
           <header class="content-section-header">
             <h2>${sec.title}</h2>
-            <span class="source-tag">Texto-base · slide ${sec.source_slide}</span>
+            <span class="source-tag">Texto-base · slide ${sourceLabel(sec.sourceSlides)}</span>
           </header>
           <div class="content-section-body">
             <ul class="gold-list">${items}</ul>
@@ -57,7 +93,7 @@
         </div>
         <div class="lock">Conteúdo em preparação para a próxima entrega</div>
       </div>`;
-    article.innerHTML = intro + sections + next;
+    article.innerHTML = sections + next;
   }
 
   if (toolbar) {
