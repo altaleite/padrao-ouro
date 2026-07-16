@@ -1,4 +1,4 @@
-{
+window.PO_CONTENT = {
   "edition": {
     "year": "2026",
     "edition": "4ª edição",
@@ -275,4 +275,4 @@
       "email": "viviani.gomes@usp.br"
     }
   ]
-}
+};
