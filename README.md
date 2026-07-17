@@ -1,11 +1,12 @@
-# Padrão Ouro 2026 — edição digital completa
+# Padrão Ouro 2026 — revisão mestre V6
 
-Todos os nove capítulos estão disponíveis para leitura.
+Edição digital completa com nove capítulos, tabelas responsivas, imagens e esquemas incorporados ao conteúdo.
 
-## Publicação no GitHub Pages
+## Atualização pelo GitHub Desktop
 1. Extraia o ZIP.
-2. Envie todos os arquivos para a raiz do repositório `altaleite/padrao-ouro`.
-3. Substitua os arquivos existentes.
-4. Aguarde a publicação e atualize com Ctrl + F5.
+2. No GitHub Desktop, abra `Repository > Show in Explorer`.
+3. Copie todos os arquivos extraídos para a raiz da pasta `padrao-ouro` e confirme a substituição.
+4. Volte ao GitHub Desktop, faça o commit e clique em `Push origin`.
+5. Aguarde a publicação e atualize o endereço com `Ctrl + F5`.
 
 Endereço: https://altaleite.github.io/padrao-ouro/

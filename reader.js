@@ -59,9 +59,9 @@
     const head = rows[0];
     const body = rows.slice(1);
     return `
-      <div class="content-block content-table-block${item.center ? ' is-centered' : ''}">
+      <div class="content-block content-table-block${item.center ? ' is-centered' : ''}${item.compact ? ' is-compact' : ''}">
         ${item.title ? `<h3 class="block-title">${esc(item.title)}</h3>` : ''}
-        <div class="table-scroll">
+        <div class="table-scroll" tabindex="0" aria-label="Tabela técnica; em telas menores, deslize horizontalmente">
           <table class="technical-table${item.highlight_last_row ? ' highlight-last-row' : ''}">
             <thead><tr>${head.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead>
             <tbody>${body.map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody>
@@ -102,7 +102,10 @@
   }
 
   function renderItem(item) {
-    if (item.type === 'subheading') return `<h3 class="content-subheading">${esc(item.text)}</h3>`;
+    if (item.type === 'subheading') {
+      if (item.variant === 'image-title' && item.image) return `<h3 class="content-subheading image-title" style="--title-image:url('${esc(item.image)}')"><span>${esc(item.text)}</span></h3>`;
+      return `<h3 class="content-subheading">${esc(item.text)}</h3>`;
+    }
     if (item.type === 'table') return renderTable(item);
     if (item.type === 'card_grid') return renderCardGrid(item);
     if (item.type === 'figure') return renderFigure(item);
@@ -126,7 +129,6 @@
       <section class="content-section" id="${sec.id}" data-searchable="${esc(searchableText(sec))}">
         <header class="content-section-header">
           <h2>${esc(sec.title)}</h2>
-          <span class="source-tag">Texto-base · slides ${sourceLabel(sec.source_slides)}</span>
         </header>
         <div class="content-section-body">${(sec.items || []).map(renderItem).join('')}</div>
       </section>`).join('');

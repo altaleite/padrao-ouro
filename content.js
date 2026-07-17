@@ -146,8 +146,13 @@ window.PO_CONTENT = {
         ]
       },
       {
-        "id": "maternidade-baias",
+        "id": "maternidade",
         "title": "MATERNIDADE",
+        "source_slides": [
+          4,
+          5,
+          6
+        ],
         "items": [
           {
             "type": "paragraph",
@@ -173,16 +178,7 @@ window.PO_CONTENT = {
             "type": "paragraph",
             "text": "A instalação de parição deve favorecer o monitoramento constante do parto e os cuidados oportunos com a bezerra e com as matrizes no pós-parto imediato.",
             "source_slide": 4
-          }
-        ],
-        "source_slides": [
-          4
-        ]
-      },
-      {
-        "id": "maternidade-estrutura",
-        "title": "MATERNIDADE",
-        "items": [
+          },
           {
             "type": "paragraph",
             "text": "As paredes laterais devem ser sólidas na parte inferior, com altura mínima de 1,5 m, impedindo o contato direto entre animais de baias adjacentes. A parte superior pode ser aberta ou gradeada, garantindo ventilação sem exposição direta a correntes de vento sobre o animal em decúbito. A parede frontal, voltada para o corredor de manejo, deve ser gradeada e permitir visibilidade completa da baia pela equipe sem necessidade de entrada. A parede traseira deve ser sólida, servindo como barreira contra vento.",
@@ -192,16 +188,7 @@ window.PO_CONTENT = {
             "type": "paragraph",
             "text": "Em regiões de clima frio ou com grande amplitude térmica, utilize cortinas reguláveis na parte superior das paredes laterais, permitindo o fechamento nos períodos mais frios, sem comprometer a ventilação.",
             "source_slide": 5
-          }
-        ],
-        "source_slides": [
-          5
-        ]
-      },
-      {
-        "id": "maternidade-piquetes",
-        "title": "MATERNIDADE",
-        "items": [
+          },
           {
             "type": "subheading",
             "text": "Maternidades em piquetes",
@@ -247,9 +234,6 @@ window.PO_CONTENT = {
             "text": "A localização e a estrutura do piquete devem favorecer a observação contínua do parto e permitir a rápida intervenção da equipe quando necessária.",
             "source_slide": 6
           }
-        ],
-        "source_slides": [
-          6
         ]
       },
       {
@@ -864,29 +848,25 @@ window.PO_CONTENT = {
             "source_slide": 28
           },
           {
-            "type": "card_grid",
-            "title": "ESQUEMA RECOMENDADO DE FORNECIMENTO DE COLOSTRO",
-            "columns": 2,
-            "cards": [
-              {
-                "eyebrow": "1º Fornecimento",
-                "title": "10% do PCN",
-                "meta": "Até 2 horas após o nascimento",
-                "text": "Colostro de alta qualidade (≥ 24% de Brix)."
-              },
-              {
-                "eyebrow": "2º Fornecimento",
-                "title": "5% do PCN",
-                "meta": "Entre 8 e 12 horas após o 1º fornecimento",
-                "text": "Colostro de alta qualidade (≥ 22% de Brix)."
-              }
-            ],
+            "type": "figure",
+            "src": "fornecimento-1.webp",
+            "alt": "Esquema do primeiro fornecimento de colostro.",
+            "caption": "1º fornecimento de colostro.",
+            "layout": "wide",
             "source_slide": 29
           },
           {
             "type": "paragraph",
             "text": "Forneça, obrigatoriamente, volume de colostro equivalente a 10% do peso corporal da bezerra ao nascimento (PCN), com qualidade imunológica de Brix igual ou superior a 24%, na primeira refeição, por mamadeira ou sonda esofágica, o mais rápido possível e dentro das primeiras duas horas de vida.",
             "source_slide": 29
+          },
+          {
+            "type": "figure",
+            "src": "fornecimento-2.webp",
+            "alt": "Esquema do segundo fornecimento de colostro.",
+            "caption": "2º fornecimento de colostro.",
+            "layout": "wide",
+            "source_slide": 30
           },
           {
             "type": "paragraph",
@@ -1009,22 +989,22 @@ window.PO_CONTENT = {
           },
           {
             "type": "paragraph",
-            "text": "falta de colostro em volume e/ou qualidade imunológica adequados;",
+            "text": "Falta de colostro em volume e/ou qualidade imunológica adequados;",
             "source_slide": 35
           },
           {
             "type": "paragraph",
-            "text": "substituição de colostro com alta carga bacteriana;",
+            "text": "Substituição de colostro com alta carga bacteriana;",
             "source_slide": 35
           },
           {
             "type": "paragraph",
-            "text": "necessidade de facilitar o manejo da colostragem, especialmente em partos noturnos ou em períodos com grande número de nascimentos;",
+            "text": "Necessidade de facilitar o manejo da colostragem, especialmente em partos noturnos ou em períodos com grande número de nascimentos;",
             "source_slide": 35
           },
           {
             "type": "paragraph",
-            "text": "rebanhos positivos para agentes infecciosos que possam ser transmitidos pelo colostro.",
+            "text": "Rebanhos positivos para agentes infecciosos que possam ser transmitidos pelo colostro.",
             "source_slide": 35
           }
         ]
@@ -1247,6 +1227,26 @@ window.PO_CONTENT = {
           {
             "type": "paragraph",
             "text": "Caso esteja disponível para fornecimento, leite com alta contagem padrão em placa, acima de 20.000 UFC/mL e coliformes acima de 10.000 UFC/mL, sem resíduo de drogas antimicrobianas, o mesmo deve ser pasteurizado.",
+            "source_slide": 44
+          },
+          {
+            "type": "card_grid",
+            "title": "PARÂMETROS DE PASTEURIZAÇÃO DO LEITE",
+            "columns": 2,
+            "cards": [
+              {
+                "eyebrow": "Pasteurização lenta",
+                "title": "63°C",
+                "meta": "30 minutos",
+                "text": "Controle contínuo de tempo e temperatura durante todo o processo."
+              },
+              {
+                "eyebrow": "Pasteurização rápida",
+                "title": "72°C",
+                "meta": "15 segundos",
+                "text": "Resfriamento rápido após o tratamento térmico."
+              }
+            ],
             "source_slide": 44
           },
           {
@@ -1529,15 +1529,9 @@ window.PO_CONTENT = {
           {
             "type": "subheading",
             "text": "CONCENTRADO",
-            "source_slide": 52
-          },
-          {
-            "type": "figure",
-            "src": "concentrado-referencia.jpg",
-            "alt": "Exemplo visual de concentrado para bezerras.",
-            "caption": "Exemplo visual de concentrado/texturizado para bezerras.",
-            "layout": "split",
-            "source_slide": 56
+            "source_slide": 52,
+            "variant": "image-title",
+            "image": "concentrado-referencia.jpg"
           },
           {
             "type": "paragraph",
@@ -1560,11 +1554,6 @@ window.PO_CONTENT = {
             "source_slide": 52
           },
           {
-            "type": "subheading",
-            "text": "CONCENTRADO",
-            "source_slide": 53
-          },
-          {
             "type": "paragraph",
             "text": "Dê preferência a concentrados de alta qualidade e elevada palatabilidade, independentemente da forma física (farelado, peletizado ou texturizado), desde que promovam bom consumo e desenvolvimento ruminal.",
             "source_slide": 53
@@ -1573,11 +1562,6 @@ window.PO_CONTENT = {
             "type": "paragraph",
             "text": "Evite dietas com excesso de partículas finas, que podem reduzir a ingestão e comprometer a saúde ruminal, e fique atento à possibilidade de seleção de partículas pelos animais.",
             "source_slide": 53
-          },
-          {
-            "type": "subheading",
-            "text": "CONCENTRADO",
-            "source_slide": 54
           },
           {
             "type": "paragraph",
@@ -1772,12 +1756,101 @@ window.PO_CONTENT = {
             "source_slide": 62
           },
           {
-            "type": "figure",
-            "src": "slide-63.jpg",
-            "alt": "Referências de minerais e vitaminas para a fase de transição.",
-            "caption": "Referências de minerais e vitaminas para a fase de transição.",
-            "source_slide": 63,
-            "layout": "wide"
+            "type": "table",
+            "title": "EXIGÊNCIAS ESTIMADAS DE MINERAIS E VITAMINAS NA DIETA",
+            "rows": [
+              [
+                "Nutriente",
+                "Unidade",
+                "Exigência (MS da dieta)"
+              ],
+              [
+                "Cálcio",
+                "%",
+                "0,70"
+              ],
+              [
+                "Fósforo",
+                "%",
+                "0,35"
+              ],
+              [
+                "Magnésio",
+                "%",
+                "0,15"
+              ],
+              [
+                "Potássio",
+                "%",
+                "0,33"
+              ],
+              [
+                "Sódio",
+                "%",
+                "0,18"
+              ],
+              [
+                "Cloro",
+                "%",
+                "0,14"
+              ],
+              [
+                "Enxofre",
+                "%",
+                "0,20"
+              ],
+              [
+                "Cobre",
+                "mg/kg",
+                "18"
+              ],
+              [
+                "Cobalto",
+                "mg/kg",
+                "0,20"
+              ],
+              [
+                "Iodo",
+                "mg/kg",
+                "0,73"
+              ],
+              [
+                "Manganês",
+                "mg/kg",
+                "59"
+              ],
+              [
+                "Zinco",
+                "mg/kg",
+                "51"
+              ],
+              [
+                "Selênio",
+                "mg/kg",
+                "0,3"
+              ],
+              [
+                "Vitamina A",
+                "UI/kg",
+                "3.546"
+              ],
+              [
+                "Vitamina D",
+                "UI/kg",
+                "1.032"
+              ],
+              [
+                "Vitamina E",
+                "UI/kg",
+                "26"
+              ]
+            ],
+            "center": true,
+            "compact": true,
+            "notes": [
+              "Valores estimados com base nas exigências descritas pelo NASEM (2021), considerando bezerras pós-desaleitamento com aproximadamente 120 kg de peso corporal e ganho médio diário de 800 g."
+            ],
+            "source_slide": 63
           },
           {
             "type": "subheading",
@@ -1923,12 +1996,65 @@ window.PO_CONTENT = {
             "source_slide": 68
           },
           {
-            "type": "figure",
-            "src": "slide-69.jpg",
-            "alt": "Metas de ganho de peso durante a fase de aleitamento.",
-            "caption": "Metas de ganho de peso durante a fase de aleitamento.",
-            "source_slide": 69,
-            "layout": "wide"
+            "type": "table",
+            "title": "GERENCIAMENTO NUTRICIONAL DAS NOVILHAS E ALVOS DE PESO CORPORAL",
+            "rows": [
+              [
+                "Fase (% do peso corporal adulto)",
+                "550 kg — Peso-alvo",
+                "550 kg — Ganho aproximado",
+                "750 kg — Peso-alvo",
+                "750 kg — Ganho aproximado"
+              ],
+              [
+                "Nascimento (6% do peso adulto)",
+                "32 kg",
+                "750 g/dia",
+                "40 kg",
+                "750 g/dia"
+              ],
+              [
+                "Início do desaleitamento — mínimo de 60 dias",
+                "77 kg",
+                "867 g/dia",
+                "80 kg",
+                "867 g/dia"
+              ],
+              [
+                "Desaleitamento — mínimo de 75 dias",
+                "90 kg",
+                "611 g/dia",
+                "120 kg",
+                "875 g/dia"
+              ],
+              [
+                "Primeiro serviço (55% do peso adulto) — em torno de 14 meses",
+                "305 kg",
+                "801 g/dia",
+                "410 kg",
+                "1.093 g/dia"
+              ],
+              [
+                "Peso ao parto (95% do peso adulto) — em torno de 23 meses",
+                "525 kg",
+                "–",
+                "710 kg",
+                "–"
+              ],
+              [
+                "Peso após o primeiro parto (85% do peso adulto) — em torno de 23 meses",
+                "470 kg",
+                "–",
+                "635 kg",
+                "–"
+              ]
+            ],
+            "center": true,
+            "notes": [
+              "Fonte: Gold Standard (2023) e NASEM (2021). O tamanho adulto de um rebanho é definido como o peso corporal médio das vacas de terceira lactação, no meio da lactação.",
+              "As metas de ganho de peso podem variar conforme o nível nutricional e o sistema de criação adotado."
+            ],
+            "source_slide": 69
           },
           {
             "type": "paragraph",
@@ -2078,8 +2204,8 @@ window.PO_CONTENT = {
           },
           {
             "type": "figure",
-            "src": "slide-78.jpg",
-            "alt": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
+            "src": "diarreia-agentes.webp",
+            "alt": "Linha do tempo dos principais agentes envolvidos na diarreia de bezerros conforme a idade.",
             "caption": "Principais agentes envolvidos na diarreia de bezerros conforme a idade.",
             "source_slide": 78,
             "layout": "wide"
@@ -2968,9 +3094,9 @@ window.PO_CONTENT = {
           },
           {
             "type": "figure",
-            "src": "slide-114.jpg",
-            "alt": "Referências complementares para idade e peso-alvo de novilhas.",
-            "caption": "Idades-alvo para reprodução e primeiro parto.",
+            "src": "idades-reproducao.webp",
+            "alt": "Esquema com idades-alvo de reprodução e primeiro parto para Holandês, Jersey e mestiços.",
+            "caption": "Idades-alvo aproximadas para reprodução e primeiro parto, condicionadas aos alvos de peso corporal.",
             "source_slide": 114,
             "layout": "wide"
           }
