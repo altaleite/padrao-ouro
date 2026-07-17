@@ -772,10 +772,31 @@ window.PO_CONTENT = {
             "source_slide": 24
           },
           {
-            "type": "figure",
-            "src": "slide-25.jpg",
-            "alt": "Qualidade microbiológica do colostro.",
-            "caption": "Qualidade microbiológica do colostro.",
+            "type": "table",
+            "title": "QUALIDADE MICROBIOLÓGICA DO COLOSTRO",
+            "rows": [
+              [
+                "Categoria",
+                "CPP (UFC/mL)",
+                "Coliformes (UFC/mL)"
+              ],
+              [
+                "Aceitável",
+                "< 100.000",
+                "< 10.000"
+              ],
+              [
+                "Excelente",
+                "< 50.000",
+                "< 5.000"
+              ],
+              [
+                "Pasteurizado",
+                "< 20.000",
+                "< 100"
+              ]
+            ],
+            "center": true,
             "source_slide": 25
           }
         ]
@@ -794,10 +815,26 @@ window.PO_CONTENT = {
             "source_slide": 26
           },
           {
-            "type": "figure",
-            "src": "slide-27.jpg",
-            "alt": "Valores-alvo de testes a campo para avaliar a qualidade imunológica do colostro.",
-            "caption": "Valores-alvo de testes a campo para avaliar a qualidade imunológica do colostro.",
+            "type": "table",
+            "title": "VALOR-ALVO DE TESTES A CAMPO PARA AVALIAR A QUALIDADE IMUNOLÓGICA DO COLOSTRO",
+            "rows": [
+              [
+                "Momento",
+                "Valor-alvo",
+                "Interpretação"
+              ],
+              [
+                "1º Fornecimento",
+                "≥ 24% de Brix",
+                "Colostro de excelente qualidade imunológica."
+              ],
+              [
+                "2º Fornecimento",
+                "≥ 22% de Brix",
+                "Colostro de boa qualidade imunológica."
+              ]
+            ],
+            "center": true,
             "source_slide": 27
           }
         ]
@@ -825,6 +862,26 @@ window.PO_CONTENT = {
             "type": "paragraph",
             "text": "Utilize sonda esofágica quando o animal não apresentar bom reflexo de sucção, lembrando que o colaborador deve estar devidamente treinado para essa tarefa.",
             "source_slide": 28
+          },
+          {
+            "type": "card_grid",
+            "title": "ESQUEMA RECOMENDADO DE FORNECIMENTO DE COLOSTRO",
+            "columns": 2,
+            "cards": [
+              {
+                "eyebrow": "1º Fornecimento",
+                "title": "10% do PCN",
+                "meta": "Até 2 horas após o nascimento",
+                "text": "Colostro de alta qualidade (≥ 24% de Brix)."
+              },
+              {
+                "eyebrow": "2º Fornecimento",
+                "title": "5% do PCN",
+                "meta": "Entre 8 e 12 horas após o 1º fornecimento",
+                "text": "Colostro de alta qualidade (≥ 22% de Brix)."
+              }
+            ],
+            "source_slide": 29
           },
           {
             "type": "paragraph",
@@ -1003,10 +1060,41 @@ window.PO_CONTENT = {
             "source_slide": 36
           },
           {
-            "type": "figure",
-            "src": "slide-37.jpg",
-            "alt": "Valores-alvo para avaliar a transferência de imunidade passiva das bezerras.",
-            "caption": "Valores-alvo para avaliar a transferência de imunidade passiva das bezerras.",
+            "type": "table",
+            "title": "VALORES-ALVO PARA AVALIAR A TRANSFERÊNCIA DE IMUNIDADE PASSIVA DAS BEZERRAS",
+            "rows": [
+              [
+                "Categoria",
+                "Proteína sérica total (g/dL)",
+                "Brix sérico (%)",
+                "Percentual de bezerras em cada categoria"
+              ],
+              [
+                "Excelente",
+                "≥ 6,2",
+                "≥ 9,4",
+                "> 50%"
+              ],
+              [
+                "Boa",
+                "5,8 a 6,1",
+                "8,9 a 9,3",
+                "~ 30%"
+              ],
+              [
+                "Aceitável",
+                "5,1 a 5,7",
+                "8,1 a 8,8",
+                "~ 15%"
+              ],
+              [
+                "Ruim",
+                "< 5,1",
+                "< 8,1",
+                "< 5%"
+              ]
+            ],
+            "center": true,
             "source_slide": 37
           },
           {
@@ -1275,10 +1363,154 @@ window.PO_CONTENT = {
             "source_slide": 50
           },
           {
-            "type": "figure",
-            "src": "slide-51.jpg",
-            "alt": "Parâmetros de referência para avaliação da qualidade da água.",
-            "caption": "Parâmetros de referência para avaliação da qualidade da água.",
+            "type": "table",
+            "title": "PARÂMETROS DE REFERÊNCIA PARA AVALIAÇÃO DA QUALIDADE DA ÁGUA",
+            "rows": [
+              [
+                "Parâmetro",
+                "Valor de referência",
+                "Observação"
+              ],
+              [
+                "pH",
+                "6,5 a 8,5",
+                "—"
+              ],
+              [
+                "Turbidez",
+                "< 5 uT",
+                "Portaria GM/MS Nº 888"
+              ],
+              [
+                "Sólidos totais dissolvidos",
+                "< 1.000 mg/L",
+                "Acima de 3.000 mg/L pode causar diarreia temporária; acima de 7.000 mg/L não deve ser fornecida aos animais."
+              ],
+              [
+                "Nitrato (NO₃⁻)",
+                "< 44 mg/L",
+                "Acima de 132 mg/L pode ser prejudicial a longo prazo."
+              ],
+              [
+                "Nitrato-Nitrogênio (NO₃⁻-N)",
+                "< 10 mg/L",
+                "Acima de 100 mg/L representa risco de morte."
+              ],
+              [
+                "Nitrito (NO₂⁻-N)",
+                "< 1,0 mg/L",
+                "Portaria GM/MS Nº 888"
+              ],
+              [
+                "Sulfato — bezerras",
+                "< 500 mg/L",
+                "—"
+              ],
+              [
+                "Sulfato — vacas adultas",
+                "< 1.000 mg/L",
+                "—"
+              ],
+              [
+                "Alumínio",
+                "< 10,0 mg/L",
+                "Potencialmente preocupante acima desse limite."
+              ],
+              [
+                "Arsênio",
+                "< 0,01 mg/L",
+                "—"
+              ],
+              [
+                "Bário",
+                "< 10,0 mg/L",
+                "Potencialmente preocupante acima desse limite."
+              ],
+              [
+                "Cádmio",
+                "< 0,05 mg/L",
+                "Potencialmente preocupante acima desse limite."
+              ],
+              [
+                "Chumbo",
+                "< 0,10 mg/L",
+                "Potencialmente preocupante acima desse limite."
+              ],
+              [
+                "Cobalto",
+                "< 1,0 mg/L",
+                "—"
+              ],
+              [
+                "Cobre",
+                "< 1,3 mg/L",
+                "—"
+              ],
+              [
+                "Ferro",
+                "< 0,3 mg/L",
+                "Acima desse valor pode reduzir o consumo de água."
+              ],
+              [
+                "Flúor",
+                "< 2,0 mg/L",
+                "Acima de 2,4 mg/L pode causar fluorose."
+              ],
+              [
+                "Magnésio",
+                "< 125 mg/L",
+                "Potencialmente preocupante acima desse limite."
+              ],
+              [
+                "Manganês",
+                "< 0,05 mg/L",
+                "Acima desse valor pode afetar a palatabilidade da água."
+              ],
+              [
+                "Molibdênio",
+                "< 0,06 mg/L",
+                "—"
+              ],
+              [
+                "Níquel",
+                "< 1,0 mg/L",
+                "—"
+              ],
+              [
+                "Selênio",
+                "< 0,05 mg/L",
+                "—"
+              ],
+              [
+                "Sódio",
+                "< 200 mg/L",
+                "—"
+              ],
+              [
+                "Vanádio",
+                "< 0,10 mg/L",
+                "—"
+              ],
+              [
+                "Zinco",
+                "< 5,0 mg/L",
+                "—"
+              ],
+              [
+                "Coliformes termotolerantes — vacas adultas",
+                "< 1.000 UFC/100 mL",
+                "—"
+              ],
+              [
+                "Coliformes termotolerantes — bezerras",
+                "Ausência em 100 mL",
+                "—"
+              ]
+            ],
+            "center": true,
+            "notes": [
+              "Fonte: NASEM (2021). Turbidez e nitrito: Portaria GM/MS Nº 888 (Ministério da Saúde, Brasil, 2021)."
+            ],
             "source_slide": 51
           }
         ]
@@ -1298,6 +1530,14 @@ window.PO_CONTENT = {
             "type": "subheading",
             "text": "CONCENTRADO",
             "source_slide": 52
+          },
+          {
+            "type": "figure",
+            "src": "concentrado-referencia.jpg",
+            "alt": "Exemplo visual de concentrado para bezerras.",
+            "caption": "Exemplo visual de concentrado/texturizado para bezerras.",
+            "layout": "split",
+            "source_slide": 56
           },
           {
             "type": "paragraph",
@@ -1361,7 +1601,7 @@ window.PO_CONTENT = {
           },
           {
             "type": "paragraph",
-            "text": "Quando adotado, o feno deve ser de boa qualidade, com partículas de 2 a 3 cm, e fornecido de forma controlada, preferencialmente após o estabelecimento do consumo consistente de concentrado, em torno de 45 dias de idade.",
+            "text": "Quando adotado, utilizar feno de gramínea tropical higienicamente adequado, com partículas de 2 a 3 cm. Como referência bromatológica, recomenda-se matéria seca ≥85%, proteína bruta ≥14%, FDN ≤60%, FDA ≤32% e NDT ≥60%. O fornecimento deve ser iniciado preferencialmente após o estabelecimento do consumo consistente de concentrado, em torno de 45 dias de idade.",
             "source_slide": 55
           },
           {
@@ -1371,19 +1611,50 @@ window.PO_CONTENT = {
           },
           {
             "type": "paragraph",
-            "text": "Caso a fazenda não disponha de feno de boa qualidade, feno de média a baixa qualidade também pode ser fornecido, agora sem a necessidade de ser de forma controlada, pois o animal controla o consumo.",
+            "text": "Na ausência de feno com elevado valor nutritivo, pode-se utilizar feno de menor valor nutricional, desde que esteja livre de mofo, poeira, aquecimento e odor anormal. Nessa situação, recomenda-se inclusão controlada, preferencialmente entre 7% e 10% da matéria seca da dieta sólida, com ajuste do concentrado para manutenção dos níveis de energia e proteína. Não se deve depender apenas da autorregulação do consumo pela bezerra.",
             "source_slide": 55
           },
           {
             "type": "paragraph",
-            "text": "A silagem de milho de alta qualidade também pode ser fornecida de forma controla ou através da formulação de dieta total específica para bezerras em aleitamento. No entanto, esta pratica depende de manejo correto de cocho com retirada d sobras diariamente.",
+            "text": "A silagem de milho bem conservada também pode ser utilizada, preferencialmente incorporada à dieta total, em inclusão próxima de 10% da matéria seca. Como referência, deve apresentar 30% a 38% de matéria seca, pH entre 3,7 e 4,2, FDN preferencialmente ≤45% e ausência de aquecimento ou deterioração. A mistura deve ser preparada diariamente, com retirada completa das sobras do cocho.",
             "source_slide": 55
           },
           {
-            "type": "figure",
-            "src": "slide-56.jpg",
-            "alt": "Estimativas práticas de proteína bruta e relação entre proteína metabolizável e energia metabolizável por fase.",
-            "caption": "Estimativas práticas de proteína bruta e relação entre proteína metabolizável e energia metabolizável por fase.",
+            "type": "card_grid",
+            "title": "REFERÊNCIAS PRÁTICAS DE PROTEÍNA BRUTA E RELAÇÃO PM:EM POR FASE",
+            "columns": 3,
+            "cards": [
+              {
+                "eyebrow": "0 a 4 meses",
+                "title": "% PB: 20,0 a 24,0",
+                "text": "Mínimo de > 49 g/Mcal."
+              },
+              {
+                "eyebrow": "5 a 9 meses",
+                "title": "% PB: 15,0 a 16,0",
+                "text": "Mínimo de > 45 g/Mcal."
+              },
+              {
+                "eyebrow": "10 a 13 meses",
+                "title": "% PB: 14,0 a 15,0",
+                "text": "Mínimo de > 41 g/Mcal."
+              },
+              {
+                "eyebrow": "14 a 18 meses",
+                "title": "% PB: 13,5 a 14,5",
+                "text": "Mínimo de > 38 g/Mcal."
+              },
+              {
+                "eyebrow": "18 meses ao 1º parto",
+                "title": "% PB: 12,5 a 13,5",
+                "text": "Mínimo de > 33 g/Mcal."
+              }
+            ],
+            "notes": [
+              "Os valores de proteína bruta apresentados são estimativas práticas e podem variar conforme o consumo de matéria seca, a densidade energética da dieta e as metas de ganho de peso estabelecidas para o rebanho.",
+              "Os valores em g/Mcal representam a relação entre proteína metabolizável e energia metabolizável.",
+              "Fonte: NASEM (2021)."
+            ],
             "source_slide": 56
           }
         ]
@@ -1505,7 +1776,8 @@ window.PO_CONTENT = {
             "src": "slide-63.jpg",
             "alt": "Referências de minerais e vitaminas para a fase de transição.",
             "caption": "Referências de minerais e vitaminas para a fase de transição.",
-            "source_slide": 63
+            "source_slide": 63,
+            "layout": "wide"
           },
           {
             "type": "subheading",
@@ -1543,10 +1815,78 @@ window.PO_CONTENT = {
             "source_slide": 65
           },
           {
-            "type": "figure",
-            "src": "slide-66.jpg",
-            "alt": "Referências nutricionais para novilhas.",
-            "caption": "Referências nutricionais para novilhas.",
+            "type": "table",
+            "title": "EXIGÊNCIAS DE ENERGIA E PROTEÍNA PARA NOVILHAS COM PESO ADULTO DE 700 kg E TAXA DE GANHO DE PESO DE 980 g/dia",
+            "rows": [
+              [
+                "Variável",
+                "112 kg",
+                "224 kg",
+                "336 kg",
+                "420 kg",
+                "560 kg"
+              ],
+              [
+                "% do peso adulto",
+                "16,0",
+                "32,0",
+                "48,0",
+                "60,0",
+                "80,0"
+              ],
+              [
+                "Consumo de MS, kg/dia",
+                "3,3",
+                "6,0",
+                "8,0",
+                "9,3",
+                "10,9"
+              ],
+              [
+                "PB em % da MS",
+                "21,1",
+                "16,0",
+                "14,0",
+                "13,0",
+                "13,5"
+              ],
+              [
+                "Energia metabolizável, Mcal/kg MS",
+                "3,0",
+                "2,5",
+                "2,4",
+                "2,4",
+                "2,9"
+              ],
+              [
+                "Energia metabolizável, Mcal/dia",
+                "9,9",
+                "15,0",
+                "19,2",
+                "22,3",
+                "31,6"
+              ],
+              [
+                "Exigência de proteína metabolizável, g/dia",
+                "498",
+                "672",
+                "790",
+                "848",
+                "1034"
+              ],
+              [
+                "Mínimo de proteína metabolizável/energia metabolizável",
+                "49",
+                "45",
+                "41",
+                "38",
+                "33"
+              ]
+            ],
+            "center": true,
+            "notes": [
+              "Fonte: NASEM (2021)."
+            ],
             "source_slide": 66
           }
         ]
@@ -1587,7 +1927,8 @@ window.PO_CONTENT = {
             "src": "slide-69.jpg",
             "alt": "Metas de ganho de peso durante a fase de aleitamento.",
             "caption": "Metas de ganho de peso durante a fase de aleitamento.",
-            "source_slide": 69
+            "source_slide": 69,
+            "layout": "wide"
           },
           {
             "type": "paragraph",
@@ -1681,25 +2022,67 @@ window.PO_CONTENT = {
             "source_slide": 75
           },
           {
-            "type": "figure",
-            "src": "slide-76.jpg",
-            "alt": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
-            "caption": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
+            "type": "table",
+            "title": "ESCORE DE UMBIGO ADOTADO PARA DETECÇÃO DA INFLAMAÇÃO EM BEZERRAS",
+            "rows": [
+              [
+                "Escore",
+                "Parâmetros"
+              ],
+              [
+                "0",
+                "Umbigo cicatrizado, sem aumento de volume, dor ou secreção. Vasos umbilicais não palpáveis ou com diâmetro ≤ 1 cm."
+              ],
+              [
+                "1",
+                "Umbigo sem alterações externas evidentes, porém com sensibilidade à palpação e/ou suspeita de envolvimento interno. Ausência de secreção."
+              ],
+              [
+                "2",
+                "Umbigo com aumento de volume, dor à palpação e/ou presença de secreção (com ou sem drenagem de pus). Vasos umbilicais palpáveis e com diâmetro > 1 cm, podendo indicar envolvimento interno."
+              ]
+            ],
+            "center": true,
             "source_slide": 76
           },
           {
-            "type": "figure",
-            "src": "slide-77.jpg",
-            "alt": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
-            "caption": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
+            "type": "table",
+            "title": "ESCORE DE FEZES ADOTADO PARA DETECÇÃO DA DIARREIA EM BEZERRAS",
+            "rows": [
+              [
+                "Escore",
+                "Parâmetros"
+              ],
+              [
+                "0",
+                "Consistência normal: Fezes firmes, bem formadas, coloração amarronzada, com períneo e cauda limpos e secos."
+              ],
+              [
+                "1",
+                "Fezes pastosas a semiformadas, com leve perda de consistência, porém ainda mantendo formato. Sem sujidade evidente no períneo."
+              ],
+              [
+                "2",
+                "Fezes pastosas com maior teor de água, sem formato definido, espalhando-se sobre a superfície. Presença de sujidade no períneo e/ou cauda."
+              ],
+              [
+                "3",
+                "Fezes líquidas e aquosas, com grande volume de líquido e intensa sujidade no períneo e cauda."
+              ]
+            ],
+            "center": true,
+            "notes": [
+              "Fonte: Adaptado de McGuirk (2008). Fezes com escore 2 e 3 são consideradas compatíveis com diarreia."
+            ],
             "source_slide": 77
           },
           {
             "type": "figure",
             "src": "slide-78.jpg",
             "alt": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
-            "caption": "Sistema de avaliação clínica apresentado no PowerPoint-base.",
-            "source_slide": 78
+            "caption": "Principais agentes envolvidos na diarreia de bezerros conforme a idade.",
+            "source_slide": 78,
+            "layout": "wide"
           }
         ]
       },
@@ -1757,10 +2140,54 @@ window.PO_CONTENT = {
             "source_slide": 81
           },
           {
-            "type": "figure",
-            "src": "slide-82.jpg",
-            "alt": "Referência visual para ultrassonografia pulmonar.",
-            "caption": "Referência visual para ultrassonografia pulmonar.",
+            "type": "table",
+            "title": "ESCORES ADOTADOS PARA DETECÇÃO DE DOENÇAS RESPIRATÓRIAS EM BEZERRAS",
+            "rows": [
+              [
+                "Escore",
+                "Temperatura retal",
+                "Tosse",
+                "Secreção nasal",
+                "Secreção ocular",
+                "Posicionamento das orelhas"
+              ],
+              [
+                "0",
+                "37,7 a 38,2",
+                "Ausente",
+                "Serosa",
+                "Serosa",
+                "Normal"
+              ],
+              [
+                "1",
+                "38,3 a 38,8",
+                "Presente e única, quando estimulada",
+                "Pouca quantidade e unilateral",
+                "Pouca quantidade",
+                "Balançar das orelhas ou cabeça"
+              ],
+              [
+                "2",
+                "38,9 a 39,3",
+                "Presente e repetidas, quando estimulada, ou ocasionais, quando espontâneas",
+                "Excessiva, mucosa e bilateral",
+                "Moderada quantidade bilateral",
+                "Ligeiramente pendente, unilateral"
+              ],
+              [
+                "3",
+                "≥ 39,4",
+                "Presente, repetidas e espontâneas",
+                "Abundante, mucopurulenta e bilateral",
+                "Intensa quantidade e bilateral",
+                "Pendentes intensamente, bilateral ou torção da cabeça"
+              ]
+            ],
+            "center": true,
+            "notes": [
+              "Fonte: McGuirk (2008). Em países tropicais, bezerras que apresentam pelo menos dois parâmetros com escores 2 ou 3 são classificadas como positivas para doença respiratória (Decaris et al., 2022)."
+            ],
             "source_slide": 82
           }
         ]
@@ -1833,10 +2260,50 @@ window.PO_CONTENT = {
             "source_slide": 87
           },
           {
-            "type": "figure",
-            "src": "slide-88.jpg",
-            "alt": "Indicadores e metas para gestão das doenças.",
-            "caption": "Indicadores e metas para gestão das doenças.",
+            "type": "table",
+            "title": "TAXA DE MORBIDADE ACEITÁVEL PARA AS PRINCIPAIS DOENÇAS EM BEZERRAS E NOVILHAS",
+            "rows": [
+              [
+                "Doença",
+                "Aleitamento",
+                "Desaleitamento até 120 dias",
+                "121 a 180 dias",
+                "> 180 dias"
+              ],
+              [
+                "Infecção umbilical",
+                "< 5%",
+                "–",
+                "–",
+                "–"
+              ],
+              [
+                "Diarreia¹",
+                "< 25%",
+                "< 2%",
+                "< 1%",
+                "–"
+              ],
+              [
+                "Doenças respiratórias",
+                "< 10%",
+                "< 10%",
+                "< 2%",
+                "–"
+              ],
+              [
+                "Tristeza parasitária²",
+                "< 3%",
+                "–",
+                "< 35%",
+                "< 6%"
+              ]
+            ],
+            "center": true,
+            "notes": [
+              "¹ Considera-se diarreia animais com escore fecal ≥ 2.",
+              "² Percentual de animais que necessitaram de tratamento."
+            ],
             "source_slide": 88
           }
         ]
@@ -1855,10 +2322,51 @@ window.PO_CONTENT = {
             "source_slide": 89
           },
           {
-            "type": "figure",
-            "src": "slide-90.jpg",
-            "alt": "Taxas de sobrevivência apresentadas no PowerPoint-base.",
-            "caption": "Taxas de sobrevivência apresentadas no PowerPoint-base.",
+            "type": "table",
+            "title": "TAXA DE SOBREVIVÊNCIA DE NOVILHAS ATÉ O PRIMEIRO PARTO",
+            "rows": [
+              [
+                "Indicador",
+                "%"
+              ],
+              [
+                "Natimortos (260 dias de gestação até 24 horas de vida)",
+                "2,5%"
+              ],
+              [
+                "Mortes até 75 dias de vida",
+                "3%"
+              ],
+              [
+                "Vendas e descartes até 75 dias de vida",
+                "1%"
+              ],
+              [
+                "Mortes entre 75–365 dias de vida",
+                "2%"
+              ],
+              [
+                "Vendas e descartes entre 75–365 dias de vida",
+                "2%"
+              ],
+              [
+                "% que não emprenham (e são descartadas)",
+                "5%"
+              ],
+              [
+                "% que emprenharam, mas não pariram (abortaram e/ou foram descartadas por outros motivos)",
+                "3%"
+              ],
+              [
+                "% de sobrevivência de novilhas",
+                "85%*"
+              ]
+            ],
+            "center": true,
+            "highlight_last_row": true,
+            "notes": [
+              "* Taxa de conclusão de novilhas, quando calculada considerando apenas as bezerras nascidas vivas."
+            ],
             "source_slide": 90
           }
         ]
@@ -2337,10 +2845,56 @@ window.PO_CONTENT = {
             "source_slide": 109
           },
           {
-            "type": "figure",
-            "src": "slide-110.jpg",
-            "alt": "Referências de dimensionamento para instalações no pós-aleitamento.",
-            "caption": "Referências de dimensionamento para instalações no pós-aleitamento.",
+            "type": "table",
+            "title": "MEDIDAS DE INSTALAÇÕES PARA RECRIA EM GALPÕES COLETIVOS",
+            "rows": [
+              [
+                "Idade do animal",
+                "Peso corporal do animal",
+                "Mínimo de espaço de cocho por animal",
+                "Mínimo de espaço de cama"
+              ],
+              [
+                "2 a 6 meses",
+                "80 a 180 kg",
+                "46 cm",
+                "2,8 m²"
+              ],
+              [
+                "6 a 8 meses",
+                "180 a 230 kg",
+                "38 cm",
+                "3,7 m²"
+              ],
+              [
+                "8 a 12 meses",
+                "230 a 320 kg",
+                "43 cm",
+                "4,6 m²"
+              ],
+              [
+                "12 a 16 meses",
+                "320 a 410 kg",
+                "48 cm",
+                "5,6 m²"
+              ],
+              [
+                "16 a 20 meses",
+                "410 a 500 kg",
+                "56 cm",
+                "6,5 m²"
+              ],
+              [
+                "20 meses ao pré-parto",
+                "500 a 590 kg",
+                "61 cm",
+                "7,4 m²"
+              ]
+            ],
+            "center": true,
+            "notes": [
+              "Fonte: Graves et al. (2008)."
+            ],
             "source_slide": 110
           }
         ]
@@ -2382,18 +2936,43 @@ window.PO_CONTENT = {
             "source_slide": 112
           },
           {
-            "type": "figure",
-            "src": "slide-113.jpg",
-            "alt": "Metas de desenvolvimento e reprodução de novilhas.",
-            "caption": "Metas de desenvolvimento e reprodução de novilhas.",
+            "type": "table",
+            "title": "TAXA DE CONCEPÇÃO E DE GESTAÇÃO ALVO PARA NOVILHAS",
+            "rows": [
+              [
+                "Tipo de sêmen",
+                "Alvo de taxa de concepção no primeiro serviço",
+                "Alvo de taxa de prenhez*"
+              ],
+              [
+                "Convencional (Leite ou corte)",
+                "70%",
+                "47%"
+              ],
+              [
+                "Sexado (Leite ou corte)",
+                "60%",
+                "37%"
+              ],
+              [
+                "Fertilização in vitro/embrião",
+                "60%",
+                "40%"
+              ]
+            ],
+            "center": true,
+            "notes": [
+              "Fonte: Lauber e Fricke (2022). *Porcentagem de novilhas que ficaram gestantes em relação ao número total de novilhas elegíveis para ficarem gestantes em um determinado período de 21 dias."
+            ],
             "source_slide": 113
           },
           {
             "type": "figure",
             "src": "slide-114.jpg",
             "alt": "Referências complementares para idade e peso-alvo de novilhas.",
-            "caption": "Referências complementares para idade e peso-alvo de novilhas.",
-            "source_slide": 114
+            "caption": "Idades-alvo para reprodução e primeiro parto.",
+            "source_slide": 114,
+            "layout": "wide"
           }
         ]
       }
