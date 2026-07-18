@@ -141,8 +141,45 @@
   }
 
   if (toolbar) {
+    const savedScale = Number(localStorage.getItem('po-reader-scale') || 1);
+    const applyScale = value => {
+      const scale = Math.min(1.25, Math.max(.9, Number(value) || 1));
+      document.documentElement.style.setProperty('--reader-font-scale', scale);
+      localStorage.setItem('po-reader-scale', String(scale));
+      toolbar.querySelector('[data-font-value]')?.replaceChildren(document.createTextNode(`${Math.round(scale * 100)}%`));
+    };
+    toolbar.insertAdjacentHTML('beforeend', `
+      <div class="reader-tools" aria-label="Ferramentas de leitura">
+        <button type="button" data-font-down aria-label="Diminuir tamanho do texto">A−</button>
+        <span data-font-value aria-live="polite">100%</span>
+        <button type="button" data-font-up aria-label="Aumentar tamanho do texto">A+</button>
+        <button type="button" data-share-chapter aria-label="Compartilhar este capítulo">Compartilhar</button>
+      </div>`);
+    applyScale(savedScale);
+    toolbar.querySelector('[data-font-down]')?.addEventListener('click', e => {
+      e.stopPropagation();
+      const current = Number(localStorage.getItem('po-reader-scale') || 1);
+      applyScale(current - .05);
+    });
+    toolbar.querySelector('[data-font-up]')?.addEventListener('click', e => {
+      e.stopPropagation();
+      const current = Number(localStorage.getItem('po-reader-scale') || 1);
+      applyScale(current + .05);
+    });
+    toolbar.querySelector('[data-share-chapter]')?.addEventListener('click', async e => {
+      e.stopPropagation();
+      const shareData = { title: `${currentMeta.title} | Padrão Ouro 2026`, text: currentMeta.subtitle, url: location.href };
+      try {
+        if (navigator.share) await navigator.share(shareData);
+        else {
+          await navigator.clipboard.writeText(location.href);
+          e.currentTarget.textContent = 'Link copiado';
+          setTimeout(() => { e.currentTarget.textContent = 'Compartilhar'; }, 1800);
+        }
+      } catch (_) {}
+    });
     toolbar.addEventListener('click', e => {
-      if (window.innerWidth <= 820 && !e.target.closest('input')) sidebar && sidebar.classList.toggle('open');
+      if (window.innerWidth <= 820 && !e.target.closest('input,button,a')) sidebar && sidebar.classList.toggle('open');
     });
   }
 
