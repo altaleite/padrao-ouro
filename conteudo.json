@@ -851,7 +851,6 @@
             "type": "figure",
             "src": "fornecimento-1.webp",
             "alt": "Esquema do primeiro fornecimento de colostro.",
-            "caption": "1º fornecimento de colostro.",
             "layout": "wide",
             "source_slide": 29
           },
@@ -864,7 +863,6 @@
             "type": "figure",
             "src": "fornecimento-2.webp",
             "alt": "Esquema do segundo fornecimento de colostro.",
-            "caption": "2º fornecimento de colostro.",
             "layout": "wide",
             "source_slide": 30
           },
@@ -1529,9 +1527,7 @@
           {
             "type": "subheading",
             "text": "CONCENTRADO",
-            "source_slide": 52,
-            "variant": "image-title",
-            "image": "concentrado-referencia.jpg"
+            "source_slide": 52
           },
           {
             "type": "paragraph",
@@ -1604,41 +1600,10 @@
             "source_slide": 55
           },
           {
-            "type": "card_grid",
-            "title": "REFERÊNCIAS PRÁTICAS DE PROTEÍNA BRUTA E RELAÇÃO PM:EM POR FASE",
-            "columns": 3,
-            "cards": [
-              {
-                "eyebrow": "0 a 4 meses",
-                "title": "% PB: 20,0 a 24,0",
-                "text": "Mínimo de > 49 g/Mcal."
-              },
-              {
-                "eyebrow": "5 a 9 meses",
-                "title": "% PB: 15,0 a 16,0",
-                "text": "Mínimo de > 45 g/Mcal."
-              },
-              {
-                "eyebrow": "10 a 13 meses",
-                "title": "% PB: 14,0 a 15,0",
-                "text": "Mínimo de > 41 g/Mcal."
-              },
-              {
-                "eyebrow": "14 a 18 meses",
-                "title": "% PB: 13,5 a 14,5",
-                "text": "Mínimo de > 38 g/Mcal."
-              },
-              {
-                "eyebrow": "18 meses ao 1º parto",
-                "title": "% PB: 12,5 a 13,5",
-                "text": "Mínimo de > 33 g/Mcal."
-              }
-            ],
-            "notes": [
-              "Os valores de proteína bruta apresentados são estimativas práticas e podem variar conforme o consumo de matéria seca, a densidade energética da dieta e as metas de ganho de peso estabelecidas para o rebanho.",
-              "Os valores em g/Mcal representam a relação entre proteína metabolizável e energia metabolizável.",
-              "Fonte: NASEM (2021)."
-            ],
+            "type": "figure",
+            "src": "nutricao-fases.webp",
+            "alt": "Referências práticas de proteína bruta e relação entre proteína metabolizável e energia metabolizável por fase de crescimento.",
+            "layout": "wide",
             "source_slide": 56
           }
         ]
@@ -2206,7 +2171,6 @@
             "type": "figure",
             "src": "diarreia-agentes.webp",
             "alt": "Linha do tempo dos principais agentes envolvidos na diarreia de bezerros conforme a idade.",
-            "caption": "Principais agentes envolvidos na diarreia de bezerros conforme a idade.",
             "source_slide": 78,
             "layout": "wide"
           }

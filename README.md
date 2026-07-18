@@ -1,12 +1,10 @@
-# Padrão Ouro 2026 — revisão mestre V6
+# Padrão Ouro 2026 — Revisão Mestre V7
 
-Edição digital completa com nove capítulos, tabelas responsivas, imagens e esquemas incorporados ao conteúdo.
-
-## Atualização pelo GitHub Desktop
-1. Extraia o ZIP.
-2. No GitHub Desktop, abra `Repository > Show in Explorer`.
-3. Copie todos os arquivos extraídos para a raiz da pasta `padrao-ouro` e confirme a substituição.
-4. Volte ao GitHub Desktop, faça o commit e clique em `Push origin`.
-5. Aguarde a publicação e atualize o endereço com `Ctrl + F5`.
-
-Endereço: https://altaleite.github.io/padrao-ouro/
+Ajustes desta versão:
+- imagem de concentrado aplicada como capa do capítulo Nutrição;
+- subtítulo Concentrado retornou ao padrão textual;
+- legendas redundantes removidas nas imagens do 1º e 2º fornecimento de colostro;
+- títulos de tabelas centralizados;
+- textos dos cards centralizados;
+- legenda redundante removida do esquema de agentes de diarreia;
+- imagem dos animais por fase substitui os cards de proteína bruta e g/Mcal.
