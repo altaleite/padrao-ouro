@@ -242,7 +242,7 @@ window.PO_CONTENT = {
         "items": [
           {
             "type": "paragraph",
-            "text": "A matriz deve ser movimentada para a baia individual de parição no início do estágio 2 do trabalho de parto, caracterizado pelo início das contrações abdominais visíveis, exteriorização da bolsa amniótica ou visualização dos membros fetais na vulva. Evite movimenta-la durante o estágio 1, quando as contrações uterinas ainda são discretas e o animal tende a procurar isolamento naturalmente, pois a movimentação precoce pode prolongar o trabalho de parto e aumentar o risco de distocia.",
+            "text": "A matriz deve ser movimentada para a baia individual de parição no início do estágio 2 do trabalho de parto, caracterizado pelo início das contrações abdominais visíveis, exteriorização da bolsa amniótica ou visualização dos membros fetais na vulva. Evite movimentá-la durante o estágio 1, quando as contrações uterinas ainda são discretas e o animal tende a procurar isolamento naturalmente, pois a movimentação precoce pode prolongar o trabalho de parto e aumentar o risco de distocia.",
             "source_slide": 7
           },
           {
@@ -611,87 +611,104 @@ window.PO_CONTENT = {
     {
       "name": "Alex de Matos Teixeira",
       "bio": "Médico-veterinário formado pela Escola de Veterinária da Universidade Federal de Minas Gerais (EV-UFMG), com Mestrado e Doutorado em Zootecnia pela mesma instituição. Atualmente, é professor da Faculdade de Medicina Veterinária da Universidade Federal de Uberlândia, integrante do Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e conselheiro do Programa Alta CRIA.",
-      "email": "alexmteixeira@yahoo.com.br"
+      "email": "alexmteixeira@yahoo.com.br",
+      "photo": "autor-alex-matos.webp"
     },
     {
       "name": "Alex Lopes da Silva",
       "bio": "Zootecnista pela Universidade Federal de Viçosa (UFV), com mestrado, doutorado e pós-doutorado em Zootecnia pela mesma instituição, com ênfase em nutrição e produção de bovinos de leite. Atualmente, é professor de Nutrição e Produção de Bovinos de Leite na UFV, onde também coordena o Programa Família do Leite e a Unidade de Ensino, Pesquisa e Extensão em Gado de Leite. É conselheiro do Programa Alta CRIA.",
-      "email": "alex.lopes@ufv.br"
+      "email": "alex.lopes@ufv.br",
+      "photo": "autor-alex-lopes.webp"
     },
     {
       "name": "Carla Maris Machado Bittar",
       "bio": "Engenheira Agrônoma formada pela Escola Superior de Agricultura Luiz de Queiroz (ESALQ/USP), com título de Master of Science pela University of Arizona. Doutora em Ciência Animal e Pastagens pela ESALQ/USP. Atualmente, é professora na ESALQ/USP, onde coordena o grupo de extensão Clube de Criação de Bezerras (CCB) e o Grupo de Pesquisa em Metabolismo Animal. Integra o Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheira do Programa Alta CRIA.",
-      "email": "carlabittar@usp.br"
+      "email": "carlabittar@usp.br",
+      "photo": "autor-carla-bittar.webp"
     },
     {
       "name": "Gabriel Caixeta Ferreira",
       "bio": "Médico-veterinário formado pela Universidade de São Paulo, com capacitação em gestão de fazendas leiteiras pelo sistema Agro + Lean. Atualmente, é consultor da DATAPec Consultoria, integra o Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheiro do Programa Alta CRIA.",
-      "email": "gabriel.ferreira@datapecconsultoria.com"
+      "email": "gabriel.ferreira@datapecconsultoria.com",
+      "photo": "autor-gabriel-ferreira.webp"
     },
     {
       "name": "José Azael Zambrano",
       "bio": "Médico-veterinário formado pela UCLA. Mestre e Doutor em Ciência Animal, com ênfase em medicina de ruminantes, pela Escola de Veterinária da Universidade Federal de Minas Gerais (UFMG). Atualmente, é coordenador da SARE - Sanidade de Rebanhos, integrante do Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheiro do Programa Alta CRIA.",
-      "email": "zambrano.sanidade@gmail.com"
+      "email": "zambrano.sanidade@gmail.com",
+      "photo": "autor-jose-zambrano.webp"
     },
     {
       "name": "José Eduardo Portela Santos",
       "bio": "Médico-veterinário formado pela Universidade Estadual Paulista Júlio de Mesquita Filho (Unesp). Mestre e Doutor em Ciência Animal pela University of Arizona (EUA). Realizou residência clínica em medicina de produção de bovinos leiteiros e atuou como professor na School of Veterinary Medicine da University of California, Davis (EUA). Cumpriu período sabático na University of Sydney, na Austrália. Atualmente, é professor titular na University of Florida (EUA) e professor na Unesp, campus de Botucatu. Integra o Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheiro do Programa Alta CRIA.",
-      "email": "jepsantos@ufl.edu"
+      "email": "jepsantos@ufl.edu",
+      "photo": "autor-jose-eduardo.webp"
     },
     {
       "name": "João Henrique Cardoso Costa",
       "bio": "Engenheiro Agrônomo e Mestre pela Universidade Federal de Santa Catarina (UFSC). Doutor em Animal Science pela University of British Columbia, no Canadá. Foi Professor Assistente na University of Kentucky e Professor Associado na University of Vermont, em Burlington, EUA. Durante sua trajetória acadêmica, coordenou o grupo de pesquisa Costa Lab e foi diretor do Centro de Pesquisa Coldstream Dairy. Atualmente, é Diretor Executivo da 4C Assessoria e Consultoria em Pecuária, empresa privada de pesquisa e consultoria empresarial voltada ao mercado de tecnologia e nutrição animal. Integra o Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheiro do programa Alta CRIA.",
-      "email": "jhcardosocosta@gmail.com"
+      "email": "jhcardosocosta@gmail.com",
+      "photo": "autor-joao-costa.webp"
     },
     {
       "name": "Lívia Carolina Magalhães Silva Antunes",
       "bio": "Zootecnista formada pela Faculdade de Ciências Agrárias e Veterinárias da Universidade Estadual Paulista (FCAV-Unesp). Mestre em Genética e Melhoramento Animal e Doutora em Zootecnia pela FCAV-Unesp, com parte do doutorado realizado no IRTA – Instituto de Investigación y Tecnología Agroalimentarias, na Catalunha, Espanha. Possui pós-doutorado pela FCAV-Unesp. Desenvolve projetos na área de comportamento e bem-estar animal junto ao Grupo ETCO (FCAV-Unesp). Atualmente, é especialista da Be.Animal Pesquisa e Desenvolvimento, atuando em projetos aplicados em bem-estar animal na cadeia produtiva do leite. Integra o Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheira do Programa Alta CRIA.",
-      "email": "lmagalhaesilva@gmail.com"
+      "email": "lmagalhaesilva@gmail.com",
+      "photo": "autor-livia-antunes.webp"
     },
     {
       "name": "Márcia Saladini Vieira Salles",
       "bio": "Zootecnista, com mestrado em Nutrição Animal, doutorado em Ciência dos Alimentos e pós-doutorado pela Universidade de São Paulo (USP). Atualmente, é pesquisadora do Instituto de Zootecnia em Ribeirão Preto, professora do programa de pós-graduação em Produção Animal Sustentável do mesmo instituto, coordenadora do grupo Ruminant Welfare e conselheira do Programa Alta CRIA.",
-      "email": "marcia.salles@sp.gov.br"
+      "email": "marcia.salles@sp.gov.br",
+      "photo": "autor-marcia-salles.webp"
     },
     {
       "name": "Mariana Magalhães Campos",
       "bio": "Médica-veterinária formada pela Escola de Veterinária da Universidade Federal de Minas Gerais (EV-UFMG). Mestre e Doutora em Zootecnia, com área de concentração em Nutrição Animal, pela mesma instituição. Atualmente, é pesquisadora da Embrapa Gado de Leite, atuando na área de nutrição de ruminantes, com foco em temas como cria e recria de bezerras leiteiras, eficiência alimentar, pecuária de precisão, respirometria calorimétrica, partição de energia e emissão de metano entérico em ruminantes. Integra o Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheira do Programa Alta CRIA.",
-      "email": "mariana.campos@embrapa.br"
+      "email": "mariana.campos@embrapa.br",
+      "photo": "autor-mariana-campos.webp"
     },
     {
       "name": "Polyana Pizzi Rotta",
       "bio": "Zootecnista formada pela Universidade Estadual de Maringá. Mestre e Doutora pela Universidade Federal de Viçosa (UFV), com período de treinamento na Colorado State University, nos Estados Unidos, durante o doutorado. Atualmente, é professora adjunta de Produção e Nutrição em Bovinocultura de Leite na UFV, coordenadora do Programa Família do Leite, integra o Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheira do Programa Alta CRIA.",
-      "email": "polyana.rotta@ufv.br"
+      "email": "polyana.rotta@ufv.br",
+      "photo": "autor-polyana-rotta.webp"
     },
     {
       "name": "Rafael Alves de Azevedo",
       "bio": "Zootecnista formado pelo Instituto de Ciências Agrárias da Universidade Federal de Minas Gerais (ICA-UFMG). Mestre em Ciências Agrárias pelo ICA-UFMG e Doutor em Zootecnia pela Escola de Veterinária da UFMG (EV-UFMG), com período de treinamento na University of Florida, nos Estados Unidos. Possui pós-doutorado em Zootecnia pela EV-UFMG. Atualmente, é Gerente de Produtos e Serviços Leite da Alta Brasil, coordenador do Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras, e coordenador e conselheiro do Programa Alta CRIA.",
-      "email": "rafael.azevedo@altagenetics.com"
+      "email": "rafael.azevedo@altagenetics.com",
+      "photo": "autor-rafael-azevedo.webp"
     },
     {
       "name": "Rodrigo Melo Meneses",
       "bio": "Médico-veterinário formado pela Universidade Federal de Viçosa (UFV), com especialização em Clínica e Cirurgia Veterinária, na área de Grandes Animais, pela mesma instituição. Mestre e Doutor em Ciência Animal, com área de concentração em Medicina e Cirurgia Veterinária, pela Escola de Veterinária da Universidade Federal de Minas Gerais (EV-UFMG). Atualmente, é professor na EV-UFMG, integra o Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheiro do Programa Alta CRIA.",
-      "email": "menesesrm@gmail.com"
+      "email": "menesesrm@gmail.com",
+      "photo": "autor-rodrigo-meneses.webp"
     },
     {
       "name": "Rodrigo Otávio Silveira Silva",
       "bio": "Médico-veterinário formado pela Escola de Veterinária da Universidade Federal de Minas Gerais (EV-UFMG). Mestre e Doutor em Ciência Animal pela mesma instituição, com doutorado sanduíche realizado na University of Copenhagen, na Dinamarca. Atualmente, é professor na EV-UFMG, integra o Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheiro do Programa Alta CRIA.",
-      "email": "rodrigo.otaviosilva@gmail.com"
+      "email": "rodrigo.otaviosilva@gmail.com",
+      "photo": "autor-rodrigo-otavio.webp"
     },
     {
       "name": "Sandra Gesteira Coelho",
       "bio": "Médica-veterinária pela Escola de Veterinária da Universidade Federal de Minas Gerais (EV-UFMG). Mestrado em Medicina Veterinária (Área de Reprodução) pela EV-UFMG. Doutorado em Ciência Animal (Área de Nutrição) pela EV-UFMG, com período de treinamento na University of Florida (EUA). Atualmente, é uma das coordenadoras do Grupo de estudo e pesquisa em Pecuária de Leite (GPleite; EV-UFMG), professora na EV-UFMG, integrante do Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheira do Programa Alta CRIA.",
-      "email": "sandragesteiracoelho@gmail.com"
+      "email": "sandragesteiracoelho@gmail.com",
+      "photo": "autor-sandra-coelho.webp"
     },
     {
       "name": "Valdir Chiogna Júnior",
       "bio": "Médico-veterinário formado pela Universidade Federal de Goiás (UFG). Especialista em Produção de Ruminantes pela Escola Superior de Agricultura Luiz de Queiroz (Esalq/USP) e Mestre em Biociência Animal pela UFG. Atualmente, é consultor pela Milk+ Consultoria, integra o Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheiro do Programa Alta CRIA.",
-      "email": "chiognavet@hotmail.com"
+      "email": "chiognavet@hotmail.com",
+      "photo": "autor-valdir-chiogna.webp"
     },
     {
       "name": "Viviani Gomes",
       "bio": "Médica-veterinária formada pela Universidade Paulista (UNIP). Possui aprimoramento em Clínica e Cirurgia de Grandes Animais, com ênfase em Ruminantes, pela Faculdade de Medicina Veterinária e Zootecnia da Universidade de São Paulo (FMVZ-USP). Mestre e Doutora em Clínica Veterinária pela FMVZ-USP, com pós-doutorado em Imunologia Bovina na University of Georgia (UGA), nos Estados Unidos. Atualmente, é professora na FMVZ-USP, coordenadora de pesquisa do Grupo de Estudos em Medicina Aplicada ao Período de Transição, Cria e Recria (GeCria), integra o Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras e é conselheira do Programa Alta CRIA.",
-      "email": "viviani.gomes@usp.br"
+      "email": "viviani.gomes@usp.br",
+      "photo": "autor-viviani-gomes.webp"
     }
   ],
   "chapter_03": {
@@ -883,7 +900,7 @@ window.PO_CONTENT = {
         "items": [
           {
             "type": "paragraph",
-            "text": "Caso o colostro não seja fornecido imediatamente após a ordenha ou pasteurização, refrigere-o em geladeira ou congele imediatamente em freezer não frost free.",
+            "text": "Caso o colostro não seja fornecido imediatamente após a ordenha ou pasteurização, refrigere-o em geladeira ou congele imediatamente em freezer sem sistema frost-free.",
             "source_slide": 31
           },
           {
@@ -898,7 +915,7 @@ window.PO_CONTENT = {
           },
           {
             "type": "paragraph",
-            "text": "Colostro extra pode ser armazenado congelado em freezer não frost free por até oito meses.",
+            "text": "Colostro extra pode ser armazenado congelado em freezer sem sistema frost-free por até oito meses.",
             "source_slide": 31
           },
           {
@@ -1082,7 +1099,7 @@ window.PO_CONTENT = {
           },
           {
             "type": "paragraph",
-            "text": "Para bezerras que recebem substitutos de colostro diluídos em água, é importante estar ciente de que a relação entre a proteína total ou Brix séricos e os valores de IgG sérico, podem variar de forma significante entre os diferentes produtos disponíveis no mercado, em função das técnicas de fabricação, fonte, concentração e absorção de imunoglobulinas. Dessa forma, os pontos de corte de Brix sérico sugeridos para monitorar a transferência de imunidade passiva em bezerras que receberam colostro materno podem ser imprecisos para bezerras que receberam substitutos de colostro.",
+            "text": "Para bezerras que recebem substitutos de colostro diluídos em água, é importante estar ciente de que a relação entre a proteína total ou Brix séricos e os valores de IgG sérico podem variar de forma significativa entre os diferentes produtos disponíveis no mercado, em função das técnicas de fabricação, fonte, concentração e absorção de imunoglobulinas. Dessa forma, os pontos de corte de Brix sérico sugeridos para monitorar a transferência de imunidade passiva em bezerras que receberam colostro materno podem ser imprecisos para bezerras que receberam substitutos de colostro.",
             "source_slide": 38
           },
           {
@@ -3067,5 +3084,11 @@ window.PO_CONTENT = {
         ]
       }
     ]
+  },
+  "publication": {
+    "title": "Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras",
+    "edition": "4ª edição",
+    "year": "2026",
+    "organization": "Alta"
   }
 };

@@ -1,0 +1,79 @@
+{
+  "name": "Padrão Ouro - Bezerras e Novilhas Leiteiras",
+  "short_name": "Padrão Ouro",
+  "description": "Padrão Ouro de Criação de Bezerras e Novilhas Leiteiras - 4ª edição, 2026.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#102b58",
+  "lang": "pt-BR",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "./index.html",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "dir": "ltr",
+  "categories": [
+    "education",
+    "books",
+    "reference"
+  ],
+  "shortcuts": [
+    {
+      "name": "Iniciar leitura",
+      "short_name": "Leitura",
+      "url": "./leitura.html",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Baixar e-book",
+      "short_name": "E-book",
+      "url": "./Padrao_Ouro_2026_Ebook.pdf",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Autores",
+      "short_name": "Autores",
+      "url": "./autores.html",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
