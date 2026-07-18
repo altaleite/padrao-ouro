@@ -45,7 +45,7 @@
 
   // PWA: registro e instalação com identidade do Padrão Ouro.
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
-    window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js?v=10').catch(() => {}));
+    window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js?v=101').catch(() => {}));
   }
 
   let deferredInstallPrompt = null;

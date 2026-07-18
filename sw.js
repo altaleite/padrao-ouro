@@ -1,4 +1,4 @@
-const CACHE = 'padrao-ouro-v10';
+const CACHE = 'padrao-ouro-v101';
 const CORE = [
   './',
   './404.html',

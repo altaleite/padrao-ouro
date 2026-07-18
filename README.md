@@ -28,3 +28,7 @@ O português é a referência técnica oficial. Em navegadores compatíveis, a t
 6. Após a publicação, atualize o navegador com `Ctrl + F5`.
 
 Endereço planejado: https://altaleite.github.io/padrao-ouro/
+
+
+## V10.1
+Correção do seletor de idiomas: o original em português nunca mais é substituído por um redirecionamento externo; traduções externas abrem em nova aba.
