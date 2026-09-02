@@ -617,6 +617,10 @@ button, input { font: inherit; }
   color: var(--ink-soft);
   font-size: .92rem;
   line-height: 1.45;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .table-scroll {
@@ -755,6 +759,10 @@ button, input { font: inherit; }
   margin: 0;
   color: var(--ink);
   line-height: 1.45;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .content-figure {
@@ -799,7 +807,10 @@ button, input { font: inherit; }
   color: var(--muted);
   font-size: 13px;
   line-height: 1.4;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 /* Imagem usada como caixa de título, sem duplicar a foto no corpo do texto. */
