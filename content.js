@@ -112,13 +112,9 @@ window.PO_CONTENT = {
     "cover": "pre-parto-maternidade.jpg",
     "sections": [
       {
-        "id": "pre-parto",
-        "title": "PRÉ-PARTO",
+        "id": "duracao-esperada-da-gestacao",
+        "title": "DURAÇÃO ESPERADA DA GESTAÇÃO",
         "items": [
-          {
-            "type": "subheading",
-            "text": "DURAÇÃO ESPERADA DA GESTAÇÃO"
-          },
           {
             "type": "paragraph",
             "text": "A duração da gestação varia entre raças e entre animais."
@@ -156,7 +152,13 @@ window.PO_CONTENT = {
           {
             "type": "paragraph",
             "text": "Qualquer protocolo de indução deve ser definido pelo médico-veterinário responsável, após avaliação da vaca, da viabilidade fetal e das condições da gestação."
-          },
+          }
+        ]
+      },
+      {
+        "id": "pre-parto",
+        "title": "PRÉ-PARTO",
+        "items": [
           {
             "type": "paragraph",
             "text": "Recomenda-se que as vacas tenham período seco entre 45 e 60 dias, em instalações que proporcionem bem-estar animal, garantindo conforto térmico.",
@@ -169,12 +171,12 @@ window.PO_CONTENT = {
           },
           {
             "type": "paragraph",
-            "text": "Trabalhe com o médico-veterinário responsável para a elaboração do programa de vacinação do rebanho, com o objetivo de melhorar a qualidade imunológica do colostro produzido por primíparas e multíparas.",
-            "source_slide": 3
+            "text": "Garanta acesso permanente a água limpa, fresca e de fácil acesso para vacas e novilhas no pré-parto. Monitore diariamente a disponibilidade, a limpeza e o funcionamento dos bebedouros, pois o consumo adequado de água é fundamental para o consumo de matéria seca e para a saúde das matrizes."
           },
           {
             "type": "paragraph",
-            "text": "Garanta acesso permanente a água limpa, fresca e de fácil acesso para vacas e novilhas no pré-parto. Monitore diariamente a disponibilidade, a limpeza e o funcionamento dos bebedouros, pois o consumo adequado de água é fundamental para o consumo de matéria seca e para a saúde das matrizes."
+            "text": "Trabalhe com o médico-veterinário responsável para a elaboração do programa de vacinação do rebanho, com o objetivo de melhorar a qualidade imunológica do colostro produzido por primíparas e multíparas.",
+            "source_slide": 3
           }
         ],
         "source_slides": [
@@ -232,7 +234,7 @@ window.PO_CONTENT = {
           },
           {
             "type": "paragraph",
-            "text": "Em sistemas de produção a pasto ou semi-confinados, a maternidade em piquetes pode ser adotada, desde que atenda aos critérios de higiene, drenagem, conforto térmico, lotação, monitoramento e acesso rápido da equipe."
+            "text": "Em sistemas de produção a pasto ou semiconfinados, a maternidade em piquetes pode ser adotada, desde que atenda aos critérios de higiene, drenagem, conforto térmico, lotação, monitoramento e acesso rápido da equipe."
           },
           {
             "type": "paragraph",
@@ -564,8 +566,11 @@ window.PO_CONTENT = {
         "items": [
           {
             "type": "paragraph",
-            "text": "Para investigar a circulação do BVDV no rebanho por meio de sorologia, colete sangue das bezerras recém-nascidas em tubo sem anticoagulante antes da ingestão do colostro. A identificação de anticorpos nessa amostra indica exposição fetal ao vírus, uma vez que não há transferência placentária de imunoglobulinas na espécie bovina.",
-            "source_slide": 18
+            "text": "Para identificar se o rebanho é positivo e se o Vírus da Diarreia Viral Bovina (BVDV) está circulando, recomenda-se a coleta de amostras de sangue em tubos sem anticoagulante das bezerras recém-nascidas antes da ingestão do colostro."
+          },
+          {
+            "type": "paragraph",
+            "text": "A detecção de animais soropositivos indica infecção fetal."
           },
           {
             "type": "paragraph",
@@ -861,7 +866,7 @@ window.PO_CONTENT = {
               ],
               [
                 "1º Fornecimento",
-                "≥ 24% de Brix",
+                "≥ 25% de Brix",
                 "Colostro de excelente qualidade imunológica."
               ],
               [
@@ -1555,7 +1560,7 @@ window.PO_CONTENT = {
             ],
             "center": true,
             "notes": [
-              "Fonte: NASEM (2021). Turbidez e nitrito: Portaria GM/MS Nº 888 (Ministério da Saúde, Brasil, 2021)."
+              "*Fonte: NASEM (2021). Turbidez e nitrito: Portaria GM/MS Nº 888 (Ministério da Saúde, Brasil, 2021)."
             ],
             "source_slide": 51
           }
@@ -1652,7 +1657,8 @@ window.PO_CONTENT = {
             "src": "nutricao-fases.webp",
             "alt": "Referências práticas de proteína bruta e relação entre proteína metabolizável e energia metabolizável por fase de crescimento.",
             "layout": "wide",
-            "source_slide": 56
+            "source_slide": 56,
+            "caption": "*Valores estimados com base nas exigências descritas pelo NASEM (2021), considerando bezerras pós-desaleitamento com aproximadamente 120 kg de peso corporal e ganho médio diário de 800 g."
           }
         ]
       },
@@ -1861,7 +1867,7 @@ window.PO_CONTENT = {
             "center": true,
             "compact": true,
             "notes": [
-              "Valores estimados com base nas exigências descritas pelo NASEM (2021), considerando bezerras pós-desaleitamento com aproximadamente 120 kg de peso corporal e ganho médio diário de 800 g."
+              "*Valores estimados com base nas exigências descritas pelo NASEM (2021), considerando bezerras pós-desaleitamento com aproximadamente 120 kg de peso corporal e ganho médio diário de 800 g."
             ],
             "source_slide": 63
           },
@@ -1971,7 +1977,7 @@ window.PO_CONTENT = {
             ],
             "center": true,
             "notes": [
-              "Fonte: NASEM (2021)."
+              "*Fonte: NASEM (2021)."
             ],
             "source_slide": 66
           }
@@ -2064,8 +2070,8 @@ window.PO_CONTENT = {
             ],
             "center": true,
             "notes": [
-              "Fonte: Gold Standard (2023) e NASEM (2021). O tamanho adulto de um rebanho é definido como o peso corporal médio das vacas de terceira lactação, no meio da lactação.",
-              "As metas de ganho de peso podem variar conforme o nível nutricional e o sistema de criação adotado."
+              "*Fonte: Gold Standard (2023) e NASEM (2021). O tamanho adulto de um rebanho é definido como o peso corporal médio das vacas de terceira lactação, no meio da lactação.",
+              "*As metas de ganho de peso podem variar conforme o nível nutricional e o sistema de criação adotado."
             ],
             "source_slide": 69
           },
@@ -2211,7 +2217,7 @@ window.PO_CONTENT = {
             ],
             "center": true,
             "notes": [
-              "Fonte: Adaptado de McGuirk (2008). Fezes com escore 2 e 3 são consideradas compatíveis com diarreia."
+              "*Fonte: Adaptado de McGuirk (2008). Fezes com escore 2 e 3 são consideradas compatíveis com diarreia."
             ],
             "source_slide": 77
           },
@@ -2324,7 +2330,8 @@ window.PO_CONTENT = {
             ],
             "center": true,
             "notes": [
-              "Fonte: Adaptado de Lago et al. (2006). Em países tropicais, bezerras que apresentam pelo menos dois parâmetros com escores 2 ou 3 são classificadas como positivas para doença respiratória (Decaris et al., 2022)."
+              "*Fonte: Adaptado de Lago et al. (2006).",
+              "*Em países tropicais, bezerras que apresentam pelo menos dois parâmetros com escores 2 ou 3 são classificadas como positivas para doença respiratória (Decaris et al., 2022)."
             ],
             "source_slide": 82
           }
@@ -2476,7 +2483,7 @@ window.PO_CONTENT = {
                 "3%"
               ],
               [
-                "Vendas e descartes até 75 dias de vida",
+                "Descartes até 75 dias de vida",
                 "1%"
               ],
               [
@@ -2484,7 +2491,7 @@ window.PO_CONTENT = {
                 "2%"
               ],
               [
-                "Vendas e descartes entre 75–365 dias de vida",
+                "Descartes entre 75–365 dias de vida",
                 "2%"
               ],
               [
@@ -2503,7 +2510,7 @@ window.PO_CONTENT = {
             "center": true,
             "highlight_last_row": true,
             "notes": [
-              "* Taxa de conclusão de novilhas, quando calculada considerando apenas as bezerras nascidas vivas."
+              "*Taxa de conclusão de novilhas, quando calculada considerando apenas as bezerras nascidas vivas."
             ],
             "source_slide": 90
           }
@@ -3031,7 +3038,7 @@ window.PO_CONTENT = {
             ],
             "center": true,
             "notes": [
-              "Fonte: Graves et al. (2008)."
+              "*Fonte: Graves et al. (2008)."
             ],
             "source_slide": 110
           }
@@ -3100,7 +3107,8 @@ window.PO_CONTENT = {
             ],
             "center": true,
             "notes": [
-              "Fonte: Lauber e Fricke (2022). *Porcentagem de novilhas que ficaram gestantes em relação ao número total de novilhas elegíveis para ficarem gestantes em um determinado período de 21 dias."
+              "*Fonte: Lauber e Fricke (2022).",
+              "*Porcentagem de novilhas que ficaram gestantes em relação ao número total de novilhas elegíveis para ficarem gestantes em um determinado período de 21 dias."
             ],
             "source_slide": 113
           },

@@ -25,6 +25,15 @@
     return text;
   }
 
+  const ITALIC_WORDS = ['feedback', 'swab'];
+  function italicize(escapedHtml) {
+    let out = String(escapedHtml ?? '').replace(/\bet al\.?/g, m => `<em>${m}</em>`);
+    ITALIC_WORDS.forEach(word => {
+      out = out.replace(new RegExp(`\\b(${word})\\b`, 'gi'), '<em>$1</em>');
+    });
+    return out;
+  }
+
   function sourceLabel(slides) {
     const clean = (slides || []).filter(v => v !== undefined && v !== null).map(Number);
     if (!clean.length) return '';
@@ -50,7 +59,7 @@
 
   function renderNotes(notes) {
     if (!notes || !notes.length) return '';
-    return `<div class="item-notes">${notes.map(note => `<p>${esc(smartText(note))}</p>`).join('')}</div>`;
+    return `<div class="item-notes">${notes.map(note => `<p>${italicize(esc(smartText(note)))}</p>`).join('')}</div>`;
   }
 
   function renderTable(item) {
@@ -82,7 +91,7 @@
               ${card.eyebrow ? `<p class="card-eyebrow">${esc(card.eyebrow)}</p>` : ''}
               ${card.title ? `<h4 class="card-title">${esc(card.title)}</h4>` : ''}
               ${card.meta ? `<p class="card-meta">${esc(card.meta)}</p>` : ''}
-              ${card.text ? `<p class="card-text">${esc(smartText(card.text))}</p>` : ''}
+              ${card.text ? `<p class="card-text">${italicize(esc(smartText(card.text)))}</p>` : ''}
             </article>
           `).join('')}
         </div>
@@ -97,7 +106,7 @@
         <button class="figure-open" type="button" aria-label="Ampliar figura">
           <img loading="lazy" src="${esc(item.src)}" alt="${esc(item.alt || item.caption || 'Figura técnica')}">
         </button>
-        ${item.caption ? `<figcaption>${esc(smartText(item.caption))}</figcaption>` : ''}
+        ${item.caption ? `<figcaption>${italicize(esc(smartText(item.caption)))}</figcaption>` : ''}
       </figure>`;
   }
 
@@ -109,7 +118,7 @@
     if (item.type === 'table') return renderTable(item);
     if (item.type === 'card_grid') return renderCardGrid(item);
     if (item.type === 'figure') return renderFigure(item);
-    return `<div class="gold-paragraph"><span aria-hidden="true"></span><p>${esc(smartText(item.text))}</p></div>`;
+    return `<div class="gold-paragraph"><span aria-hidden="true"></span><p>${italicize(esc(smartText(item.text)))}</p></div>`;
   }
 
   if (sidebarChapters) {
