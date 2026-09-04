@@ -1014,7 +1014,7 @@ window.PO_CONTENT = {
           },
           {
             "type": "paragraph",
-            "text": "Para o colostro em pó da SCCL® comercializado no Brasil, com 21% de IgG, utilize 27 g de produto por litro para aumentar a massa de IgG em 1 ponto percentual do valor de Brix do colostro.",
+            "text": "Para o colostro em pó da SCCL® comercializado no Brasil, com 21% de IgG, utilize 24 g de produto por litro para aumentar a massa de IgG em 1 ponto percentual do valor de Brix do colostro.",
             "source_slide": 34
           },
           {
@@ -1029,7 +1029,7 @@ window.PO_CONTENT = {
           },
           {
             "type": "paragraph",
-            "text": "Para colostro enriquecido, adote como meta de qualidade imunológica o valor de Brix de 24% no primeiro fornecimento e 22% no segundo fornecimento.",
+            "text": "Para colostro enriquecido, adote como meta de qualidade imunológica o valor de Brix de 25% no primeiro fornecimento e 22% no segundo fornecimento.",
             "source_slide": 34
           },
           {
