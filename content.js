@@ -1261,8 +1261,11 @@ window.PO_CONTENT = {
             "source_slide": 43
           },
           {
-            "type": "paragraph",
-            "text": "Ferramenta de apoio: o CalfSim permite comparar diferentes estratégias nutricionais e simular seus efeitos sobre o consumo, o ganho de peso, o peso final e o custo de criação das bezerras. Seus resultados devem ser utilizados como apoio à tomada de decisão e avaliados em conjunto com os dados observados na fazenda.",
+            "type": "tool_callout",
+            "eyebrow": "Ferramenta de apoio",
+            "tool": "CalfSim",
+            "url": "https://teds-91-calfsim.share.connect.posit.cloud/",
+            "text": "permite comparar diferentes estratégias nutricionais e simular seus efeitos sobre o consumo, o ganho de peso, o peso final e o custo de criação das bezerras. Seus resultados devem ser utilizados como apoio à tomada de decisão e avaliados em conjunto com os dados observados na fazenda.",
             "source_slide": 43
           },
           {
@@ -2536,7 +2539,7 @@ window.PO_CONTENT = {
                 ""
               ],
               [
-                "Natimortos (260 dias de gestação até 24 horas de vida)",
+                "↳ Natimortos (260 dias de gestação até 24 horas de vida)",
                 "2,5%"
               ]
             ],

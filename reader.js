@@ -57,6 +57,8 @@
     (sec.items || []).forEach(item => {
       if (item.title) parts.push(item.title);
       if (item.text) parts.push(item.text);
+      if (item.tool) parts.push(item.tool);
+      if (item.eyebrow) parts.push(item.eyebrow);
       if (item.caption) parts.push(item.caption);
       if (item.notes) item.notes.forEach(note => parts.push(note));
       if (item.rows) item.rows.flat().forEach(cell => parts.push(cell));
@@ -77,16 +79,37 @@
     if (!rows.length) return '';
     const head = rows[0];
     const body = rows.slice(1);
+    const hasLevels = body.some(r => String(r[0] ?? '').trim().startsWith('↳'));
+    const renderRow = r => {
+      if (!hasLevels) return `<tr>${r.map(c => `<td>${italicize(esc(c))}</td>`).join('')}</tr>`;
+      const label = String(r[0] ?? '');
+      const indented = label.trim().startsWith('↳');
+      const cleanLabel = label.replace(/^\s*↳\s*/, '');
+      const firstCell = `<td>${indented ? '<span class="row-arrow" aria-hidden="true">↳</span>' : ''}${italicize(esc(cleanLabel))}</td>`;
+      const restCells = r.slice(1).map(c => `<td>${italicize(esc(c))}</td>`).join('');
+      return `<tr class="${indented ? 'is-indented' : 'is-summary'}">${firstCell}${restCells}</tr>`;
+    };
     return `
       <div class="content-block content-table-block${item.center ? ' is-centered' : ''}${item.compact ? ' is-compact' : ''}">
         ${item.title ? `<h3 class="block-title">${esc(item.title)}</h3>` : ''}
         <div class="table-scroll" tabindex="0" aria-label="Tabela técnica; em telas menores, deslize horizontalmente">
-          <table class="technical-table${item.highlight_last_row ? ' highlight-last-row' : ''}">
+          <table class="technical-table${item.highlight_last_row ? ' highlight-last-row' : ''}${hasLevels ? ' has-levels' : ''}">
             <thead><tr>${head.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead>
-            <tbody>${body.map(r => `<tr>${r.map(c => `<td>${italicize(esc(c))}</td>`).join('')}</tr>`).join('')}</tbody>
+            <tbody>${body.map(renderRow).join('')}</tbody>
           </table>
         </div>
         ${renderNotes(item.notes)}
+      </div>`;
+  }
+
+  function renderToolCallout(item) {
+    return `
+      <div class="tool-callout">
+        <div class="tool-callout-badge" aria-hidden="true">↗</div>
+        <div class="tool-callout-body">
+          ${item.eyebrow ? `<p class="tool-callout-eyebrow">${esc(item.eyebrow)}</p>` : ''}
+          <p class="tool-callout-text">${item.url ? `<a class="tool-callout-link" href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.tool)}</a>` : esc(item.tool)} ${linkify(italicize(esc(item.text)))}</p>
+        </div>
       </div>`;
   }
 
@@ -128,6 +151,7 @@
     if (item.type === 'table') return renderTable(item);
     if (item.type === 'card_grid') return renderCardGrid(item);
     if (item.type === 'figure') return renderFigure(item);
+    if (item.type === 'tool_callout') return renderToolCallout(item);
     return `<div class="gold-paragraph"><span aria-hidden="true"></span><p>${linkify(italicize(esc(smartText(item.text))))}</p></div>`;
   }
 

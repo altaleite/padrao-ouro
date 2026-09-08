@@ -1,4 +1,4 @@
-const CACHE = 'padrao-ouro-v101';
+const CACHE = 'padrao-ouro-v108';
 const CORE = [
   './',
   './404.html',
@@ -102,15 +102,18 @@ self.addEventListener('fetch', event => {
           return response;
         })
         .catch(async () => {
-          const exact = await caches.match(event.request, { ignoreSearch: true });
-          return exact || caches.match('./index.html', { ignoreSearch: true });
+          const exact = await caches.match(event.request);
+          return exact || caches.match('./index.html');
         })
     );
     return;
   }
 
+  // Recursos versionados (?v=...) precisam bater a busca exata: um ?v= novo
+  // tem que ser tratado como um arquivo diferente, nunca reaproveitar uma
+  // cópia antiga só porque o nome do arquivo é o mesmo.
   event.respondWith(
-    caches.match(event.request, { ignoreSearch: true }).then(cached => {
+    caches.match(event.request).then(cached => {
       if (cached) return cached;
       return fetch(event.request).then(response => {
         if (response && response.ok) {
