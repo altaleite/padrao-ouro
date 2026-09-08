@@ -32,7 +32,12 @@
   const authorNames = document.querySelector('[data-author-names]');
   if (authorNames && window.PO_CONTENT) {
     authorNames.innerHTML = window.PO_CONTENT.authors
-      .map(a => `<div class="author-name">${a.name}</div>`).join('');
+      .map(a => `
+        <div class="author-mini">
+          <span class="author-mini-photo" style="background-image:url('${a.photo}')" role="img" aria-label="${a.name}"></span>
+          <span class="author-mini-name">${a.name}</span>
+        </div>`)
+      .join('');
   }
 
   const yearEls = document.querySelectorAll('[data-year]');
