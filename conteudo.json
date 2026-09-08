@@ -386,7 +386,7 @@
           },
           {
             "type": "paragraph",
-            "text": "Caso haja estrutura disponível, acomode a bezerra à frente da mãe em uma \"caixa de carinho\" durante a ordenha do colostro, prática que favorece a descida do colostro por estímulo do contato visual e tátil materno. A “caixa de carinho” deve ser confortável, de material resistente e que permita higienização e desinfecção completas entre cada uso.",
+            "text": "Caso haja estrutura disponível, acomode a bezerra à frente da mãe em uma “caixa de carinho” durante a ordenha do colostro, prática que favorece a descida do colostro por estímulo do contato visual e tátil materno. A “caixa de carinho” deve ser confortável, de material resistente e que permita higienização e desinfecção completas entre cada uso.",
             "source_slide": 10
           }
         ],
@@ -1014,7 +1014,7 @@
           },
           {
             "type": "paragraph",
-            "text": "Para o colostro em pó da SCCL® comercializado no Brasil, com 21% de IgG, utilize 27 g de produto por litro para aumentar a massa de IgG em 1 ponto percentual do valor de Brix do colostro.",
+            "text": "Para o colostro em pó da SCCL® comercializado no Brasil, com 21% de IgG, utilize 22 g de produto por litro para aumentar a massa de IgG em 1 ponto percentual do valor de Brix do colostro.",
             "source_slide": 34
           },
           {
@@ -1029,7 +1029,7 @@
           },
           {
             "type": "paragraph",
-            "text": "Para colostro enriquecido, adote como meta de qualidade imunológica o valor de Brix de 24% no primeiro fornecimento e 22% no segundo fornecimento.",
+            "text": "Para colostro enriquecido, adote como meta de qualidade imunológica o valor de Brix de 25% no primeiro fornecimento e 22% no segundo fornecimento.",
             "source_slide": 34
           },
           {
@@ -1087,6 +1087,11 @@
           {
             "type": "paragraph",
             "text": "Utilize refratômetro de Brix devidamente calibrado e realize a leitura à temperatura ambiente. Os refratômetros digitais oferecem maior precisão na leitura das amostras.",
+            "source_slide": 36
+          },
+          {
+            "type": "paragraph",
+            "text": "Monitore a distribuição das bezerras nas categorias de transferência de imunidade e utilize esses resultados para identificar falhas no processo de colostragem.",
             "source_slide": 36
           },
           {
@@ -1250,6 +1255,16 @@
           43
         ],
         "items": [
+          {
+            "type": "paragraph",
+            "text": "Defina o programa de aleitamento considerando o peso corporal da bezerra, a composição e o volume da dieta líquida, o consumo de concentrado e a meta de ganho de peso até o desaleitamento. Monitore o desempenho dos animais e ajuste o programa sempre que o ganho de peso observado estiver abaixo do esperado.",
+            "source_slide": 43
+          },
+          {
+            "type": "paragraph",
+            "text": "Ferramenta de apoio: o CalfSim permite comparar diferentes estratégias nutricionais e simular seus efeitos sobre o consumo, o ganho de peso, o peso final e o custo de criação das bezerras. Seus resultados devem ser utilizados como apoio à tomada de decisão e avaliados em conjunto com os dados observados na fazenda.",
+            "source_slide": 43
+          },
           {
             "type": "paragraph",
             "text": "Para bezerras Holandês ou de cruzamento Gir x Holandês, até os 45 dias de vida, recomenda-se o fornecimento de no mínimo 900 g de sólidos totais por dia via dieta líquida, correspondendo a aproximadamente 7 litros com teor de 12,5 a 13,5% de sólidos. Para sistemas que buscam maiores taxas de crescimento, recomenda-se o fornecimento de 1,0 a 1,5 kg de sólidos totais por dia via dieta líquida, equivalente a aproximadamente 8 a 12 litros com o mesmo teor de sólidos. A escolha entre os níveis de oferta deve considerar as metas de crescimento, sanidade e sistema de produção.",
@@ -1589,7 +1604,7 @@
           },
           {
             "type": "paragraph",
-            "text": "O ideal é que as bezerras sejam desaleitadas consumindo no mínimo 1,5% do peso corporal em concentrado, assumindo 90% de matéria seca. Isso quer dizer que se a bezerra nascer com 40 kg, quando alcançar aproximadamente 80 kg deverá estar consumindo em torno de 1,2 kg de concentrado para que possa ser desaleitada.",
+            "text": "O ideal é que as bezerras sejam desaleitadas consumindo no mínimo 1,5% do peso corporal em matéria seca de concentrado, assumindo 90% de matéria seca. Isso quer dizer que se a bezerra nascer com 40 kg, próximo do desaleitamento deverá ter dobrado seu peso e, portanto, ter em torno de 80 kg. Assim, deverá estar consumindo em torno de 1,3 kg, considerando um concentrado de 90% de matéria seca, para que possa ser desaleitada.",
             "source_slide": 52
           },
           {
@@ -1677,6 +1692,11 @@
           {
             "type": "paragraph",
             "text": "Após os 60 dias de idade, inicie uma estratégia gradual de redução da dieta líquida de acordo com o plano de desenvolvimento das bezerras e as metas traçadas, por um período mínimo de 15 dias, para reduzir o estresse e garantir o aumento progressivo no consumo de concentrado.",
+            "source_slide": 57
+          },
+          {
+            "type": "paragraph",
+            "text": "O momento do desaleitamento deve considerar idade, consumo de concentrado, crescimento e condição de saúde da bezerra.",
             "source_slide": 57
           }
         ]
@@ -2015,6 +2035,11 @@
             "source_slide": 68
           },
           {
+            "type": "paragraph",
+            "text": "Além da média de ganho de peso, monitore a proporção de animais que atingem a meta e identifique em que fase ocorre perda de desempenho.",
+            "source_slide": 68
+          },
+          {
             "type": "table",
             "title": "GERENCIAMENTO NUTRICIONAL DAS NOVILHAS E ALVOS DE PESO CORPORAL",
             "rows": [
@@ -2260,7 +2285,7 @@
         "items": [
           {
             "type": "paragraph",
-            "text": "A ultrassonografia pulmonar é uma ferramenta de detecção precoce das broncopneumonias que permite a identificação de lesões nos pulmões mesmo quando outros sintomas não são percebidos ou manifestados pelas bezerras, caracterizando a doença subclínica. O diagnóstico precoce favorece a resposta ao tratamento e reduz os prejuízos ao desenvolvimento dos animais. Além disso, os dados gerados pela ultrassonografia permitem avaliar a evolução da ocorrência de broncopneumonias ao longo do tempo, subsidiando ajustes nos protocolos de manejo e vacinação, bem como a identificação dos períodos de maior morbidade no rebanho.",
+            "text": "A ultrassonografia pulmonar é uma ferramenta de detecção precoce das broncopneumonias que permite a identificação de lesões nos pulmões mesmo quando outros sintomas não são percebidos ou manifestados pelas bezerras, caracterizando a doença subclínica. O diagnóstico precoce favorece a resposta ao tratamento e reduz os prejuízos ao desenvolvimento dos animais. Além disso, os dados gerados pela ultrassonografia permitem avaliar a evolução da ocorrência de broncopneumonias ao longo do tempo, subsidiando ajustes nos protocolos de manejo e vacinação, bem como a identificação dos períodos de maior morbidade no rebanho. Utilize os resultados para identificar a idade de maior risco, avaliar resposta aos tratamentos e acompanhar a evolução da saúde respiratória do rebanho.",
             "source_slide": 80
           },
           {
@@ -2468,49 +2493,57 @@
           },
           {
             "type": "table",
-            "title": "TAXA DE SOBREVIVÊNCIA DE NOVILHAS ATÉ O PRIMEIRO PARTO",
+            "title": "TAXA DE NOVILHAS QUE CHEGAM AO PRIMEIRO PARTO E PERDAS POR ETAPA",
             "rows": [
               [
                 "Indicador",
-                "%"
+                "Meta"
+              ],
+              [
+                "Novilhas que chegam ao primeiro parto",
+                "85%*"
+              ],
+              [
+                "Perdas acumuladas até o primeiro parto",
+                "≈15%**"
+              ],
+              [
+                "↳ Mortes até 75 dias de vida",
+                "3%"
+              ],
+              [
+                "↳ Descartes até 75 dias de vida",
+                "1%"
+              ],
+              [
+                "↳ Mortes entre 75 e 365 dias de vida",
+                "2%"
+              ],
+              [
+                "↳ Descartes entre 75 e 365 dias de vida",
+                "2%"
+              ],
+              [
+                "↳ Novilhas que não emprenham e são descartadas",
+                "5%"
+              ],
+              [
+                "↳ Novilhas que emprenham, mas não chegam ao parto",
+                "3%"
+              ],
+              [
+                "Indicador complementar",
+                ""
               ],
               [
                 "Natimortos (260 dias de gestação até 24 horas de vida)",
                 "2,5%"
-              ],
-              [
-                "Mortes até 75 dias de vida",
-                "3%"
-              ],
-              [
-                "Descartes até 75 dias de vida",
-                "1%"
-              ],
-              [
-                "Mortes entre 75–365 dias de vida",
-                "2%"
-              ],
-              [
-                "Descartes entre 75–365 dias de vida",
-                "2%"
-              ],
-              [
-                "% que não emprenham (e são descartadas)",
-                "5%"
-              ],
-              [
-                "% que emprenharam, mas não pariram (abortaram e/ou foram descartadas por outros motivos)",
-                "3%"
-              ],
-              [
-                "% de sobrevivência de novilhas",
-                "85%*"
               ]
             ],
             "center": true,
-            "highlight_last_row": true,
             "notes": [
-              "*Taxa de conclusão de novilhas, quando calculada considerando apenas as bezerras nascidas vivas."
+              "*Calculada considerando apenas as bezerras nascidas vivas.",
+              "**As taxas por etapa se aplicam a populações sucessivas e não devem ser somadas diretamente."
             ],
             "source_slide": 90
           }
@@ -2640,7 +2673,7 @@
           },
           {
             "type": "paragraph",
-            "text": "Avalie periodicamente a eficiência da limpeza por meio de inspeção visual e, quando possível, por testes microbiológicos com swab ou medição de Trifosfato de adenosina (ATP) para detecção de contaminação residual. Inspecione regularmente os utensílios quanto à presença de rachaduras, arranhões ou desgaste, substituindo-os sempre que necessário, pois superfícies danificadas favorecem a proliferação bacteriana.",
+            "text": "Avalie periodicamente a eficiência da limpeza por meio de inspeção visual e, quando possível, por testes microbiológicos com swab ou medição de trifosfato de adenosina (ATP) para detecção de contaminação residual. Inspecione regularmente os utensílios quanto à presença de rachaduras, arranhões ou desgaste, substituindo-os sempre que necessário, pois superfícies danificadas favorecem a proliferação bacteriana.",
             "source_slide": 97
           },
           {

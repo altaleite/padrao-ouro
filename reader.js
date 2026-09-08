@@ -25,11 +25,21 @@
     return text;
   }
 
-  const ITALIC_WORDS = ['feedback', 'swab'];
+  const ITALIC_WORDS = ['feedback', 'swab', 'Cryptosporidium'];
   function italicize(escapedHtml) {
     let out = String(escapedHtml ?? '').replace(/\bet al\.?/g, m => `<em>${m}</em>`);
     ITALIC_WORDS.forEach(word => {
       out = out.replace(new RegExp(`\\b(${word})\\b`, 'gi'), '<em>$1</em>');
+    });
+    return out;
+  }
+
+  const LINK_WORDS = { CalfSim: 'https://teds-91-calfsim.share.connect.posit.cloud/' };
+  function linkify(escapedHtml) {
+    let out = String(escapedHtml ?? '');
+    Object.keys(LINK_WORDS).forEach(word => {
+      const url = LINK_WORDS[word];
+      out = out.replace(new RegExp(`\\b(${word})\\b`, 'g'), `<a href="${url}" target="_blank" rel="noopener">$1</a>`);
     });
     return out;
   }
@@ -73,7 +83,7 @@
         <div class="table-scroll" tabindex="0" aria-label="Tabela técnica; em telas menores, deslize horizontalmente">
           <table class="technical-table${item.highlight_last_row ? ' highlight-last-row' : ''}">
             <thead><tr>${head.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead>
-            <tbody>${body.map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody>
+            <tbody>${body.map(r => `<tr>${r.map(c => `<td>${italicize(esc(c))}</td>`).join('')}</tr>`).join('')}</tbody>
           </table>
         </div>
         ${renderNotes(item.notes)}
@@ -91,7 +101,7 @@
               ${card.eyebrow ? `<p class="card-eyebrow">${esc(card.eyebrow)}</p>` : ''}
               ${card.title ? `<h4 class="card-title">${esc(card.title)}</h4>` : ''}
               ${card.meta ? `<p class="card-meta">${esc(card.meta)}</p>` : ''}
-              ${card.text ? `<p class="card-text">${italicize(esc(smartText(card.text)))}</p>` : ''}
+              ${card.text ? `<p class="card-text">${linkify(italicize(esc(smartText(card.text))))}</p>` : ''}
             </article>
           `).join('')}
         </div>
@@ -118,7 +128,7 @@
     if (item.type === 'table') return renderTable(item);
     if (item.type === 'card_grid') return renderCardGrid(item);
     if (item.type === 'figure') return renderFigure(item);
-    return `<div class="gold-paragraph"><span aria-hidden="true"></span><p>${italicize(esc(smartText(item.text)))}</p></div>`;
+    return `<div class="gold-paragraph"><span aria-hidden="true"></span><p>${linkify(italicize(esc(smartText(item.text))))}</p></div>`;
   }
 
   if (sidebarChapters) {
